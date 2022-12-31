@@ -1,0 +1,910 @@
+{
+    "civilizations": [
+        {
+            "id": 1,
+            "name": "Aztecs",
+            "expansion": "The Conquerors",
+            "army_type": "Infantry and Monks",
+            "unique_unit": [
+                "jaguar_warrior"
+            ],
+            "unique_tech": [
+                "atlatl",
+                "garland_wars"
+            ],
+            "team_bonus": "Relics generate +33% gold",
+            "civilization_bonus": [
+                "Villagers carry +5",
+                "Military units created 15% faster",
+                "+5 Monk hit points for each Monastery technology",
+                "Loom free"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971891/age-of-empires-2/banners/aztecs_lufcvv.png"
+        },
+        {
+            "id": 2,
+            "name": "Bengalis",
+            "expansion": "Dynasties of India",
+            "army_type": "Elephants and Ships",
+            "unique_unit": [
+                "ratha"
+            ],
+            "unique_tech": [
+                "paiks",
+                "mahayana"
+            ],
+            "team_bonus": "Trade units yield 10% food in addition to gold",
+            "civilization_bonus": [
+                "Elephant units receive -25% bonus damage and are more resistant to conversion",
+                "Town Centers spawn 2 Villagers when the next Age is reached",
+                "Ships regenerate 15 HP per minute",
+                "Monks +3/+3P armor"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971891/age-of-empires-2/banners/bengalis_y2dutz.png"
+        },
+        {
+            "id": 3,
+            "name": "Berbers",
+            "expansion": "The African Kingdoms",
+            "army_type": "Cavalry and Navy",
+            "unique_unit": [
+                "camel_archer",
+                "genitour"
+            ],
+            "unique_tech": [
+                "kasbah",
+                "maghrebi_camels"
+            ],
+            "team_bonus": "Genitours are available at the Archery Range",
+            "civilization_bonus": [
+                "Villagers move 10% faster",
+                "Stable units are 15%/20% cheaper in the Castle/Imperial Age",
+                "Ships move 10% faster"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971891/age-of-empires-2/banners/berbers_rg8tqq.png"
+        },
+        {
+            "id": 4,
+            "name": "Bohemians",
+            "expansion": "Dawn of the Dukes",
+            "army_type": "Gunpowder units and Monks",
+            "unique_unit": [
+                "hussite_wagon",
+                "houfnice"
+            ],
+            "unique_tech": [
+                "wagenburg_tactics",
+                "hussite_reforms"
+            ],
+            "team_bonus": "Markets work 80% faster",
+            "civilization_bonus": [
+                "Blacksmiths and Universities cost -100 wood",
+                "Chemistry and Hand Cannoneer available in Castle Age",
+                "Spearman-line deals +25% bonus damage",
+                "Fervor and Sanctity affect Villagers",
+                "Mining Camp technologies are free"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971891/age-of-empires-2/banners/bohemians_lriodv.png"
+        },
+        {
+            "id": 5,
+            "name": "Britons",
+            "expansion": "Age of Kings",
+            "army_type": "Foot Archers",
+            "unique_unit": [
+                "longbowman"
+            ],
+            "unique_tech": [
+                "yeomen",
+                "warwolf"
+            ],
+            "team_bonus": "Archery Ranges work 20% faster",
+            "civilization_bonus": [
+                "Town Centers cost -50% wood upon reaching the Castle Age",
+                "Foot archers (excluding Skirmishers) have +1 range in Castle Age and +1 in Imperial Age (for +2 total)",
+                "Shepherds work 25% faster"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971891/age-of-empires-2/banners/britons_chdqzg.png"
+        },
+        {
+            "id": 6,
+            "name": "Bulgarians",
+            "expansion": "The Last Khans",
+            "army_type": "Infantry and Cavalry",
+            "unique_unit": [
+                "konnik"
+            ],
+            "unique_tech": [
+                "stirrups",
+                "bagains"
+            ],
+            "unique_building": [
+                "krepost"
+            ],
+            "team_bonus": "Blacksmiths work 80% faster",
+            "civilization_bonus": [
+                "Militia line units are upgraded for free",
+                "Town Centers cost -50% stone",
+                "Blacksmith and Siege Workshop technologies cost -50% food"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971891/age-of-empires-2/banners/bulgarians_comc51.png"
+        },
+        {
+            "id": 7,
+            "name": "Burgundians",
+            "expansion": "Lords of the West",
+            "army_type": "Cavalry",
+            "unique_unit": [
+                "coustillier",
+                "flemish_militia"
+            ],
+            "unique_tech": [
+                "burgundian_vineyards",
+                "flemish_revolution"
+            ],
+            "team_bonus": "Relics generate food in addition to gold",
+            "civilization_bonus": [
+                "Economic upgrades cost -40% food and are available one Age earlier than other civilizations",
+                "Stable technologies are 50% cheaper",
+                "Gunpowder units gain +25% attack",
+                "Cavalier upgrade available in the Castle Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971891/age-of-empires-2/banners/burgundians_yi4zex.png"
+        },
+        {
+            "id": 8,
+            "name": "Burmese",
+            "expansion": "Rise of the Rajas",
+            "army_type": "Elephants and Monks",
+            "unique_unit": [
+                "arambai"
+            ],
+            "unique_tech": [
+                "howdah",
+                "manipur_cavalry"
+            ],
+            "team_bonus": "Relics are visible on the map from the game start",
+            "civilization_bonus": [
+                "Lumber Camp technologies are free",
+                "Battle Elephants have +1/+1 armor",
+                "Infantry units have +1/+2/+3 attack in the Feudal/Castle/Imperial Age",
+                "Monastery technologies are 50% cheaper"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971891/age-of-empires-2/banners/burmese_rahovl.png"
+        },
+        {
+            "id": 9,
+            "name": "Byzantines",
+            "expansion": "Age of Kings",
+            "army_type": "Defensive",
+            "unique_unit": [
+                "cataphract"
+            ],
+            "unique_tech": [
+                "greek_fire",
+                "logistica"
+            ],
+            "team_bonus": "Monks +50% heal speed",
+            "civilization_bonus": [
+                "Buildings, Walls/Gates, and Farms have +10%/+20%/+30%/+40% hit points in the Dark/Feudal/Castle/Imperial Age",
+                "Camel Rider, Skirmisher, and Spearman lines are 25% cheaper",
+                "Fire Ships fire 25% faster",
+                "Advancing to the Imperial Age is 33% cheaper",
+                "Town Watch and Town Patrol are free"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971891/age-of-empires-2/banners/byzantines_xcjve5.png"
+        },
+        {
+            "id": 10,
+            "name": "Celts",
+            "expansion": "Age of Kings",
+            "army_type": "Infantry and Siege weapons",
+            "unique_unit": [
+                "woad_raider"
+            ],
+            "unique_tech": [
+                "stronghold",
+                "furor_celtica"
+            ],
+            "team_bonus": "Siege Workshops work 20% faster",
+            "civilization_bonus": [
+                "Infantry units move 15% faster starting from the Feudal Age",
+                "Lumberjacks work 15% faster",
+                "Siege weapons fire 25% faster",
+                "Enemy herdables can be converted regardless of enemy units next to them"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/celts_hvlihv.png"
+        },
+        {
+            "id": 11,
+            "name": "Chinese",
+            "expansion": "Age of Kings",
+            "army_type": "Foot archers",
+            "unique_unit": [
+                "chu_ko_nu"
+            ],
+            "unique_tech": [
+                "great_wall",
+                "rocketry"
+            ],
+            "team_bonus": "Farms start with +10% food",
+            "civilization_bonus": [
+                "Start game with +3 Villagers, but with -200 food, -50 wood",
+                "Town Centers support ten population (instead of five) and have +5 Line of Sight",
+                "Technologies are 10%/15%/20% cheaper in the Feudal/Castle/Imperial Age",
+                "Demolition Ships have +50% HP"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/chinese_guqf1l.png"
+        },
+        {
+            "id": 12,
+            "name": "Cumans",
+            "expansion": "The Last Khans",
+            "army_type": "Cavalry",
+            "unique_unit": [
+                "kipchak"
+            ],
+            "unique_tech": [
+                "steppe_husbandry",
+                "cuman_mercenaries"
+            ],
+            "team_bonus": "Palisade Walls have +33% hit points",
+            "civilization_bonus": [
+                "A second Town Center can be built in the Feudal Age",
+                "Archery Ranges and Stables cost -75 wood",
+                "Siege Workshop and Battering Ram available in Feudal Age; Capped Ram upgrade available in Castle Age",
+                "Mounted units move 5%/10%/15% faster in Feudal/Castle/Imperial Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/cumans_kz6lsh.png"
+        },
+        {
+            "id": 13,
+            "name": "Dravidians",
+            "expansion": "Dynasties of India",
+            "army_type": "Infantry and Ships",
+            "unique_unit": [
+                "urumi_swordsman",
+                "thirisadai"
+            ],
+            "unique_tech": [
+                "medical_corps",
+                "wootz_steel"
+            ],
+            "team_bonus": "Docks provide +5 population space",
+            "civilization_bonus": [
+                "Receive 200 wood when advancing to the next Age",
+                "Fishermen and Fishing Ships carry +15",
+                "Barracks technologies cost -50%",
+                "Skirmishers and Elephant Archers attack 25% faster"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/dravidians_mjfxue.png"
+        },
+        {
+            "id": 14,
+            "name": "Ethiopians",
+            "expansion": "The African Kingdoms",
+            "army_type": "Archers and Siege weapons",
+            "unique_unit": [
+                "shotel_warrior"
+            ],
+            "unique_tech": [
+                "royal_heirs",
+                "torsion_engines"
+            ],
+            "team_bonus": "Towers and Outposts have +3 Line of Sight",
+            "civilization_bonus": [
+                "The Archer line fires 18% faster",
+                "Receive +100 food and +100 gold whenever a new Age is reached",
+                "The Pikeman upgrade is free"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/ethiopians_kgwhui.png"
+        },
+        {
+            "id": 15,
+            "name": "Franks",
+            "expansion": "Age of Kings",
+            "army_type": "Cavalry",
+            "unique_unit": [
+                "throwing_axeman"
+            ],
+            "unique_tech": [
+                "bearded_axe",
+                "chivalry"
+            ],
+            "team_bonus": "Knights have +2 Line of Sight",
+            "civilization_bonus": [
+                "Farm upgrades are free",
+                "Castles are 25% cheaper",
+                "Mounted units have +20% HP (starting in the Feudal Age)",
+                "Foragers work 15% faster"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/franks_gty3si.png"
+        },
+        {
+            "id": 16,
+            "name": "Goths",
+            "expansion": "Age of Kings",
+            "army_type": "Infantry",
+            "unique_unit": [
+                "huskarl"
+            ],
+            "unique_tech": [
+                "anarchy",
+                "perfusion"
+            ],
+            "team_bonus": "Barracks work 20% faster",
+            "civilization_bonus": [
+                "Infantry are 20%/25%/30%/35% cheaper in the Dark/Feudal/Castle/Imperial Age",
+                "Infantry have +1/+2/+3 attack bonus against standard buildings in the Feudal/Castle/Imperial Age",
+                "Villagers have +5 attack against aggressive huntables (Wild Boar, Javelina, Elephant, Rhinoceros) and carry +15 food from hunting",
+                "Loom is researched instantly",
+                "+10 population cap in the Imperial Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/goths_mkew0n.png"
+        },
+        {
+            "id": 17,
+            "name": "Gurjaras",
+            "expansion": "Dynasties of India",
+            "army_type": "Cavalry",
+            "unique_unit": [
+                "chakram_thrower",
+                "shrivamsha_rider",
+                "camel_scout"
+            ],
+            "unique_tech": [
+                "kshatriyas",
+                "frontier_guards"
+            ],
+            "team_bonus": "Camel and elephant units are created 25% faster",
+            "civilization_bonus": [
+                "Starts with 2 Forage Bushes",
+                "Can garrison Mills with livestock to produce food",
+                "Mounted units deal +20%/+30%/+40% bonus damage in the Feudal/Castle/Imperial Age",
+                "Can garrison Docks with Fishing Ships"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/gurjaras_z16srm.png"
+        },
+        {
+            "id": 18,
+            "name": "Hindustanis",
+            "expansion": "Dynasties of India",
+            "army_type": "Camel Riders and Gunpowder units",
+            "unique_unit": [
+                "ghulam",
+                "imperial_camel_rider"
+            ],
+            "unique_tech": [
+                "grand_trunk_road",
+                "shatagni"
+            ],
+            "unique_building": [
+                "caravanserai"
+            ],
+            "team_bonus": "Camel units and light cavalry units have +2 attack against standard buildings",
+            "civilization_bonus": [
+                "Villagers are 10%/15%/20%/25% cheaper in the Dark/Feudal/Castle/Imperial Age",
+                "Camel Riders attack 20% faster",
+                "Gunpowder units units have +1/+1 armor"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/hindustanis_wvmyd2.png"
+        },
+        {
+            "id": 19,
+            "name": "Huns",
+            "expansion": "The Conquerors",
+            "army_type": "Cavalry",
+            "unique_unit": [
+                "tarkan"
+            ],
+            "unique_tech": [
+                "marauders",
+                "atheism"
+            ],
+            "team_bonus": "Stables work 20% faster",
+            "civilization_bonus": [
+                "Start the game with -100 wood, but with the population cap at the maximum",
+                "Cavalry Archers are 10%/20% cheaper in the Castle/Imperial Age",
+                "Trebuchets have +35% accuracy against units"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/huns_enegbc.png"
+        },
+        {
+            "id": 20,
+            "name": "Incas",
+            "expansion": "The Forgotten",
+            "army_type": "Infantry",
+            "unique_unit": [
+                "kamayuk",
+                "slinger"
+            ],
+            "unique_tech": [
+                "andean-sling",
+                "fabric_shields"
+            ],
+            "team_bonus": "Spearmen and Skirmishers have +2 Line of Sight",
+            "civilization_bonus": [
+                "Start the game with an Eagle Scout",
+                "Start with a free Llama",
+                "Villagers benefit from Blacksmith infantry upgrades starting in the Castle Age",
+                "Houses support 10 population",
+                "Buildings cost -15% stone"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/incas_zrrk8t.png"
+        },
+        {
+            "id": 21,
+            "name": "Italians",
+            "expansion": "The Forgotten",
+            "army_type": "Archers and Navy",
+            "unique_unit": [
+                "genoese_crossbowman",
+                "condottiero"
+            ],
+            "unique_tech": [
+                "pavise",
+                "silk_road"
+            ],
+            "team_bonus": "Condottieri are available at the Barracks",
+            "civilization_bonus": [
+                "Advancing to the next Age is 15% cheaper",
+                "Dock and University technologies are 33% cheaper",
+                "Fishing Ships are 15% cheaper",
+                "Gunpowder units are 20% cheaper"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/italians_t7tfye.png"
+        },
+        {
+            "id": 22,
+            "name": "Japanese",
+            "expansion": "Age of Kings",
+            "army_type": "Infantry",
+            "unique_unit": [
+                "samurai"
+            ],
+            "unique_tech": [
+                "yasama",
+                "kataparuto"
+            ],
+            "team_bonus": "Galleys have a +50% longer Line of Sight",
+            "civilization_bonus": [
+                "Fishing Ships have double HP, +2 pierce armor, and work 5%/10%/15%/20% faster in the Dark/Feudal/Castle/Imperial Age",
+                "Mills, Lumber Camps and Mining Camps are 50% cheaper",
+                "Infantry attack 33% faster starting in the Feudal Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/japanese_h4ipzx.png"
+        },
+        {
+            "id": 23,
+            "name": "Khmer",
+            "expansion": "Rise of the Rajas",
+            "army_type": "Siege weapons and Elephants",
+            "unique_unit": [
+                "ballista_elephant"
+            ],
+            "unique_tech": [
+                "tusk_swords",
+                "double_crossbow"
+            ],
+            "team_bonus": "Scorpions have +1 range",
+            "civilization_bonus": [
+                "No buildings are required to advance to the next age or to unlock other buildings",
+                "Battle Elephants move 10% faster",
+                "Farmers don't carry food but rather add it directly to the stockpile without any drop-off, but work 5% slower",
+                "Villagers can garrison in Houses"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/khmer_xws0e5.png"
+        },
+        {
+            "id": 24,
+            "name": "Koreans",
+            "expansion": "The Conquerors",
+            "army_type": "Towers and Navy",
+            "unique_unit": [
+                "war_wagon",
+                "turtle_ship"
+            ],
+            "unique_tech": [
+                "eupseong",
+                "shinkichon"
+            ],
+            "team_bonus": "Mangonel line minimum range reduced to 1",
+            "civilization_bonus": [
+                "Villagers have +3 Line of Sight",
+                "Stone Miners work 20% faster",
+                "Tower upgrades are free (Bombard Tower requires Chemistry)",
+                "Archer Armor upgrades are free",
+                "Military units cost –20% wood (except siege weapons)"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/koreans_jjvexf.png"
+        },
+        {
+            "id": 25,
+            "name": "Lithuanians",
+            "expansion": "The Last Khans",
+            "army_type": "Cavalry and Monks",
+            "unique_unit": [
+                "leitis"
+            ],
+            "unique_tech": [
+                "hill_forts",
+                "tower_shields"
+            ],
+            "team_bonus": "Monasteries work 20% faster",
+            "civilization_bonus": [
+                "Start with +150 food",
+                "Spearman line and Skirmishers move 10% faster",
+                "Each garrisoned Relic gives +1 attack to Knights and Leitis (maximum +4)"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/lithuanians_t3e2ck.png"
+        },
+        {
+            "id": 26,
+            "name": "Magyars",
+            "expansion": "The Forgotten",
+            "army_type": "Cavalry",
+            "unique_unit": [
+                "magyar_huszar"
+            ],
+            "unique_tech": [
+                "corvinian_army",
+                "recurve_bow"
+            ],
+            "team_bonus": "Foot archers (except Skirmishers) have +2 Line of Sight",
+            "civilization_bonus": [
+                "Forging, Iron Casting, and Blast Furnace are free",
+                "Scout Cavalry line is 15% cheaper",
+                "Villagers kill wild animals in one strike"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/magyars_v1mkrs.png"
+        },
+        {
+            "id": 27,
+            "name": "Malay",
+            "expansion": "Rise of the Rajas",
+            "army_type": "Infantry and Navy",
+            "unique_unit": [
+                "karambit_warrior"
+            ],
+            "unique_tech": [
+                "thalassocracy",
+                "forced_levy"
+            ],
+            "unique_building": [
+                "harbor"
+            ],
+            "team_bonus": "Docks have double Line of Sight",
+            "civilization_bonus": [
+                "Advancing in Age is +66% faster",
+                "Fish Traps are 33% cheaper",
+                "Fish Traps provide 3 times more food",
+                "Battle Elephants are 30% cheaper in the Castle Age, 40% cheaper in the Imperial Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/malay_rz2t62.png"
+        },
+        {
+            "id": 28,
+            "name": "Malians",
+            "expansion": "The African Kingdoms",
+            "army_type": "Infantry",
+            "unique_unit": [
+                "gbeto"
+            ],
+            "unique_tech": [
+                "tigui",
+                "farimba"
+            ],
+            "team_bonus": "Universities work +80% faster",
+            "civilization_bonus": [
+                "Buildings cost -15% wood (except Farms)",
+                "Barracks units have +1/+2/+3 pierce armor in the Feudal/Castle/Imperial Age",
+                "Gold Mines last 30% longer"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/malians_ocpg2p.png"
+        },
+        {
+            "id": 29,
+            "name": "Mayans",
+            "expansion": "The Conquerors",
+            "army_type": "Archer",
+            "unique_unit": [
+                "plumed_archer"
+            ],
+            "unique_tech": [
+                "hul_che_javelineers",
+                "el_dorado"
+            ],
+            "team_bonus": "Walls are 50% cheaper",
+            "civilization_bonus": [
+                "Start the game with an Eagle Scout",
+                "Start the game with +1 Villager, but with -50 food",
+                "Resources last 15% longer",
+                "Foot archers (except Skirmishers) are 10%/20%/30% cheaper in the Feudal/Castle/Imperial Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/mayans_gu2q0m.png"
+        },
+        {
+            "id": 30,
+            "name": "Mongols",
+            "expansion": "Age of Kings",
+            "army_type": "Cavalry Archer",
+            "unique_unit": [
+                "mangudai"
+            ],
+            "unique_tech": [
+                "nomads",
+                "drill"
+            ],
+            "team_bonus": "The Scout Cavalry line has +2 Line of Sight",
+            "civilization_bonus": [
+                "Cavalry archers fire 25% faster",
+                "Light Cavalry, Hussars, and Steppe Lancers have +30% HP",
+                "Hunters work +40% faster"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/mongols_n7wzob.png"
+        },
+        {
+            "id": 31,
+            "name": "Persians",
+            "expansion": "Age of Kings",
+            "army_type": "Cavalry",
+            "unique_unit": [
+                "war_elephant"
+            ],
+            "unique_tech": [
+                "kamandaran",
+                "mahouts"
+            ],
+            "team_bonus": "Knights have +2 attack against archers",
+            "civilization_bonus": [
+                "Start the game with +50 food and +50 wood",
+                "Town Centers and Docks have double HP and work 10%/15%/20% faster in the Feudal/Castle/Imperial Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/persians_b1qz0h.png"
+        },
+        {
+            "id": 32,
+            "name": "Poles",
+            "expansion": "Dawn of the Dukes",
+            "army_type": "Cavalry",
+            "unique_unit": [
+                "obuch"
+            ],
+            "unique_tech": [
+                "szlachta_privileges",
+                "lechitic_legacy"
+            ],
+            "unique_building": [
+                "folwark"
+            ],
+            "team_bonus": "The Scout Cavalry line has +1 attack vs. archers",
+            "civilization_bonus": [
+                "Villagers recover 5/10/15/20 HP per minute in the Dark/Feudal/Castle/Imperial Age",
+                "Stone miners generate gold in addition to stone"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/poles_owizhd.png"
+        },
+        {
+            "id": 33,
+            "name": "Portuguese",
+            "expansion": "The African Kingdoms",
+            "army_type": "Navy and Gunpowder units",
+            "unique_unit": [
+                "organ_gun",
+                "caravel"
+            ],
+            "unique_tech": [
+                "carrack",
+                "arquebus"
+            ],
+            "unique_building": [
+                "feitoria"
+            ],
+            "team_bonus": "All technologies (excluding Age ups) research 25% faster",
+            "civilization_bonus": [
+                "All units cost –20% gold",
+                "All ships have +10% HP",
+                "Foragers generate wood in addition to food (0.33 wood per food)"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/portuguese_jpylnl.png"
+        },
+        {
+            "id": 34,
+            "name": "Saracens",
+            "expansion": "Age of Kings",
+            "army_type": "Camels and Navy",
+            "unique_unit": [
+                "mameluke"
+            ],
+            "unique_tech": [
+                "zealotry",
+                "counterweights"
+            ],
+            "team_bonus": "Foot archers have +3 attack against standard buildings",
+            "civilization_bonus": [
+                "The commodity trading fee is 5%",
+                "Markets cost 75 wood",
+                "Transport Ships have double HP and +5 carry capacity",
+                "Galleys attack 25% faster",
+                "Camel units +10 HP"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/saracens_buslwv.png"
+        },
+        {
+            "id": 35,
+            "name": "Sicilians",
+            "expansion": "Lords of the West",
+            "army_type": "Infantry and Cavalry",
+            "unique_unit": [
+                "serjeant"
+            ],
+            "unique_tech": [
+                "first_crusade",
+                "hauberk"
+            ],
+            "unique_building": [
+                "donjon"
+            ],
+            "team_bonus": "Transport Ships have +5 Line of Sight and cost -50%",
+            "civilization_bonus": [
+                "Start with +100 additional stone",
+                "Castles and Town Centers are constructed 100% faster",
+                "Land military units (except siege units) receive -33% bonus damage",
+                "Farm upgrades provide +100% additional food to Farms before they need to be reseeded"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/sicilians_tprryw.png"
+        },
+        {
+            "id": 36,
+            "name": "Slavs",
+            "expansion": "The Forgotten",
+            "army_type": "Infantry and Siege weapons",
+            "unique_unit": [
+                "boyar"
+            ],
+            "unique_tech": [
+                "detinets",
+                "druzhina"
+            ],
+            "team_bonus": "Military buildings (excluding Castles and Docks) provide +5 population",
+            "civilization_bonus": [
+                "Farmers work 10% faster",
+                "Supplies is free",
+                "Siege Workshop units are 15% cheaper"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/slavs_ytkya4.png"
+        },
+        {
+            "id": 37,
+            "name": "Spanish",
+            "expansion": "The Conquerors",
+            "army_type": "Gunpowder units and Monks",
+            "unique_unit": [
+                "conquistador",
+                "missionary"
+            ],
+            "unique_tech": [
+                "inquisition",
+                "supremacy"
+            ],
+            "team_bonus": "Trade units generate +25% gold",
+            "civilization_bonus": [
+                "Builders work 30% faster (20% for Wonders)",
+                "Blacksmith upgrades don't cost gold",
+                "Cannon Galleon projectiles have Ballistics-like accuracy and move faster",
+                "Gunpowder units fire 18% faster"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/spanish_wydmcj.png"
+        },
+        {
+            "id": 38,
+            "name": "Tatars",
+            "expansion": "The Last Khans",
+            "army_type": "Cavalry Archer",
+            "unique_unit": [
+                "keshik",
+                "flaming_camel"
+            ],
+            "unique_tech": [
+                "silk_armor",
+                "timurid_siegecraft"
+            ],
+            "team_bonus": "Cavalry Archers have +2 Line of Sight",
+            "civilization_bonus": [
+                "Herdables contain +50% food",
+                "Units do +50% damage when attacking from higher elevations (instead of +25%)",
+                "Parthian Tactics and Thumb Ring are free",
+                "Two Sheep spawn near newly-constructed Town Centers starting in the Castle Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/tatars_rbmmcj.png"
+        },
+        {
+            "id": 39,
+            "name": "Teutons",
+            "expansion": "Age of Kings",
+            "army_type": "Infantry",
+            "unique_unit": [
+                "teutonic_knight"
+            ],
+            "unique_tech": [
+                "ironclad",
+                "crenellations"
+            ],
+            "team_bonus": "Units resist conversion (half as effective as Faith, but stacks with the effect of this technology)",
+            "civilization_bonus": [
+                "Monks have double healing range",
+                "Towers garrison twice as many units",
+                "Murder Holes and Herbal Medicine are free",
+                "Farms are 40% cheaper",
+                "Town Centers can garrison +10 units",
+                "Barracks and Stable units receive +1/+2 melee armor in the Castle/Imperial Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/teutons_mq8fww.png"
+        },
+        {
+            "id": 40,
+            "name": "Turks",
+            "expansion": "Age of Kings",
+            "army_type": "Gunpowder units",
+            "unique_unit": [
+                "janissary"
+            ],
+            "unique_tech": [
+                "sipahi",
+                "artillery"
+            ],
+            "team_bonus": "Gunpowder units are created 25% faster",
+            "civilization_bonus": [
+                "Gunpowder units have +25% HP",
+                "Gunpowder technologies are 50% cheaper; Chemistry is free",
+                "Gold Miners work 20% faster",
+                "Light Cavalry and Hussar upgrades are free",
+                "Scout Cavalry line gain +1 pierce armor"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/turks_ubp3fm.png"
+        },
+        {
+            "id": 41,
+            "name": "Vietnamese",
+            "expansion": "Rise of the Rajas",
+            "army_type": "Archers",
+            "unique_unit": [
+                "rattan_archer",
+                "imperial_skirmisher"
+            ],
+            "unique_tech": [
+                "chatras",
+                "paper_money"
+            ],
+            "team_bonus": "Imperial Skirmishers are available at the Archery Range",
+            "civilization_bonus": [
+                "Reveal enemy initial Town Centers location at the start of the game",
+                "Archery Range units have +20% HP",
+                "Conscription is free",
+                "Economic upgrades cost no wood"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/vietnamese_ymxvu9.png"
+        },
+        {
+            "id": 42,
+            "name": "Vikings",
+            "expansion": "Age of Kings",
+            "army_type": "Infantry and Navy",
+            "unique_unit": [
+                "berserk",
+                "longboat"
+            ],
+            "unique_tech": [
+                "chieftains",
+                "berserkergang"
+            ],
+            "team_bonus": "Docks are 15% cheaper",
+            "civilization_bonus": [
+                "Wheelbarrow, Hand Cart upgrades free",
+                "Warships cost -15%/-15%/-20% in the Feudal/Castle/Imperial Age",
+                "Infantry have +20% HP starting from the Feudal Age"
+            ],
+            "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/vikings_eap2nz.png"
+        }
+    ]
+}

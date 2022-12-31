@@ -1,0 +1,31 @@
+{
+    "units": [
+        {
+            "id": 28,
+            "name": "Scout Cavalry",
+            "type": "Cavalry",
+            "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+            "expansion": "Age of Kings",
+            "age": "Feudal Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 80
+            },
+            "training_time": 30,
+            "hit_points": 45,
+            "melee_attack": 5,
+            "attack_bonus": [
+                "+6 vs Monks"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.55,
+            "line_of_sight": 6,
+            "image": "0"
+        }
+    ]
+}
