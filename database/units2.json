@@ -25,6 +25,320 @@
             "armor_class": "Cavalry",
             "movement_rate": 1.55,
             "line_of_sight": 6,
+            "ability": [
+                "Cannot be converted before 8 seconds"
+            ],
+            "image": "0"
+        },
+        {
+            "id": 29,
+            "name": "Light Cavalry",
+            "type": "Cavalry",
+            "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 80
+            },
+            "training_time": 30,
+            "hit_points": 60,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+10 vs Monks"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.5,
+            "line_of_sight": 8,
+            "ability": [
+                "Cannot be converted before 8 seconds"
+            ],
+            "image": "0"
+        },
+        {
+            "id": 30,
+            "name": "Hussar",
+            "type": "Cavalry",
+            "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+            "expansion": "The Conquerors",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 80
+            },
+            "training_time": 30,
+            "hit_points": 75,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+12 vs Monks"
+            ],
+            "rate_of_fire": 1.9,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.5,
+            "line_of_sight": 10,
+            "ability": [
+                "Cannot be converted before 8 seconds"
+            ],
+            "image": "0"
+        },
+        {
+            "id": 31,
+            "name": "Winged Hussar",
+            "type": "Cavalry",
+            "description": "Unique to Poles and Lithuanians. Fast cavalry for scouting and raiding. Resistant to conversion.",
+            "expansion": "Dawn of the Dukes",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 80
+            },
+            "training_time": 30,
+            "hit_points": 80,
+            "melee_attack": 9,
+            "attack_bonus": [
+                "+14 vs Monks",
+                "+4 vs Gunpowder units"
+            ],
+            "rate_of_fire": 1.9,
+            "melee_armor": 1,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.5,
+            "line_of_sight": 10,
+            "ability": [
+                "Cannot be converted before 8 seconds"
+            ],
+            "image": "0"
+        },
+        {
+            "id": 32,
+            "name": "Knight",
+            "type": "Cavalry",
+            "description": "Powerful all-purpose cavalry.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 100,
+            "melee_attack": 10,
+            "rate_of_fire": 1.8,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 4,
+            "image": "0"
+        },
+        {
+            "id": 33,
+            "name": "Cavalier",
+            "type": "Cavalry",
+            "description": "Powerful all-purpose cavalry.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 120,
+            "melee_attack": 12,
+            "rate_of_fire": 1.8,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 4,
+            "image": "0"
+        },
+        {
+            "id": 34,
+            "name": "Paladin",
+            "type": "Cavalry",
+            "description": "Powerful all-purpose cavalry.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 160,
+            "melee_attack": 14,
+            "rate_of_fire": 1.9,
+            "melee_armor": 2,
+            "pierce_armor": 3,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 5,
+            "image": "0"
+        },
+        {
+            "id": 35,
+            "name": "Camel Rider",
+            "type": "Cavalry",
+            "description": "Fast anti-cavalry unit.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 60
+            },
+            "training_time": 22,
+            "hit_points": 100,
+            "melee_attack": 6,
+            "attack_bonus": [
+                "+9 vs Cavalry",
+                "+5 vs Camel",
+                "+4 vs Ship, Fishing Ship"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Camel",
+            "movement_rate": 1.45,
+            "line_of_sight": 5,
+            "image": "0"
+        },
+        {
+            "id": 36,
+            "name": "Heavy Camel Rider",
+            "type": "Cavalry",
+            "description": "Fast anti-cavalry unit.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 60
+            },
+            "training_time": 22,
+            "hit_points": 120,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+18 vs Cavalry",
+                "+9 vs Camel",
+                "+9 vs Ship, Fishing Ship",
+                "+7 vs Mameluke"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Camel",
+            "movement_rate": 1.45,
+            "line_of_sight": 5,
+            "image": "0"
+        },
+        {
+            "id": 37,
+            "name": "Battle Elephant",
+            "type": "Cavalry",
+            "description": "Slow and heavy cavalry.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 110,
+                "Gold": 70
+            },
+            "training_time": 24,
+            "hit_points": 250,
+            "melee_attack": 12,
+            "attack_bonus": [
+                "+4 vs Building",
+                "+4 vs Stone defense"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 2,
+            "armor_class": "War elephant",
+            "movement_rate":0.85,
+            "line_of_sight": 4,
+            "image": "0"
+        },
+        {
+            "id": 38,
+            "name": "Elite Battle Elephant",
+            "type": "Cavalry",
+            "description": "Slow and heavy cavalry.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 110,
+                "Gold": 70
+            },
+            "training_time": 24,
+            "hit_points": 300,
+            "melee_attack": 14,
+            "attack_bonus": [
+                "+7 vs Building",
+                "+7 vs Stone defense"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 3,
+            "armor_class": "War elephant",
+            "movement_rate": 0.85,
+            "line_of_sight": 5,
+            "image": "0"
+        },
+        {
+            "id": 39,
+            "name": "Steppe Lancer",
+            "type": "Cavalry",
+            "description": "Light cavalry unit with increased attack range.",
+            "expansion": "The Last Khans",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 40
+            },
+            "training_time": 24,
+            "hit_points": 60,
+            "melee_attack": 9,
+            "rate_of_fire": 2,
+            "range": 1,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.45,
+            "line_of_sight": 5,
             "image": "0"
         }
     ]
