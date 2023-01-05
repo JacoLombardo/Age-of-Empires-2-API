@@ -1,0 +1,37 @@
+{
+    "units": [
+        {
+            "id": 67,
+            "name": "",
+            "type": "Foot archer",
+            "description": "Ranged unit.",
+            "expansion": "Age of Kings",
+            "age": "Feudal Age",
+            "trained_at": [
+                "archery_range"
+            ],
+            "cost": {
+                "Wood": 25,
+                "Gold": 45
+            },
+            "training_time": 35,
+            "hit_points": 30,
+            "pierce_attack": 4,
+            "attack_bonus": [
+                "+3 vs Spearman"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.35,
+            "range": 4,
+            "accuracy": "80%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Archer",
+            "movement_rate": 0.96,
+            "line_of_sight": 6,
+            "image": "0"
+        }
+    ]
+}
