@@ -28,7 +28,7 @@
             "ability": [
                 "Cannot be converted before 8 seconds"
             ],
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/scout_cavalry_pa2mbx.png"
         },
         {
             "id": 29,
@@ -58,7 +58,7 @@
             "ability": [
                 "Cannot be converted before 8 seconds"
             ],
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/light_cavalry_eegsn8.png"
         },
         {
             "id": 30,
@@ -88,7 +88,7 @@
             "ability": [
                 "Cannot be converted before 8 seconds"
             ],
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/hussar_uacdon.png"
         },
         {
             "id": 31,
@@ -119,7 +119,7 @@
             "ability": [
                 "Cannot be converted before 8 seconds"
             ],
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/winged_hussar_finye8.png"
         },
         {
             "id": 32,
@@ -144,7 +144,7 @@
             "armor_class": "Cavalry",
             "movement_rate": 1.35,
             "line_of_sight": 4,
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/knight_g7wtph.png"
         },
         {
             "id": 33,
@@ -169,7 +169,7 @@
             "armor_class": "Cavalry",
             "movement_rate": 1.35,
             "line_of_sight": 4,
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/cavalier_jyi25d.png"
         },
         {
             "id": 34,
@@ -194,7 +194,7 @@
             "armor_class": "Cavalry",
             "movement_rate": 1.35,
             "line_of_sight": 5,
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/paladin_jxm0ig.png"
         },
         {
             "id": 35,
@@ -224,7 +224,7 @@
             "armor_class": "Camel",
             "movement_rate": 1.45,
             "line_of_sight": 5,
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/camel_rider_cgcqih.png"
         },
         {
             "id": 36,
@@ -255,7 +255,7 @@
             "armor_class": "Camel",
             "movement_rate": 1.45,
             "line_of_sight": 5,
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/heavy_camel_rider_p7clkn.png"
         },
         {
             "id": 37,
@@ -284,7 +284,7 @@
             "armor_class": "War elephant",
             "movement_rate":0.85,
             "line_of_sight": 4,
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/battle_elephant_s5plfm.png"
         },
         {
             "id": 38,
@@ -313,7 +313,7 @@
             "armor_class": "War elephant",
             "movement_rate": 0.85,
             "line_of_sight": 5,
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/elite_battle_elephant_aropql.png"
         },
         {
             "id": 39,
@@ -339,7 +339,119 @@
             "armor_class": "Cavalry",
             "movement_rate": 1.45,
             "line_of_sight": 5,
-            "image": "0"
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/steppe_lancer_jhmug2.png"
+        },
+        {
+            "id": 40,
+            "name": "Elite Steppe Lancer",
+            "type": "Cavalry",
+            "description": "Light cavalry unit with increased attack range.",
+            "expansion": "The Last Khans",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 40
+            },
+            "training_time": 20,
+            "hit_points": 80,
+            "melee_attack": 11,
+            "rate_of_fire": 2,
+            "range": 1,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.45,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/elite_steppe_lancer_e3lg9x.png"
+        },
+        {
+            "id": 41,
+            "name": "Xolotl Warrior",
+            "type": "Cavalry",
+            "description": "Mesoamerican cavalry unit.",
+            "expansion": "The Last Khans",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 100,
+            "melee_attack": 10,
+            "rate_of_fire": 1.8,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/xolotlicon_warrior_m6nxfz.png"
+        },
+        {
+            "id": 42,
+            "name": "Armored Elephant",
+            "type": "Siege unit",
+            "description": "Anti-building cavalry unit. Resistant to most ranged attacks.",
+            "expansion": "Dynasties of India",
+            "age": "Castle Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Food": 130,
+                "Gold": 95
+            },
+            "training_time": 36,
+            "hit_points": 200,
+            "melee_attack": 4,
+            "attack_bonus": [
+                "+75 vs Building",
+                "+25 vs Siege weapon"
+            ],
+            "rate_of_fire": 3,
+            "melee_armor": -2,
+            "pierce_armor": 140,
+            "armor_class": "War elephant",
+            "movement_rate": 0.6,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/armored_elephant_tmrv0b.png"
+        },
+        {
+            "id": 43,
+            "name": "Armored Elephant",
+            "type": "Siege unit",
+            "description": "Anti-building cavalry unit. Resistant to most ranged attacks.",
+            "expansion": "Dynasties of India",
+            "age": "Imperial Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Food": 130,
+                "Gold": 95
+            },
+            "training_time": 36,
+            "hit_points": 250,
+            "melee_attack": 4,
+            "attack_bonus": [
+                "+105 vs Building",
+                "+35 vs Siege weapon"
+            ],
+            "rate_of_fire": 3,
+            "melee_armor": -2,
+            "pierce_armor": 150,
+            "armor_class": "War elephant",
+            "movement_rate": 0.6,
+            "line_of_sight": 4,
+            "ability": [
+                "Cannot be converted by enemy Monks from distance"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/siege_elephant_s9uod2.png"
         }
     ]
 }
