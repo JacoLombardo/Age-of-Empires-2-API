@@ -1,37 +1,310 @@
 {
     "units": [
         {
-            "id": 67,
-            "name": "",
-            "type": "Foot archer",
-            "description": "Ranged unit.",
-            "expansion": "Age of Kings",
-            "age": "Feudal Age",
+            "id": 129,
+            "name": "Arambai",
+            "type": "Mounted archer",
+            "description": "Burmese unique cavalry archer with a powerful but inaccurate dart attack.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
             "trained_at": [
-                "archery_range"
+                "castle"
             ],
             "cost": {
-                "Wood": 25,
-                "Gold": 45
+                "Wood": 75,
+                "Gold": 60
             },
-            "training_time": 35,
-            "hit_points": 30,
-            "pierce_attack": 4,
+            "training_time": 18,
+            "hit_points": 60,
+            "pierce_attack": 12,
             "attack_bonus": [
-                "+3 vs Spearman"
+                "+2 vs Ram"
             ],
             "rate_of_fire": 2,
             "frame_delay": 15,
-            "attack_delay": 0.35,
+            "attack_delay": 0.6,
+            "range": 5,
+            "accuracy": "20%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.3,
+            "line_of_sight": 7,
+            "ability": [
+                "Missed projectiles deal 100% damage too"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/arambai_ucjpcu.png"
+        },
+        {
+            "id": 130,
+            "name": "Elite Arambai",
+            "type": "Mounted archer",
+            "description": "Burmese unique cavalry archer with a powerful but inaccurate dart attack.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 75,
+                "Gold": 60
+            },
+            "training_time": 18,
+            "hit_points": 65,
+            "pierce_attack": 15,
+            "attack_bonus": [
+                "+2 vs Ram"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.6,
+            "range": 5,
+            "accuracy": "30%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.3,
+            "line_of_sight": 7,
+            "ability": [
+                "Missed projectiles deal 100% damage too"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/arambai_ucjpcu.png"
+        },
+        {
+            "id": 131,
+            "name": "Ballista Elephant",
+            "type": "Cavalry Siege unit",
+            "description": "Khmer unique elephant equipped with a Scorpion. Can destroy trees.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 100,
+                "Gold": 80
+            },
+            "training_time": 25,
+            "hit_points": 250,
+            "pierce_attack": 10,
+            "attack_bonus": [
+                "+8 vs Ship",
+                "+8 vs Fishing Ship",
+                "+3 vs Stone defense",
+                "+3 vs Standard building",
+                "+2 vs Building"
+            ],
+            "rate_of_fire": 2.5,
+            "frame_delay": 12,
+            "attack_delay": 0.4,
+            "range": 5,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 3,
+            "armor_class": "War elephant",
+            "movement_rate": 0.8,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939375/age-of-empires-2/units/ballista_elephant_eudvdv.png"
+        },
+        {
+            "id": 132,
+            "name": "Elite Ballista Elephant",
+            "type": "Cavalry Siege unit",
+            "description": "Khmer unique elephant equipped with a Scorpion. Can destroy trees.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 100,
+                "Gold": 80
+            },
+            "training_time": 25,
+            "hit_points": 290,
+            "pierce_attack": 11,
+            "attack_bonus": [
+                "+8 vs Ship",
+                "+8 vs Fishing Ship",
+                "+4 vs Stone defense",
+                "+4 vs Standard building",
+                "+4 vs Building"
+            ],
+            "rate_of_fire": 2.5,
+            "frame_delay": 12,
+            "attack_delay": 0.4,
+            "range": 5,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 3,
+            "armor_class": "War elephant",
+            "movement_rate": 0.8,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939375/age-of-empires-2/units/ballista_elephant_eudvdv.png"
+        },
+        {
+            "id": 133,
+            "name": "Karambit Warrior",
+            "type": "Infantry",
+            "description": "Malay unique infantry unit. Cheap and only takes half a population unit.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Population": 0.5,
+                "Food": 25,
+                "Gold": 15
+            },
+            "training_time": 6,
+            "hit_points": 30,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1.2,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/karambit_warrior_eycet0.png"
+        },
+        {
+            "id": 134,
+            "name": "Elite Karambit Warrior",
+            "type": "Infantry",
+            "description": "Malay unique infantry unit. Cheap and only takes half a population unit.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Population": 0.5,
+                "Food": 25,
+                "Gold": 15
+            },
+            "training_time": 6,
+            "hit_points": 40,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+1 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1.2,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/karambit_warrior_eycet0.png"
+        },
+        {
+            "id": 135,
+            "name": "Rattan Archer",
+            "type": "Foot archer",
+            "description": "Vietnamese unique archer with high pierce armor.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 50,
+                "Gold": 45
+            },
+            "training_time": 16,
+            "hit_points": 40,
+            "pierce_attack": 6,
+            "attack_bonus": [
+                "+2 vs Spearman"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 23,
+            "attack_delay": 0.7,
             "range": 4,
             "accuracy": "80%",
             "projectile_speed": 7,
             "melee_armor": 0,
-            "pierce_armor": 0,
+            "pierce_armor": 4,
+            "armor_class": "Archer",
+            "movement_rate": 1.1,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/rattan_archer_y4va4l.png"
+        },
+        {
+            "id": 136,
+            "name": "Elite Rattan Archer",
+            "type": "Foot archer",
+            "description": "Vietnamese unique archer with high pierce armor.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 50,
+                "Gold": 45
+            },
+            "training_time": 16,
+            "hit_points": 45,
+            "pierce_attack": 7,
+            "attack_bonus": [
+                "+2 vs Spearman"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 23,
+            "attack_delay": 0.7,
+            "range": 5,
+            "accuracy": "90%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Archer",
+            "movement_rate": 1.1,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/rattan_archer_y4va4l.png"
+        },
+        {
+            "id": 137,
+            "name": "Imperial Skirmisher",
+            "type": "Foot archer",
+            "description": "Ranged anti-archer unit that cannot attack at close range. Trainable by Vietnamese and their allies.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "archery_range"
+            ],
+            "cost": {
+                "Food": 25,
+                "Wood": 35
+            },
+            "training_time": 22,
+            "hit_points": 35,
+            "pierce_attack": 4,
+            "attack_bonus": [
+                "+5 vs Archer",
+                "+3 vs Spearman",
+                "+3 vs Cavalry archer"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 19,
+            "attack_delay": 0.52,
+            "range": 5,
+            "accuracy": "95%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 5,
             "armor_class": "Archer",
             "movement_rate": 0.96,
-            "line_of_sight": 6,
-            "image": "0"
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939375/age-of-empires-2/units/imperial_skirmisher_rnmqyt.png"
         }
     ]
 }

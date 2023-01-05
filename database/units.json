@@ -841,6 +841,1261 @@
             "movement_rate": 0.9,
             "line_of_sight": 7,
             "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070213/age-of-empires-2/units/elite_elephant_archer_tlv9yq.png"
+        },
+        {
+            "id": 28,
+            "name": "Scout Cavalry",
+            "type": "Cavalry",
+            "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+            "expansion": "Age of Kings",
+            "age": "Feudal Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 80
+            },
+            "training_time": 30,
+            "hit_points": 45,
+            "melee_attack": 5,
+            "attack_bonus": [
+                "+6 vs Monks"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.55,
+            "line_of_sight": 6,
+            "ability": [
+                "Cannot be converted before 8 seconds"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/scout_cavalry_pa2mbx.png"
+        },
+        {
+            "id": 29,
+            "name": "Light Cavalry",
+            "type": "Cavalry",
+            "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 80
+            },
+            "training_time": 30,
+            "hit_points": 60,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+10 vs Monks"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.5,
+            "line_of_sight": 8,
+            "ability": [
+                "Cannot be converted before 8 seconds"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/light_cavalry_eegsn8.png"
+        },
+        {
+            "id": 30,
+            "name": "Hussar",
+            "type": "Cavalry",
+            "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+            "expansion": "The Conquerors",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 80
+            },
+            "training_time": 30,
+            "hit_points": 75,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+12 vs Monks"
+            ],
+            "rate_of_fire": 1.9,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.5,
+            "line_of_sight": 10,
+            "ability": [
+                "Cannot be converted before 8 seconds"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/hussar_uacdon.png"
+        },
+        {
+            "id": 31,
+            "name": "Winged Hussar",
+            "type": "Cavalry",
+            "description": "Unique to Poles and Lithuanians. Fast cavalry for scouting and raiding. Resistant to conversion.",
+            "expansion": "Dawn of the Dukes",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 80
+            },
+            "training_time": 30,
+            "hit_points": 80,
+            "melee_attack": 9,
+            "attack_bonus": [
+                "+14 vs Monks",
+                "+4 vs Gunpowder units"
+            ],
+            "rate_of_fire": 1.9,
+            "melee_armor": 1,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.5,
+            "line_of_sight": 10,
+            "ability": [
+                "Cannot be converted before 8 seconds"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/winged_hussar_finye8.png"
+        },
+        {
+            "id": 32,
+            "name": "Knight",
+            "type": "Cavalry",
+            "description": "Powerful all-purpose cavalry.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 100,
+            "melee_attack": 10,
+            "rate_of_fire": 1.8,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/knight_g7wtph.png"
+        },
+        {
+            "id": 33,
+            "name": "Cavalier",
+            "type": "Cavalry",
+            "description": "Powerful all-purpose cavalry.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 120,
+            "melee_attack": 12,
+            "rate_of_fire": 1.8,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/cavalier_jyi25d.png"
+        },
+        {
+            "id": 34,
+            "name": "Paladin",
+            "type": "Cavalry",
+            "description": "Powerful all-purpose cavalry.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 160,
+            "melee_attack": 14,
+            "rate_of_fire": 1.9,
+            "melee_armor": 2,
+            "pierce_armor": 3,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/paladin_jxm0ig.png"
+        },
+        {
+            "id": 35,
+            "name": "Camel Rider",
+            "type": "Cavalry",
+            "description": "Fast anti-cavalry unit.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 60
+            },
+            "training_time": 22,
+            "hit_points": 100,
+            "melee_attack": 6,
+            "attack_bonus": [
+                "+9 vs Cavalry",
+                "+5 vs Camel",
+                "+4 vs Ship, Fishing Ship"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Camel",
+            "movement_rate": 1.45,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/camel_rider_cgcqih.png"
+        },
+        {
+            "id": 36,
+            "name": "Heavy Camel Rider",
+            "type": "Cavalry",
+            "description": "Fast anti-cavalry unit.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 60
+            },
+            "training_time": 22,
+            "hit_points": 120,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+18 vs Cavalry",
+                "+9 vs Camel",
+                "+9 vs Ship, Fishing Ship",
+                "+7 vs Mameluke"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Camel",
+            "movement_rate": 1.45,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/heavy_camel_rider_p7clkn.png"
+        },
+        {
+            "id": 37,
+            "name": "Battle Elephant",
+            "type": "Cavalry",
+            "description": "Slow and heavy cavalry.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 110,
+                "Gold": 70
+            },
+            "training_time": 24,
+            "hit_points": 250,
+            "melee_attack": 12,
+            "attack_bonus": [
+                "+4 vs Building",
+                "+4 vs Stone defense"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 2,
+            "armor_class": "War elephant",
+            "movement_rate":0.85,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/battle_elephant_s5plfm.png"
+        },
+        {
+            "id": 38,
+            "name": "Elite Battle Elephant",
+            "type": "Cavalry",
+            "description": "Slow and heavy cavalry.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 110,
+                "Gold": 70
+            },
+            "training_time": 24,
+            "hit_points": 300,
+            "melee_attack": 14,
+            "attack_bonus": [
+                "+7 vs Building",
+                "+7 vs Stone defense"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 3,
+            "armor_class": "War elephant",
+            "movement_rate": 0.85,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/elite_battle_elephant_aropql.png"
+        },
+        {
+            "id": 39,
+            "name": "Steppe Lancer",
+            "type": "Cavalry",
+            "description": "Light cavalry unit with increased attack range.",
+            "expansion": "The Last Khans",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 40
+            },
+            "training_time": 24,
+            "hit_points": 60,
+            "melee_attack": 9,
+            "rate_of_fire": 2,
+            "range": 1,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.45,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/steppe_lancer_jhmug2.png"
+        },
+        {
+            "id": 40,
+            "name": "Elite Steppe Lancer",
+            "type": "Cavalry",
+            "description": "Light cavalry unit with increased attack range.",
+            "expansion": "The Last Khans",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 40
+            },
+            "training_time": 20,
+            "hit_points": 80,
+            "melee_attack": 11,
+            "rate_of_fire": 2,
+            "range": 1,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.45,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/elite_steppe_lancer_e3lg9x.png"
+        },
+        {
+            "id": 41,
+            "name": "Xolotl Warrior",
+            "type": "Cavalry",
+            "description": "Mesoamerican cavalry unit.",
+            "expansion": "The Last Khans",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 100,
+            "melee_attack": 10,
+            "rate_of_fire": 1.8,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/xolotlicon_warrior_m6nxfz.png"
+        },
+        {
+            "id": 42,
+            "name": "Armored Elephant",
+            "type": "Siege unit",
+            "description": "Anti-building cavalry unit. Resistant to most ranged attacks.",
+            "expansion": "Dynasties of India",
+            "age": "Castle Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Food": 130,
+                "Gold": 95
+            },
+            "training_time": 36,
+            "hit_points": 200,
+            "melee_attack": 4,
+            "attack_bonus": [
+                "+75 vs Building",
+                "+25 vs Siege weapon"
+            ],
+            "rate_of_fire": 3,
+            "melee_armor": -2,
+            "pierce_armor": 140,
+            "armor_class": "War elephant",
+            "movement_rate": 0.6,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/armored_elephant_tmrv0b.png"
+        },
+        {
+            "id": 43,
+            "name": "Armored Elephant",
+            "type": "Siege unit",
+            "description": "Anti-building cavalry unit. Resistant to most ranged attacks.",
+            "expansion": "Dynasties of India",
+            "age": "Imperial Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Food": 130,
+                "Gold": 95
+            },
+            "training_time": 36,
+            "hit_points": 250,
+            "melee_attack": 4,
+            "attack_bonus": [
+                "+105 vs Building",
+                "+35 vs Siege weapon"
+            ],
+            "rate_of_fire": 3,
+            "melee_armor": -2,
+            "pierce_armor": 150,
+            "armor_class": "War elephant",
+            "movement_rate": 0.6,
+            "line_of_sight": 4,
+            "ability": [
+                "Cannot be converted by enemy Monks from distance"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/siege_elephant_s9uod2.png"
+        },
+        {
+            "id": 44,
+            "name": "Battering Ram",
+            "type": "Siege unit",
+            "description": "Anti-building siege weapon. Resistant to most ranged attacks.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 160,
+                "Gold": 75
+            },
+            "training_time": 36,
+            "hit_points": 175,
+            "melee_attack": 2,
+            "attack_bonus": [
+                "+125 vs Building",
+                "+40 vs Siege weapon"
+            ],
+            "rate_of_fire": 5,
+            "melee_armor": -3,
+            "pierce_armor": 180,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.5,
+            "garrison": 4,
+            "line_of_sight": 3,
+            "ability": [
+                "Cannot be converted by enemy Monks from distance."
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/battering_ram_f3gxf9.png"
+        },
+        {
+            "id": 45,
+            "name": "Capped Ram",
+            "type": "Siege unit",
+            "description": "Anti-building siege weapon. Resistant to most ranged attacks.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 160,
+                "Gold": 75
+            },
+            "training_time": 36,
+            "hit_points": 200,
+            "melee_attack": 3,
+            "attack_bonus": [
+                "+150 vs Building",
+                "+50 vs Siege weapon"
+            ],
+            "rate_of_fire": 5,
+            "melee_armor": -3,
+            "pierce_armor": 190,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.5,
+            "garrison": 5,
+            "line_of_sight": 3,
+            "ability": [
+                "Cannot be converted by enemy Monks from distance."
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/capped_ram_wzowmd.png"
+        },
+        {
+            "id": 46,
+            "name": "Siege Ram",
+            "type": "Siege unit",
+            "description": "Anti-building siege weapon. Resistant to most ranged attacks.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 160,
+                "Gold": 75
+            },
+            "training_time": 36,
+            "hit_points": 270,
+            "melee_attack": 4,
+            "attack_bonus": [
+                "+200 vs Building",
+                "+65 vs Siege weapon"
+            ],
+            "rate_of_fire": 5,
+            "melee_armor": -3,
+            "pierce_armor": 195,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.6,
+            "garrison": 6,
+            "line_of_sight": 3,
+            "ability": [
+                "Cannot be converted by enemy Monks from distance."
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/siege_ram_lzom9u.png"
+        },
+        {
+            "id": 47,
+            "name": "Mangonel",
+            "type": "Siege unit",
+            "description": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 160,
+                "Gold": 135
+            },
+            "training_time": 46,
+            "hit_points": 50,
+            "melee_attack": 40,
+            "attack_bonus": [
+                "+35 vs Building",
+                "+12 vs Siege weapon",
+                "+40 vs Hussite Wagon"
+            ],
+            "rate_of_fire": 6,
+            "frame_delay": 0,
+            "attack_delay": 0,
+            "range": 7,
+            "accuracy": "100%",
+            "projectile_speed": 3.5,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.6,
+            "line_of_sight": 9,
+            "ability": [
+                "Can attack ground",
+                "Fires 5 additional projectiles at once which deal the minimum damage when attacking directly"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/mangonel_tto4ry.png"
+        },
+        {
+            "id": 48,
+            "name": "Onager",
+            "type": "Siege unit",
+            "description": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 160,
+                "Gold": 135
+            },
+            "training_time": 46,
+            "hit_points": 60,
+            "melee_attack": 50,
+            "attack_bonus": [
+                "+45 vs Building",
+                "+12 vs Siege weapon",
+                "+50 vs Hussite Wagon"
+            ],
+            "rate_of_fire": 6,
+            "frame_delay": 0,
+            "attack_delay": 0,
+            "range": 8,
+            "accuracy": "100%",
+            "projectile_speed": 3.5,
+            "melee_armor": 0,
+            "pierce_armor": 7,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.6,
+            "line_of_sight": 10,
+            "ability": [
+                "Can attack ground",
+                "Can destroy trees",
+                "Fires 7 additional projectiles at once which deal the minimum damage when attacking directly"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/onager_hh0az0.png"
+        },
+        {
+            "id": 49,
+            "name": "Siege Onager",
+            "type": "Siege unit",
+            "description": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 160,
+                "Gold": 135
+            },
+            "training_time": 46,
+            "hit_points": 70,
+            "melee_attack": 75,
+            "attack_bonus": [
+                "+60 vs Building",
+                "+12 vs Siege weapon",
+                "+75 vs Hussite Wagon"
+            ],
+            "rate_of_fire": 6,
+            "frame_delay": 0,
+            "attack_delay": 0,
+            "range": 8,
+            "accuracy": "100%",
+            "projectile_speed": 3.5,
+            "melee_armor": 0,
+            "pierce_armor": 8,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.6,
+            "line_of_sight": 10,
+            "ability": [
+                "Can attack ground",
+                "Can destroy trees",
+                "Fires 9 additional projectiles at once which deal the minimum damage when attacking directly"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/siege_onager_eqcitr.png"
+        },
+        {
+            "id": 50,
+            "name": "Scorpion",
+            "type": "Siege unit",
+            "description": "Anti-unit siege weapon. Fires bolts that pierce multiple units.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 75,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 40,
+            "melee_attack": 0,
+            "pierce_attack": 12,
+            "attack_bonus": [
+                "+6 vs War elephant",
+                "+2 vs Building",
+                "+1 vs Ram"
+            ],
+            "rate_of_fire": 3.6,
+            "frame_delay": 42,
+            "attack_delay": 0.22,
+            "range": 7,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 7,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.65,
+            "line_of_sight": 9,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/scorpion_x5vpjf.png"
+        },
+        {
+            "id": 51,
+            "name": "Heavy Scorpion",
+            "type": "Siege unit",
+            "description": "Anti-unit siege weapon. Fires bolts that pierce multiple units.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 75,
+                "Gold": 75
+            },
+            "training_time": 30,
+            "hit_points": 50,
+            "melee_attack": 0,
+            "pierce_attack": 16,
+            "attack_bonus": [
+                "+8 vs War elephant",
+                "+4 vs Building",
+                "+2 vs Ram"
+            ],
+            "rate_of_fire": 3.6,
+            "frame_delay": 26,
+            "attack_delay": 0.22,
+            "range": 7,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 8,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.65,
+            "line_of_sight": 9,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/heavy_scorpion_i5qpdl.png"
+        },
+        {
+            "id": 52,
+            "name": "Bombard Cannon",
+            "type": "Gunpowder unit",
+            "description": "Siege weapon with long range.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 225,
+                "Gold": 225
+            },
+            "training_time": 56,
+            "hit_points": 80,
+            "melee_attack": 40,
+            "attack_bonus": [
+                "+200 vs Building",
+                "+40 vs Ship",
+                "+40 vs Fishing Ship",
+                "+40 vs Stone defense",
+                "+20 vs Siege weapon",
+                "+40 vs Hussite Wagon"
+            ],
+            "rate_of_fire": 6.5,
+            "frame_delay": 26,
+            "attack_delay": 0.21,
+            "range": 12,
+            "accuracy": "100%",
+            "projectile_speed": 4,
+            "melee_armor": 2,
+            "pierce_armor": 5,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.7,
+            "line_of_sight": 14,
+            "ability": [
+                "Can attack ground"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/bombard_cannon_bzypsj.png"
+        },
+        {
+            "id": 53,
+            "name": "Trebuchet",
+            "type": "Siege unit",
+            "description": "Powerful anti-building siege weapon with long range. Must be packed to move, unpacked to attack. Cannot attack enemies at close range. Can attack ground and destroy trees.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 200,
+                "Gold": 200
+            },
+            "training_time": 50,
+            "hit_points": 150,
+            "pierce_attack": 200,
+            "attack_bonus": [
+                "+250 vs Building"
+            ],
+            "rate_of_fire": 10,
+            "frame_delay": 24,
+            "attack_delay": 0.88,
+            "range": 16,
+            "accuracy": "80%",
+            "projectile_speed": 3.5,
+            "melee_armor": 2,
+            "pierce_armor": 8,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.8,
+            "line_of_sight": 19,
+            "ability": [
+                "Cannot be converted by enemy Monks from distance",
+                "Can attack ground",
+                "Can destroy trees"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/trebuchet_j068uo.png"
+        },
+        {
+            "id": 54,
+            "name": "Petard",
+            "type": "Siege unit",
+            "description": "Demolition siege unit armed with explosives. Self-destructs when used.",
+            "expansion": "The Conquerors",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 65,
+                "Gold": 20
+            },
+            "training_time": 25,
+            "hit_points": 50,
+            "melee_attack": 25,
+            "attack_bonus": [
+                "+900 vs Wall and gate",
+                "+500 vs Building",
+                "+100 vs Castle",
+                "+60 vs Siege weapon"
+            ],
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "movement_rate": 0.8,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/petard_flfyfl.png"
+        },
+        {
+            "id": 55,
+            "name": "Siege Tower",
+            "type": "Siege unit",
+            "description": "Quick land transport used to unload units over enemy walls. Resistant to archer attack. Cannot be used by mounted units",
+            "expansion": "The African Kingdoms",
+            "age": "Castle Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 200,
+                "Gold": 160
+            },
+            "training_time": 36,
+            "hit_points": 220,
+            "melee_armor": -2,
+            "pierce_armor": 100,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.8,
+            "garrison": 10,
+            "line_of_sight": 8,
+            "ability": [
+                "Unload units over enemy walls."
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/siege_tower_mhj57j.png"
+        },
+        {
+            "id": 56,
+            "name": "Galley",
+            "type": "Naval vessel",
+            "description": "All-purpose warship with ranged attack.",
+            "expansion": "Age of Kings",
+            "age": "Feudal Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 90,
+                "Gold": 30
+            },
+            "training_time": 60,
+            "hit_points": 120,
+            "pierce_attack": 6,
+            "attack_bonus": [
+                "+8 vs Ship",
+                "+8 vs Fishing Ship",
+                "+6 vs Building",
+                "+3 vs Ram"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 0,
+            "range": 5,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Ship",
+            "speed": 1.43,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/galley_hrnupn.png"
+        },
+        {
+            "id": 57,
+            "name": "War Galley",
+            "type": "Naval vessel",
+            "description": "All-purpose warship with ranged attack.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 90,
+                "Gold": 30
+            },
+            "training_time": 36,
+            "hit_points": 135,
+            "pierce_attack": 7,
+            "attack_bonus": [
+                "+9 vs Ship",
+                "+9 vs Fishing Ship",
+                "+7 vs Building",
+                "+4 vs Ram"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 0,
+            "range": 6,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Ship",
+            "speed": 1.43,
+            "line_of_sight": 8,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/war_galley_jo5qie.png"
+        },
+        {
+            "id": 58,
+            "name": "Galleon",
+            "type": "Naval vessel",
+            "description": "All-purpose warship with ranged attack.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 90,
+                "Gold": 30
+            },
+            "training_time": 36,
+            "hit_points": 165,
+            "pierce_attack": 8,
+            "attack_bonus": [
+                "+11 vs Ship",
+                "+11 vs Fishing Ship",
+                "+8 vs Building",
+                "+4 vs Ram"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 0,
+            "range": 7,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 8,
+            "armor_class": "Ship",
+            "speed": 1.43,
+            "line_of_sight": 9,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/galleon_esyfky.png"
+        },
+        {
+            "id": 59,
+            "name": "Fire Galley",
+            "type": "Naval vessel",
+            "description": "Warship that spews fire at close range.",
+            "expansion": "The African Kingdoms",
+            "age": "Feudal Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 75,
+                "Gold": 45
+            },
+            "training_time": 65,
+            "hit_points": 100,
+            "melee_attack": 0,
+            "pierce_attack": 1,
+            "attack_bonus": [
+                "+3 vs Ship",
+                "+1 vs Fishing Ship",
+                "+1 vs Building",
+                "+1 vs Turtle Ship"
+            ],
+            "rate_of_fire": 0.25,
+            "frame_delay": 0,
+            "range": 2.49,
+            "accuracy": 0,
+            "projectile_speed": 3,
+            "melee_armor": 0,
+            "pierce_armor": 4,
+            "armor_class": "Ship",
+            "speed": 1.3,
+            "line_of_sight": 5,
+            "ability": [
+                "Can track moving targets naturally"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/fire_galley_nmeju3.png"
+        },
+        {
+            "id": 60,
+            "name": "Fire Ship",
+            "type": "Naval vessel",
+            "description": "Warship that spews fire at close range.",
+            "expansion": "The Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 75,
+                "Gold": 45
+            },
+            "training_time": 36,
+            "hit_points": 120,
+            "melee_attack": 1,
+            "pierce_attack": 2,
+            "attack_bonus": [
+                "+3 vs Ship",
+                "+3 vs Fishing Ship",
+                "+2 vs Building",
+                "+2 vs Turtle Ship"
+            ],
+            "rate_of_fire": 0.25,
+            "frame_delay": 0,
+            "range": 2.49,
+            "accuracy": 0,
+            "projectile_speed": 3,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Ship",
+            "speed": 1.35,
+            "line_of_sight": 5,
+            "ability": [
+                "Can track moving targets naturally"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/fire_ship_phbfoy.png"
+        },
+        {
+            "id": 61,
+            "name": "Fast Fire Ship",
+            "type": "Naval vessel",
+            "description": "Warship that spews fire at close range.",
+            "expansion": "The Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 75,
+                "Gold": 45
+            },
+            "training_time": 36,
+            "hit_points": 140,
+            "melee_attack": 1,
+            "pierce_attack": 3,
+            "attack_bonus": [
+                "+4 vs Ship",
+                "+4 vs Fishing Ship",
+                "+3 vs Building",
+                "+3 vs Turtle Ship"
+            ],
+            "rate_of_fire": 0.25,
+            "frame_delay": 0,
+            "range": 2.49,
+            "accuracy": 0,
+            "projectile_speed": 3,
+            "melee_armor": 0,
+            "pierce_armor": 8,
+            "armor_class": "Ship",
+            "speed": 1.43,
+            "line_of_sight": 6,
+            "ability": [
+                "Can track moving targets naturally"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920610/age-of-empires-2/units/fast_fire_ship_a4wgpp.png"
+        },
+        {
+            "id": 62,
+            "name": "Demolition Raft",
+            "type": "Naval vessel",
+            "description": "Filled with explosives. Self-destructs when used.",
+            "expansion": "The African Kingdoms",
+            "age": "Feudal Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 70,
+                "Gold": 50
+            },
+            "training_time": 45,
+            "hit_points": 45,
+            "melee_attack": 90,
+            "attack_bonus": [
+                "+180 vs Building"
+            ],
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Ship",
+            "speed": 1.5,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920610/age-of-empires-2/units/demolition_raft_jxiyjp.png"
+        },
+        {
+            "id": 63,
+            "name": "Demolition Ship",
+            "type": "Naval vessel",
+            "description": "Filled with explosives. Self-destructs when used.",
+            "expansion": "The Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 70,
+                "Gold": 50
+            },
+            "training_time": 31,
+            "hit_points": 60,
+            "melee_attack": 110,
+            "attack_bonus": [
+                "+220 vs Building"
+            ],
+            "melee_armor": 0,
+            "pierce_armor": 3,
+            "armor_class": "Ship",
+            "speed": 1.6,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/demolition_ship_ied6ib.png"
+        },
+        {
+            "id": 64,
+            "name": "Heavy Demolition Ship",
+            "type": "Naval vessel",
+            "description": "Filled with explosives. Self-destructs when used.",
+            "expansion": "The Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 70,
+                "Gold": 50
+            },
+            "training_time": 31,
+            "hit_points": 70,
+            "melee_attack": 140,
+            "attack_bonus": [
+                "+280 vs Building"
+            ],
+            "melee_armor": 0,
+            "pierce_armor": 5,
+            "armor_class": "Ship",
+            "speed": 1.6,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920612/age-of-empires-2/units/heavy_demolition_ship_if5do0.png"
+        },
+        {
+            "id": 65,
+            "name": "Cannon Galleon",
+            "type": "Naval vessel",
+            "description": "Anti-building siege warship with long range, but cannot attack enemies at close range.",
+            "expansion": "The Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 200,
+                "Gold": 150
+            },
+            "training_time": 46,
+            "hit_points": 120,
+            "melee_attack": 35,
+            "attack_bonus": [
+                "+200 vs Building",
+                "+40 vs Siege weapon",
+                "+15 vs Infantry",
+                "+15 vs Archer",
+                "+15 vs Cavalry",
+                "+4 vs Mameluke"
+            ],
+            "rate_of_fire": 10,
+            "frame_delay": 0,
+            "range": 13,
+            "accuracy": "50%",
+            "projectile_speed": 3,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Ship",
+            "speed": 1.1,
+            "line_of_sight": 15,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/cannon_galleon_kfekle.png"
+        },
+        {
+            "id": 66,
+            "name": "Elite Cannon Galleon",
+            "type": "Naval vessel",
+            "description": "Anti-building siege warship with long range, but cannot attack enemies at close range.",
+            "expansion": "The Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 200,
+                "Gold": 150
+            },
+            "training_time": 46,
+            "hit_points": 150,
+            "melee_attack": 45,
+            "attack_bonus": [
+                "+275 vs Building",
+                "+40 vs Siege weapon",
+                "+15 vs Infantry",
+                "+15 vs Archer",
+                "+15 vs Cavalry",
+                "+4 vs Mameluke"
+            ],
+            "rate_of_fire": 10,
+            "frame_delay": 0,
+            "range": 15,
+            "accuracy": "50%",
+            "projectile_speed": 3,
+            "melee_armor": 0,
+            "pierce_armor": 8,
+            "armor_class": "Ship",
+            "speed": 1.1,
+            "line_of_sight": 17,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/elite_cannon_galleon_dgb8qe.png"
         }
     ]
 }
