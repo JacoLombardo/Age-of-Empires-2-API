@@ -2096,6 +2096,3401 @@
             "speed": 1.1,
             "line_of_sight": 17,
             "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/elite_cannon_galleon_dgb8qe.png"
+        },
+        {
+            "id": 67,
+            "name": "Longbowman",
+            "type": "Foot Archer",
+            "description": "British unique archer with very long range.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 35,
+                "Gold": 40
+            },
+            "training_time": 18,
+            "hit_points": 35,
+            "pierce_attack": 6,
+            "attack_bonus": [
+                "+2 vs Spearman"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 10,
+            "attack_delay": 0.5,
+            "range": 5,
+            "accuracy": "70%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Archer",
+            "movement_rate": 0.96,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/longbowman_lisub9.png"
+        },
+        {
+            "id": 68,
+            "name": "Elite Longbowman",
+            "type": "Foot Archer",
+            "description": "British unique archer with very long range.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 35,
+                "Gold": 40
+            },
+            "training_time": 18,
+            "hit_points": 40,
+            "pierce_attack": 7,
+            "attack_bonus": [
+                "+2 vs Spearman"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 10,
+            "attack_delay": 0.5,
+            "range": 6,
+            "accuracy": "80%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Archer",
+            "movement_rate": 0.96,
+            "line_of_sight": 8,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/longbowman_lisub9.png"
+        },
+        {
+            "id": 69,
+            "name": "Cataphract",
+            "type": "Cavalry",
+            "description": "Byzantine unique cavalry unit.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 75
+            },
+            "training_time": 20,
+            "hit_points": 110,
+            "melee_attack": 9,
+            "attack_bonus": [
+                "+9 vs Infantry",
+                "+9 vs Condottiero"
+            ],
+            "rate_of_fire": 1.8,
+            "melee_armor": 2,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/cataphract_dgduem.png"
+        },
+        {
+            "id": 70,
+            "name": "Elite Cataphract",
+            "type": "Cavalry",
+            "description": "Byzantine unique cavalry unit.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 75
+            },
+            "training_time": 20,
+            "hit_points": 150,
+            "melee_attack": 12,
+            "attack_bonus": [
+                "+12 vs Infantry",
+                "+10 vs Condottiero"
+            ],
+            "rate_of_fire": 1.7,
+            "melee_armor": 2,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/cataphract_dgduem.png"
+        },
+        {
+            "id": 71,
+            "name": "Woad Raider",
+            "type": "Infantry",
+            "description": "Celtic unique infantry unit. Fast-moving.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 65,
+                "Gold": 25
+            },
+            "training_time": 10,
+            "hit_points": 65,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1.38,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_raider_togsft.png"
+        },
+        {
+            "id": 72,
+            "name": "Elite Woad Raider",
+            "type": "Infantry",
+            "description": "Celtic unique infantry unit. Fast-moving.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 65,
+                "Gold": 25
+            },
+            "training_time": 10,
+            "hit_points": 80,
+            "melee_attack": 13,
+            "attack_bonus": [
+                "+3 vs Eagle Warrior",
+                "+3 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1.38,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_raider_togsft.png"
+        },
+        {
+            "id": 73,
+            "name": "Chu Ko Nu",
+            "type": "Foot archer",
+            "description": "Chinese unique archer with rapid-fire attack.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 40,
+                "Gold": 35
+            },
+            "training_time": 16,
+            "hit_points": 45,
+            "melee_attack": 0,
+            "pierce_attack": 8,
+            "attack_bonus": [
+                "+2 vs Spearman"
+            ],
+            "rate_of_fire": 3.44,
+            "frame_delay": 19,
+            "attack_delay": 0.23,
+            "range": 4,
+            "accuracy": "85%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Archer",
+            "movement_rate": 0.96,
+            "line_of_sight": 6,
+            "ability": [
+                "Fires two additional arrows in succession which deal 0 melee and 3 pierce attack"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931771/age-of-empires-2/units/chu_ko_nu_ubipdl.png"
+        },
+        {
+            "id": 74,
+            "name": "Elite Chu Ko Nu",
+            "type": "Foot archer",
+            "description": "Chinese unique archer with rapid-fire attack.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 40,
+                "Gold": 35
+            },
+            "training_time": 13,
+            "hit_points": 50,
+            "melee_attack": 0,
+            "pierce_attack": 8,
+            "attack_bonus": [
+                "+2 vs Spearman"
+            ],
+            "rate_of_fire": 3.89,
+            "frame_delay": 19,
+            "attack_delay": 0.23,
+            "range": 4,
+            "accuracy": "85%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Archer",
+            "movement_rate": 0.96,
+            "line_of_sight": 6,
+            "ability": [
+                "Fires four additional arrows in succession which deal 0 melee and 3 pierce attack"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931771/age-of-empires-2/units/chu_ko_nu_ubipdl.png"
+        },
+        {
+            "id": 75,
+            "name": "Throwing Axeman",
+            "type": "Infantry",
+            "description": "Frankish unique infantry unit with ranged melee attack.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 25
+            },
+            "training_time": 17,
+            "hit_points": 60,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+1 vs Eagle Warrior",
+                "+1 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 28,
+            "attack_delay": 1,
+            "range": 3,
+            "accuracy": "100%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931771/age-of-empires-2/units/throwing_axeman_sqb50b.png"
+        },
+        {
+            "id": 76,
+            "name": "Elite Throwing Axeman",
+            "type": "Infantry",
+            "description": "Frankish unique infantry unit with ranged melee attack.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 25
+            },
+            "training_time": 17,
+            "hit_points": 70,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 23,
+            "attack_delay": 0.82,
+            "range": 4,
+            "accuracy": "100%",
+            "projectile_speed": 7,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931771/age-of-empires-2/units/throwing_axeman_sqb50b.png"
+        },
+        {
+            "id": 77,
+            "name": "Huskarl",
+            "type": "Infantry",
+            "description": "Gothic unique infantry unit with high pierce armor.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 56,
+                "Gold": 28
+            },
+            "training_time": 16,
+            "hit_points": 60,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+6 vs Archer",
+                "+2 vs Eagle Warrior",
+                "+4 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Infantry",
+            "movement_rate": 1.05,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/huskarl_x6tpzi.png"
+        },
+        {
+            "id": 78,
+            "name": "Elite Huskarl",
+            "type": "Infantry",
+            "description": "Gothic unique infantry unit with high pierce armor.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 56,
+                "Gold": 28
+            },
+            "training_time": 16,
+            "hit_points": 70,
+            "melee_attack": 12,
+            "attack_bonus": [
+                "+10 vs Archer",
+                "+3 vs Eagle Warrior",
+                "+6 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 8,
+            "armor_class": "Infantry",
+            "movement_rate": 1.05,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/huskarl_x6tpzi.png"
+        },
+        {
+            "id": 79,
+            "name": "Samurai",
+            "type": "Infantry",
+            "description": "Japanese unique infantry unit with fast attack.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 30
+            },
+            "training_time": 9,
+            "hit_points": 70,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+10 vs Unique unit",
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 1.43,
+            "melee_armor": 1,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/samurai_hoqi06.png"
+        },
+        {
+            "id": 80,
+            "name": "Elite Samurai",
+            "type": "Infantry",
+            "description": "Japanese unique infantry unit with fast attack.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 30
+            },
+            "training_time": 9,
+            "hit_points": 80,
+            "melee_attack": 12,
+            "attack_bonus": [
+                "+12 vs Unique unit",
+                "+3 vs Eagle Warrior",
+                "+3 vs Standard building"
+            ],
+            "rate_of_fire": 1.43,
+            "melee_armor": 1,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/samurai_hoqi06.png"
+        },
+        {
+            "id": 81,
+            "name": "War Elephant",
+            "type": "Cavalry",
+            "description": "Persian unique unit. Slow and powerful cavalry.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 170,
+                "Gold": 85
+            },
+            "training_time": 25,
+            "hit_points": 450,
+            "melee_attack": 15,
+            "attack_bonus": [
+                "+7 vs Building",
+                "+7 vs Stone defense"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 2,
+            "armor_class": "War elephant",
+            "movement_rate": 0.6,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/war_elephant_jmmaeg.png"
+        },
+        {
+            "id": 82,
+            "name": "Elite War Elephant",
+            "type": "Cavalry",
+            "description": "Persian unique unit. Slow and powerful cavalry.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 170,
+                "Gold": 85
+            },
+            "training_time": 25,
+            "hit_points": 600,
+            "melee_attack": 20,
+            "attack_bonus": [
+                "+10 vs Building",
+                "+10 vs Stone defense"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 3,
+            "armor_class": "War elephant",
+            "movement_rate": 0.6,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/war_elephant_jmmaeg.png"
+        },
+        {
+            "id": 83,
+            "name": "Mameluke",
+            "type": "Cavalry",
+            "description": "Saracen unique camel unit with ranged melee attack.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 85
+            },
+            "training_time": 23,
+            "hit_points": 75,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+9 vs Cavalry"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 24,
+            "attack_delay": 0.4,
+            "range": 3,
+            "accuracy": "100%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Camel",
+            "movement_rate": 1.4,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/mameluke_flbdjj.png"
+        },
+        {
+            "id": 84,
+            "name": "Elite Mameluke",
+            "type": "Cavalry",
+            "description": "Saracen unique camel unit with ranged melee attack.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 85
+            },
+            "training_time": 23,
+            "hit_points": 90,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+12 vs Cavalry",
+                "+1 vs Mamaluke"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 12,
+            "attack_delay": 0.2,
+            "range": 3,
+            "accuracy": "100%",
+            "projectile_speed": 7,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Camel",
+            "movement_rate": 1.4,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/mameluke_flbdjj.png"
+        },
+        {
+            "id": 85,
+            "name": "Teutonic Knight",
+            "type": "Infantry",
+            "description": "Teutonic unique infantry unit. Slow and powerful.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 85,
+                "Gold": 40
+            },
+            "training_time": 12,
+            "hit_points": 80,
+            "melee_attack": 14,
+            "attack_bonus": [
+                "+4 vs Standard building",
+                "+4 vs Eagle Warrior"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 7,
+            "pierce_armor": 2,
+            "armor_class": "Infantry",
+            "movement_rate": 0.8,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/teutonic_knight_eqtgdc.png"
+        },
+        {
+            "id": 86,
+            "name": "Elite Teutonic Knight",
+            "type": "Infantry",
+            "description": "Teutonic unique infantry unit. Slow and powerful.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 85,
+                "Gold": 40
+            },
+            "training_time": 12,
+            "hit_points": 100,
+            "melee_attack": 17,
+            "attack_bonus": [
+                "+4 vs Standard building",
+                "+4 vs Eagle Warrior"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 10,
+            "pierce_armor": 2,
+            "armor_class": "Infantry",
+            "movement_rate": 0.8,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/teutonic_knight_eqtgdc.png"
+        },
+        {
+            "id": 87,
+            "name": "Janissary",
+            "type": "Gunpowder unit",
+            "description": "Turkish unique hand cannoneer with longer range and no minimum range.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 55
+            },
+            "training_time": 16,
+            "hit_points": 44,
+            "pierce_attack": 17,
+            "attack_bonus": [
+                "+2 vs Ram"
+            ],
+            "rate_of_fire": 3.45,
+            "frame_delay": 12,
+            "attack_delay": 0.4,
+            "range": 8,
+            "accuracy": "50%",
+            "projectile_speed": 7.5,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Gunpowder unit",
+            "movement_rate": 0.96,
+            "line_of_sight": 10,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/janissary_lrf9p6.png"
+        },
+        {
+            "id": 88,
+            "name": "Elite Janissary",
+            "type": "Gunpowder unit",
+            "description": "Turkish unique hand cannoneer with longer range and no minimum range.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 55
+            },
+            "training_time": 16,
+            "hit_points": 50,
+            "pierce_attack": 22,
+            "attack_bonus": [
+                "+3 vs Ram"
+            ],
+            "rate_of_fire": 3.45,
+            "frame_delay": 0,
+            "attack_delay": 0,
+            "range": 8,
+            "accuracy": "65%",
+            "projectile_speed": 7.5,
+            "melee_armor": 2,
+            "pierce_armor": 0,
+            "armor_class": "Gunpowder unit",
+            "movement_rate": 0.96,
+            "line_of_sight": 10,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/janissary_lrf9p6.png"
+        },
+        {
+            "id": 89,
+            "name": "Berserk",
+            "type": "Infantry",
+            "description": "Viking unique infantry unit that slowly heals itself.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 65,
+                "Gold": 25
+            },
+            "training_time": 14,
+            "hit_points": 65,
+            "melee_attack": 12,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1.05,
+            "line_of_sight": 3,
+            "ability": [
+                "Regenerates 20 hit points per minute"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/berserk_rsnsop.png"
+        },
+        {
+            "id": 90,
+            "name": "Elite Berserk",
+            "type": "Infantry",
+            "description": "Viking unique infantry unit that slowly heals itself.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 65,
+                "Gold": 25
+            },
+            "training_time": 12,
+            "hit_points": 74,
+            "melee_attack": 14,
+            "attack_bonus": [
+                "+3 vs Eagle Warrior",
+                "+3 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 2,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1.05,
+            "line_of_sight": 5,
+            "ability": [
+                "Regenerates 20 hit points per minute"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/berserk_rsnsop.png"
+        },
+        {
+            "id": 91,
+            "name": "Mangudai",
+            "type": "Mounted archer",
+            "description": "Mongol unique cavalry archer with fast-firing attack.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 55,
+                "Gold": 65
+            },
+            "training_time": 26,
+            "hit_points": 60,
+            "pierce_attack": 6,
+            "attack_bonus": [
+                "+3 vs Siege weapon",
+                "+1 vs Spearman"
+            ],
+            "rate_of_fire": 1.68,
+            "frame_delay": 23,
+            "attack_delay": 0.5,
+            "range": 4,
+            "accuracy": "95%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.4,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/mangudai_ztn0sc.png"
+        },
+        {
+            "id": 92,
+            "name": "Elite Mangudai",
+            "type": "Mounted archer",
+            "description": "Mongol unique cavalry archer with fast-firing attack.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 55,
+                "Gold": 65
+            },
+            "training_time": 26,
+            "hit_points": 60,
+            "pierce_attack": 8,
+            "attack_bonus": [
+                "+5 vs Siege weapon",
+                "+1 vs Spearman"
+            ],
+            "rate_of_fire": 1.68,
+            "frame_delay": 23,
+            "attack_delay": 0.5,
+            "range": 4,
+            "accuracy": "95%",
+            "projectile_speed": 7,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.4,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/mangudai_ztn0sc.png"
+        },
+        {
+            "id": 93,
+            "name": "Longboat",
+            "type": "Naval vessel",
+            "description": "Viking unique ship that fires multiple arrows.",
+            "expansion": "Age of Kings",
+            "age": "Castle Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 85,
+                "Gold": 43
+            },
+            "training_time": 25,
+            "hit_points": 130,
+            "pierce_attack": 7,
+            "attack_bonus": [
+                "+9 vs Ship",
+                "+9 vs Fishing Ship",
+                "+7 vs Building",
+                "+4 vs Ram"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 0,
+            "range": 6,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Ship",
+            "movement_rate": 1.54,
+            "line_of_sight": 8,
+            "ability": [
+                "Fires 3 additional projectiles which deal the minimum 1 damage"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/longboat_rs9ttm.png"
+        },
+        {
+            "id": 94,
+            "name": "Elite Longboat",
+            "type": "Naval vessel",
+            "description": "Viking unique ship that fires multiple arrows.",
+            "expansion": "Age of Kings",
+            "age": "Imperial Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 85,
+                "Gold": 43
+            },
+            "training_time": 25,
+            "hit_points": 160,
+            "pierce_attack": 8,
+            "attack_bonus": [
+                "+11 vs Ship",
+                "+11 vs Fishing Ship",
+                "+8 vs Building",
+                "+4 vs Ram"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 0,
+            "range": 7,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 8,
+            "armor_class": "Ship",
+            "movement_rate": 1.54,
+            "line_of_sight": 9,
+            "ability": [
+                "Fires 3 additional projectiles which deal the minimum 1 damage"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/longboat_rs9ttm.png"
+        },
+        {
+            "id": 95,
+            "name": "War Wagon",
+            "type": "Mounted archer",
+            "description": "Korean unique cavalry archer unit.",
+            "expansion": "The Conquerors",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 100,
+                "Gold": 60
+            },
+            "training_time": 21,
+            "hit_points": 150,
+            "pierce_attack": 9,
+            "attack_bonus": [
+                "+5 vs Standard building"
+            ],
+            "rate_of_fire": 2.5,
+            "frame_delay": 32,
+            "attack_delay": 1,
+            "range": 4,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 3,
+            "armor_class": "Archer",
+            "movement_rate": 1.2,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/war_wagon_ivvu1y.png"
+        },
+        {
+            "id": 96,
+            "name": "Elite War Wagon",
+            "type": "Mounted archer",
+            "description": "Korean unique cavalry archer unit.",
+            "expansion": "The Conquerors",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 100,
+                "Gold": 60
+            },
+            "training_time": 21,
+            "hit_points": 200,
+            "pierce_attack": 9,
+            "attack_bonus": [
+                "+5 vs Standard building"
+            ],
+            "rate_of_fire": 2.5,
+            "frame_delay": 32,
+            "attack_delay": 1,
+            "range": 5,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 4,
+            "armor_class": "Archer",
+            "movement_rate": 1.2,
+            "line_of_sight": 8,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/war_wagon_ivvu1y.png"
+        },
+        {
+            "id": 96,
+            "name": "Turtle Ship",
+            "type": "Naval vessel",
+            "description": "Korean unique ship. Slow and ironclad.",
+            "expansion": "The Conquerors",
+            "age": "Castle Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 152,
+                "Gold": 180
+            },
+            "training_time": 50,
+            "hit_points": 200,
+            "melee_attack": 50,
+            "rate_of_fire": 6,
+            "frame_delay": 0,
+            "range": 6,
+            "accuracy": "100%",
+            "projectile_speed": 7.8,
+            "melee_armor": 6,
+            "pierce_armor": 5,
+            "armor_class": "Ship",
+            "movement_rate": 0.9,
+            "line_of_sight": 8,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/turtle_ship_gesfbi.png"
+        },
+        {
+            "id": 96,
+            "name": "Elite Turtle Ship",
+            "type": "Naval vessel",
+            "description": "Korean unique ship. Slow and ironclad.",
+            "expansion": "The Conquerors",
+            "age": "Imperial Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 152,
+                "Gold": 180
+            },
+            "training_time": 50,
+            "hit_points": 300,
+            "melee_attack": 50,
+            "rate_of_fire": 6,
+            "frame_delay": 0,
+            "range": 6,
+            "accuracy": "100%",
+            "projectile_speed": 7.8,
+            "melee_armor": 8,
+            "pierce_armor": 6,
+            "armor_class": "Ship",
+            "movement_rate": 1.035,
+            "line_of_sight": 8,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/turtle_ship_gesfbi.png"
+        },
+        {
+            "id": 97,
+            "name": "Jaguar Warrior",
+            "type": "Infantry",
+            "description": "Aztec unique infantry unit.",
+            "expansion": "The Conquerors",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 30
+            },
+            "training_time": 10,
+            "hit_points": 65,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+10 vs Infantry",
+                "+10 vs Condottiero",
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/jaguar_warrior_dukmxf.png"
+        },
+        {
+            "id": 98,
+            "name": "Elite Jaguar Warrior",
+            "type": "Infantry",
+            "description": "Aztec unique infantry unit.",
+            "expansion": "The Conquerors",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 30
+            },
+            "training_time": 10,
+            "hit_points": 75,
+            "melee_attack": 12,
+            "attack_bonus": [
+                "+11 vs Infantry",
+                "+10 vs Condottiero",
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 2,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/jaguar_warrior_dukmxf.png"
+        },
+        {
+            "id": 99,
+            "name": "Tarkan",
+            "type": "Cavalry",
+            "description": "Hunnic unique cavalry unit with attack bonus vs. buildings.",
+            "expansion": "The Conquerors",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 60
+            },
+            "training_time": 14,
+            "hit_points": 100,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+12 vs Stone defense",
+                "+10 vs Castle",
+                "+8 vs Building",
+                "+8 vs Wall and gate"
+            ],
+            "rate_of_fire": 2.1,
+            "melee_armor": 1,
+            "pierce_armor": 3,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/tarkan_u5lg0b.png"
+        },
+        {
+            "id": 100,
+            "name": "Elite Tarkan",
+            "type": "Cavalry",
+            "description": "Hunnic unique cavalry unit with attack bonus vs. buildings.",
+            "expansion": "The Conquerors",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 60
+            },
+            "training_time": 14,
+            "hit_points": 150,
+            "melee_attack": 11,
+            "attack_bonus": [
+                "+12 vs Stone defense",
+                "+10 vs Castle",
+                "+10 vs Building",
+                "+10 vs Wall and gate"
+            ],
+            "rate_of_fire": 2.1,
+            "melee_armor": 1,
+            "pierce_armor": 4,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/tarkan_u5lg0b.png"
+        },
+        {
+            "id": 101,
+            "name": "Missionary",
+            "type": "Monk",
+            "description": "Spanish unique mounted monk. Converts enemy units and heals friendly units. Cannot collect Relics.",
+            "expansion": "The Conquerors",
+            "age": "Castle Age",
+            "trained_at": [
+                "monastery"
+            ],
+            "cost": {
+                "Gold": 100
+            },
+            "training_time": 51,
+            "hit_points": 30,
+            "rate_of_fire": 62,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Monk",
+            "movement_rate": 1.1,
+            "line_of_sight": 9,
+            "ability": [
+                "Heal units",
+                "Convert units"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/missionary_nsnpxp.png"
+        },
+        {
+            "id": 102,
+            "name": "Conquistador",
+            "type": "Gunpowder unit",
+            "description": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range.",
+            "expansion": "The Conquerors",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 70
+            },
+            "training_time": 24,
+            "hit_points": 55,
+            "pierce_attack": 16,
+            "attack_bonus": [
+                "+4 vs Ram"
+            ],
+            "rate_of_fire": 2.9,
+            "frame_delay": 13,
+            "attack_delay": 0.42,
+            "range": 6,
+            "accuracy": "65%",
+            "projectile_speed": 7.5,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Archer",
+            "movement_rate": 1.3,
+            "line_of_sight": 8,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/conquistador_mzwvoa.png"
+        },
+        {
+            "id": 103,
+            "name": "Elite Conquistador",
+            "type": "Gunpowder unit",
+            "description": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range.",
+            "expansion": "The Conquerors",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 70
+            },
+            "training_time": 24,
+            "hit_points": 70,
+            "pierce_attack": 18,
+            "attack_bonus": [
+                "+6 vs Ram",
+                "+2 vs Building"
+            ],
+            "rate_of_fire": 2.9,
+            "frame_delay": 13,
+            "attack_delay": 0.42,
+            "range": 6,
+            "accuracy": "70%",
+            "projectile_speed": 7.5,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Archer",
+            "movement_rate": 1.3,
+            "line_of_sight": 9,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/conquistador_mzwvoa.png"
+        },
+        {
+            "id": 104,
+            "name": "Plumed Archer",
+            "type": "Foot archer",
+            "description": "Mayan unique fast-moving archer.",
+            "expansion": "The Conquerors",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 44,
+                "Gold": 44
+            },
+            "training_time": 16,
+            "hit_points": 50,
+            "pierce_attack": 5,
+            "attack_bonus": [
+                "+2 vs Spearman",
+                "+1 vs Infantry",
+                "+1 vs Condottiero"
+            ],
+            "rate_of_fire": 1.9,
+            "frame_delay": 15,
+            "attack_delay": 0.5,
+            "range": 4,
+            "accuracy": "80%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Archer",
+            "movement_rate": 1.2,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/plumed_archer_mwnx2l.png"
+        },
+        {
+            "id": 105,
+            "name": "Elite Plumed Archer",
+            "type": "Foot archer",
+            "description": "Mayan unique fast-moving archer.",
+            "expansion": "The Conquerors",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 39,
+                "Gold": 39
+            },
+            "training_time": 16,
+            "hit_points": 65,
+            "pierce_attack": 5,
+            "attack_bonus": [
+                "+2 vs Spearman",
+                "+2 vs Infantry",
+                "+2 vs Condottiero"
+            ],
+            "rate_of_fire": 1.9,
+            "frame_delay": 15,
+            "attack_delay": 0.5,
+            "range": 5,
+            "accuracy": "90%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Archer",
+            "movement_rate": 1.2,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/plumed_archer_mwnx2l.png"
+        },
+        {
+            "id": 106,
+            "name": "Slinger",
+            "type": "Foot archer",
+            "description": "Inca unique unit. Ranged anti-infantry unit that cannot attack at close range.",
+            "expansion": "The Forgotten",
+            "age": "Castle Age",
+            "trained_at": [
+                "archery_range"
+            ],
+            "cost": {
+                "Food": 30,
+                "Gold": 40
+            },
+            "training_time": 25,
+            "hit_points": 40,
+            "pierce_attack": 4,
+            "attack_bonus": [
+                "+10 vs Infantry",
+                "+10 vs Condottiero",
+                "+3 vs Ram",
+                "+1 vs Spearman"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 14,
+            "attack_delay": 0.8,
+            "range": 5,
+            "accuracy": "90%",
+            "projectile_speed": 5.5,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Archer",
+            "movement_rate": 0.96,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935475/age-of-empires-2/units/slinger_agfph1.png"
+        },
+        {
+            "id": 107,
+            "name": "Genoese Crossbowman",
+            "type": "Foot archer",
+            "description": "Italian unique archer.",
+            "expansion": "The Forgotten",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 45,
+                "Gold": 40
+            },
+            "training_time": 18,
+            "hit_points": 45,
+            "pierce_attack": 6,
+            "attack_bonus": [
+                "+5 vs Cavalry",
+                "+5 vs War elephant",
+                "+4 vs Camel",
+                "+4 vs Ship",
+                "+4 vs Fishing Ship"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.5,
+            "range": 4,
+            "accuracy": "100%",
+            "projectile_speed": 7,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Archer",
+            "movement_rate": 0.96,
+            "line_of_sight": 8,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/genoese_crossbowman_vtqavg.png"
+        },
+        {
+            "id": 108,
+            "name": "Elite Genoese Crossbowman",
+            "type": "Foot archer",
+            "description": "Italian unique archer.",
+            "expansion": "The Forgotten",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 45,
+                "Gold": 40
+            },
+            "training_time": 14,
+            "hit_points": 50,
+            "pierce_attack": 6,
+            "attack_bonus": [
+                "+7 vs Cavalry",
+                "+7 vs War elephant",
+                "+6 vs Camel",
+                "+5 vs Ship",
+                "+5 vs Fishing Ship"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.5,
+            "range": 4,
+            "accuracy": "100%",
+            "projectile_speed": 7,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Archer",
+            "movement_rate": 0.96,
+            "line_of_sight": 8,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/genoese_crossbowman_vtqavg.png"
+        },
+        {
+            "id": 109,
+            "name": "Condottiero",
+            "type": "Infantry",
+            "description": "Fast anti-gunpowder infantry. Trainable by Italians and their allies.",
+            "expansion": "The Forgotten",
+            "age": "Imperial Age",
+            "trained_at": [
+                "barracks"
+            ],
+            "cost": {
+                "Food": 50,
+                "Gold": 35
+            },
+            "training_time": 18,
+            "hit_points": 80,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+10 vs Gunpowder unit",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 1.9,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1.2,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/condottiero_s0a7vo.png"
+        },
+        {
+            "id": 110,
+            "name": "Kamayuk",
+            "type": "Infantry",
+            "description": "Inca unique spearman with increased attack range.",
+            "expansion": "The Forgotten",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 30
+            },
+            "training_time": 10,
+            "hit_points": 70,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+20 vs War elephant",
+                "+8 vs Cavalry",
+                "+6 vs Camel"
+            ],
+            "rate_of_fire": 2,
+            "range": 1,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/kamayuk_mkx2p5.png"
+        },
+        {
+            "id": 111,
+            "name": "Elite Kamayuk",
+            "type": "Infantry",
+            "description": "Inca unique spearman with increased attack range.",
+            "expansion": "The Forgotten",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 30
+            },
+            "training_time": 10,
+            "hit_points": 80,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+20 vs War elephant",
+                "+12 vs Cavalry",
+                "+10 vs Camel",
+                "+1 vs Mamaluke"
+            ],
+            "rate_of_fire": 2,
+            "range": 1,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/kamayuk_mkx2p5.png"
+        },
+        {
+            "id": 112,
+            "name": "Magyar Huszar",
+            "type": "Cavalry",
+            "description": "Magyar unique light cavalry unit.",
+            "expansion": "The Forgotten",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 80,
+                "Gold": 10
+            },
+            "training_time": 16,
+            "hit_points": 70,
+            "melee_attack": 9,
+            "attack_bonus": [
+                "+5 vs Siege weapon",
+                "+1 vs Ram"
+            ],
+            "rate_of_fire": 1.8,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.5,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/magyar_huszar_lebdcc.png"
+        },
+        {
+            "id": 113,
+            "name": "Elite Magyar Huszar",
+            "type": "Cavalry",
+            "description": "Magyar unique light cavalry unit.",
+            "expansion": "The Forgotten",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 80,
+                "Gold": 10
+            },
+            "training_time": 16,
+            "hit_points": 85,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+8 vs Siege weapon",
+                "+2 vs Ram"
+            ],
+            "rate_of_fire": 1.8,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.5,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/magyar_huszar_lebdcc.png"
+        },
+        {
+            "id": 114,
+            "name": "Boyar",
+            "type": "Cavalry",
+            "description": "Slavic unique cavalry unit. Resistant to melee attack.",
+            "expansion": "The Forgotten",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 50,
+                "Gold": 80
+            },
+            "training_time": 15,
+            "hit_points": 100,
+            "melee_attack": 12,
+            "rate_of_fire": 1.9,
+            "melee_armor": 4,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.3,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/boyar_xnmmxy.png"
+        },
+        {
+            "id": 115,
+            "name": "Elite Boyar",
+            "type": "Cavalry",
+            "description": "Slavic unique cavalry unit. Resistant to melee attack.",
+            "expansion": "The Forgotten",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 50,
+                "Gold": 80
+            },
+            "training_time": 15,
+            "hit_points": 130,
+            "melee_attack": 14,
+            "rate_of_fire": 1.9,
+            "melee_armor": 8,
+            "pierce_armor": 3,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.3,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/boyar_xnmmxy.png"
+        },
+        {
+            "id": 116,
+            "name": "Imperial Camel Rider",
+            "type": "Cavalry",
+            "description": "Hindustani unique anti-cavalry unit. Fast-moving.",
+            "expansion": "The Forgotten",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 60
+            },
+            "training_time": 20,
+            "hit_points": 140,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+18 vs Cavalry",
+                "+9 vs Camel",
+                "+9 vs Ship, Fishing Ship",
+                "+7 vs Mameluke",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 1.66,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Camel",
+            "movement_rate": 1.45,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/imperial_camel_rider_em73kn.png"
+        },
+        {
+            "id": 117,
+            "name": "Camel Archer",
+            "type": "Mounted archer",
+            "description": "Berber unique mounted archer.",
+            "expansion": "The African Kingdoms",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 50,
+                "Gold": 60
+            },
+            "training_time": 25,
+            "hit_points": 55,
+            "pierce_attack": 7,
+            "attack_bonus": [
+                "+4 vs Cavalry archer"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.63,
+            "range": 4,
+            "accuracy": "95%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.4,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937781/age-of-empires-2/units/camel_archer_ru6uyr.png"
+        },
+        {
+            "id": 118,
+            "name": "Elite Camel Archer",
+            "type": "Mounted archer",
+            "description": "Berber unique mounted archer.",
+            "expansion": "The African Kingdoms",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 50,
+                "Gold": 60
+            },
+            "training_time": 25,
+            "hit_points": 60,
+            "pierce_attack": 8,
+            "attack_bonus": [
+                "+6 vs Cavalry archer"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.63,
+            "range": 4,
+            "accuracy": "95%",
+            "projectile_speed": 7,
+            "melee_armor": 1,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.4,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937781/age-of-empires-2/units/camel_archer_ru6uyr.png"
+        },
+        {
+            "id": 119,
+            "name": "Genitour",
+            "type": "Mounted archer",
+            "description": "Mounted skirmisher. Trainable by Berbers and their allies.",
+            "expansion": "The African Kingdoms",
+            "age": "Castle Age",
+            "trained_at": [
+                "archery_range"
+            ],
+            "cost": {
+                "Food": 40,
+                "Wood": 35
+            },
+            "training_time": 25,
+            "hit_points": 50,
+            "pierce_attack": 3,
+            "attack_bonus": [
+                "+4 vs Archer",
+                "+2 vs Spearman"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 12,
+            "attack_delay": 0.5,
+            "range": 4,
+            "accuracy": "90%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 4,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.35,
+            "line_of_sight": 5,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/genitour_dnrkzz.png"
+        },
+        {
+            "id": 120,
+            "name": "Elite Genitour",
+            "type": "Mounted archer",
+            "description": "Mounted skirmisher. Trainable by Berbers and their allies.",
+            "expansion": "The African Kingdoms",
+            "age": "Imperial Age",
+            "trained_at": [
+                "archery_range"
+            ],
+            "cost": {
+                "Food": 40,
+                "Wood": 35
+            },
+            "training_time": 25,
+            "hit_points": 55,
+            "pierce_attack": 4,
+            "attack_bonus": [
+                "+5 vs Archer",
+                "+2 vs Spearman",
+                "+2 vs Cavalry archer"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 12,
+            "attack_delay": 0.5,
+            "range": 4,
+            "accuracy": "90%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 4,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.35,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/genitour_dnrkzz.png"
+        },
+        {
+            "id": 121,
+            "name": "Gbeto",
+            "type": "Infantry",
+            "description": "Malian unique infantry unit with ranged melee attack. Fast-moving.",
+            "expansion": "The African Kingdoms",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 50,
+                "Gold": 40
+            },
+            "training_time": 17,
+            "hit_points": 35,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+1 vs Eagle Warrior"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 30,
+            "attack_delay": 1,
+            "range": 5,
+            "accuracy": "100%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1.25,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937781/age-of-empires-2/units/gbeto_cgffgt.png"
+        },
+        {
+            "id": 122,
+            "name": "Elite Gbeto",
+            "type": "Infantry",
+            "description": "Malian unique infantry unit with ranged melee attack. Fast-moving.",
+            "expansion": "The African Kingdoms",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 50,
+                "Gold": 40
+            },
+            "training_time": 17,
+            "hit_points": 45,
+            "melee_attack": 13,
+            "attack_bonus": [
+                "+1 vs Eagle Warrior"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 30,
+            "attack_delay": 1,
+            "range": 6,
+            "accuracy": "100%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1.25,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937781/age-of-empires-2/units/gbeto_cgffgt.png"
+        },
+        {
+            "id": 123,
+            "name": "Shotel Warrior",
+            "type": "Infantry",
+            "description": "Ethiopian unique infantry with high attack and fast training speed. Fast-moving.",
+            "expansion": "The African Kingdoms",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 50,
+                "Gold": 30
+            },
+            "training_time": 8,
+            "hit_points": 45,
+            "melee_attack": 16,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1.2,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/shotel_warrior_pvns9j.png"
+        },
+        {
+            "id": 124,
+            "name": "Elite Shotel Warrior",
+            "type": "Infantry",
+            "description": "Ethiopian unique infantry with high attack and fast training speed. Fast-moving.",
+            "expansion": "The African Kingdoms",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 50,
+                "Gold": 30
+            },
+            "training_time": 8,
+            "hit_points": 50,
+            "melee_attack": 18,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+1 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1.2,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/shotel_warrior_pvns9j.png"
+        },
+        {
+            "id": 125,
+            "name": "Caravel",
+            "type": "Naval vessel",
+            "description": "Portuguese unique ship that fires bolts that pierce multiple units.",
+            "expansion": "The African Kingdoms",
+            "age": "Castle Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 90,
+                "Gold": 34
+            },
+            "training_time": 36,
+            "hit_points": 143,
+            "pierce_attack": 6,
+            "attack_bonus": [
+                "+8 vs Building",
+                "+6 vs Ship",
+                "+6 vs Fishing Ship",
+                "+4 vs Ram"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 0,
+            "range": 6,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 8,
+            "armor_class": "Ship",
+            "movement_rate": 1.43,
+            "line_of_sight": 9,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/caravel_cwtpln.png"
+        },
+        {
+            "id": 126,
+            "name": "Elite Caravel",
+            "type": "Naval vessel",
+            "description": "Portuguese unique ship that fires bolts that pierce multiple units.",
+            "expansion": "The African Kingdoms",
+            "age": "Imperial Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 90,
+                "Gold": 34
+            },
+            "training_time": 36,
+            "hit_points": 165,
+            "pierce_attack": 8,
+            "attack_bonus": [
+                "+9 vs Building",
+                "+7 vs Ship",
+                "+7 vs Fishing Ship",
+                "+4 vs Ram"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 0,
+            "range": 7,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 8,
+            "armor_class": "Ship",
+            "movement_rate": 1.43,
+            "line_of_sight": 9,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/caravel_cwtpln.png"
+        },
+        {
+            "id": 127,
+            "name": "Organ Gun",
+            "type": "Gunpowder unit",
+            "description": "Portuguese unique siege unit. Fires a volley of bullets",
+            "expansion": "The African Kingdoms",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 80,
+                "Gold": 56
+            },
+            "training_time": 21,
+            "hit_points": 60,
+            "pierce_attack": 16,
+            "attack_bonus": [
+                "+1 vs Ram"
+            ],
+            "rate_of_fire": 3.45,
+            "frame_delay": 12,
+            "attack_delay": 0.6,
+            "range": 7,
+            "accuracy": "50%",
+            "projectile_speed": 7.5,
+            "melee_armor": 2,
+            "pierce_armor": 4,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.85,
+            "line_of_sight": 9,
+            "ability": [
+                "Fires 4 additional bullets which deal 2 damage always"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/organ_gun_gfzpda.png"
+        },
+        {
+            "id": 128,
+            "name": "Elite Organ Gun",
+            "type": "Gunpowder unit",
+            "description": "Portuguese unique siege unit. Fires a volley of bullets",
+            "expansion": "The African Kingdoms",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 80,
+                "Gold": 56
+            },
+            "training_time": 21,
+            "hit_points": 70,
+            "pierce_attack": 20,
+            "attack_bonus": [
+                "+1 vs Ram"
+            ],
+            "rate_of_fire": 3.45,
+            "frame_delay": 12,
+            "attack_delay": 0.6,
+            "range": 7,
+            "accuracy": "50%",
+            "projectile_speed": 7.5,
+            "melee_armor": 2,
+            "pierce_armor": 6,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.85,
+            "line_of_sight": 9,
+            "ability": [
+                "Fires 4 additional bullets which deal 2 damage always"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/organ_gun_gfzpda.png"
+        },
+        {
+            "id": 129,
+            "name": "Arambai",
+            "type": "Mounted archer",
+            "description": "Burmese unique cavalry archer with a powerful but inaccurate dart attack.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 75,
+                "Gold": 60
+            },
+            "training_time": 18,
+            "hit_points": 60,
+            "pierce_attack": 12,
+            "attack_bonus": [
+                "+2 vs Ram"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.6,
+            "range": 5,
+            "accuracy": "20%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.3,
+            "line_of_sight": 7,
+            "ability": [
+                "Missed projectiles deal 100% damage too"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/arambai_ucjpcu.png"
+        },
+        {
+            "id": 130,
+            "name": "Elite Arambai",
+            "type": "Mounted archer",
+            "description": "Burmese unique cavalry archer with a powerful but inaccurate dart attack.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 75,
+                "Gold": 60
+            },
+            "training_time": 18,
+            "hit_points": 65,
+            "pierce_attack": 15,
+            "attack_bonus": [
+                "+2 vs Ram"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.6,
+            "range": 5,
+            "accuracy": "30%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.3,
+            "line_of_sight": 7,
+            "ability": [
+                "Missed projectiles deal 100% damage too"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/arambai_ucjpcu.png"
+        },
+        {
+            "id": 131,
+            "name": "Ballista Elephant",
+            "type": "Cavalry Siege unit",
+            "description": "Khmer unique elephant equipped with a Scorpion. Can destroy trees.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 100,
+                "Gold": 80
+            },
+            "training_time": 25,
+            "hit_points": 250,
+            "pierce_attack": 10,
+            "attack_bonus": [
+                "+8 vs Ship",
+                "+8 vs Fishing Ship",
+                "+3 vs Stone defense",
+                "+3 vs Standard building",
+                "+2 vs Building"
+            ],
+            "rate_of_fire": 2.5,
+            "frame_delay": 12,
+            "attack_delay": 0.4,
+            "range": 5,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 3,
+            "armor_class": "War elephant",
+            "movement_rate": 0.8,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939375/age-of-empires-2/units/ballista_elephant_eudvdv.png"
+        },
+        {
+            "id": 132,
+            "name": "Elite Ballista Elephant",
+            "type": "Cavalry Siege unit",
+            "description": "Khmer unique elephant equipped with a Scorpion. Can destroy trees.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 100,
+                "Gold": 80
+            },
+            "training_time": 25,
+            "hit_points": 290,
+            "pierce_attack": 11,
+            "attack_bonus": [
+                "+8 vs Ship",
+                "+8 vs Fishing Ship",
+                "+4 vs Stone defense",
+                "+4 vs Standard building",
+                "+4 vs Building"
+            ],
+            "rate_of_fire": 2.5,
+            "frame_delay": 12,
+            "attack_delay": 0.4,
+            "range": 5,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 0,
+            "pierce_armor": 3,
+            "armor_class": "War elephant",
+            "movement_rate": 0.8,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939375/age-of-empires-2/units/ballista_elephant_eudvdv.png"
+        },
+        {
+            "id": 133,
+            "name": "Karambit Warrior",
+            "type": "Infantry",
+            "description": "Malay unique infantry unit. Cheap and only takes half a population unit.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Population": 0.5,
+                "Food": 25,
+                "Gold": 15
+            },
+            "training_time": 6,
+            "hit_points": 30,
+            "melee_attack": 7,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1.2,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/karambit_warrior_eycet0.png"
+        },
+        {
+            "id": 134,
+            "name": "Elite Karambit Warrior",
+            "type": "Infantry",
+            "description": "Malay unique infantry unit. Cheap and only takes half a population unit.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Population": 0.5,
+                "Food": 25,
+                "Gold": 15
+            },
+            "training_time": 6,
+            "hit_points": 40,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+1 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 1.2,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/karambit_warrior_eycet0.png"
+        },
+        {
+            "id": 135,
+            "name": "Rattan Archer",
+            "type": "Foot archer",
+            "description": "Vietnamese unique archer with high pierce armor.",
+            "expansion": "Rise of the Rajas",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 50,
+                "Gold": 45
+            },
+            "training_time": 16,
+            "hit_points": 40,
+            "pierce_attack": 6,
+            "attack_bonus": [
+                "+2 vs Spearman"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 23,
+            "attack_delay": 0.7,
+            "range": 4,
+            "accuracy": "80%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 4,
+            "armor_class": "Archer",
+            "movement_rate": 1.1,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/rattan_archer_y4va4l.png"
+        },
+        {
+            "id": 136,
+            "name": "Elite Rattan Archer",
+            "type": "Foot archer",
+            "description": "Vietnamese unique archer with high pierce armor.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 50,
+                "Gold": 45
+            },
+            "training_time": 16,
+            "hit_points": 45,
+            "pierce_attack": 7,
+            "attack_bonus": [
+                "+2 vs Spearman"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 23,
+            "attack_delay": 0.7,
+            "range": 5,
+            "accuracy": "90%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Archer",
+            "movement_rate": 1.1,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/rattan_archer_y4va4l.png"
+        },
+        {
+            "id": 137,
+            "name": "Imperial Skirmisher",
+            "type": "Foot archer",
+            "description": "Ranged anti-archer unit that cannot attack at close range. Trainable by Vietnamese and their allies.",
+            "expansion": "Rise of the Rajas",
+            "age": "Imperial Age",
+            "trained_at": [
+                "archery_range"
+            ],
+            "cost": {
+                "Food": 25,
+                "Wood": 35
+            },
+            "training_time": 22,
+            "hit_points": 35,
+            "pierce_attack": 4,
+            "attack_bonus": [
+                "+5 vs Archer",
+                "+3 vs Spearman",
+                "+3 vs Cavalry archer"
+            ],
+            "rate_of_fire": 3,
+            "frame_delay": 19,
+            "attack_delay": 0.52,
+            "range": 5,
+            "accuracy": "95%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 5,
+            "armor_class": "Archer",
+            "movement_rate": 0.96,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939375/age-of-empires-2/units/imperial_skirmisher_rnmqyt.png"
+        },
+        {
+            "id": 138,
+            "name": "Konnik",
+            "type": "Cavalry",
+            "description": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
+            "expansion": "The Last Khans",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle",
+                "krepost"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 70
+            },
+            "training_time": 19,
+            "hit_points": 100,
+            "melee_attack": 12,
+            "rate_of_fire": 2.4,
+            "melee_armor": 2,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 5,
+            "ability": [
+                "Turn into a Dismounted Konnik upon death"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/konnik_wdqafn.png"
+        },
+        {
+            "id": 139,
+            "name": "Elite Konnik",
+            "type": "Cavalry",
+            "description": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
+            "expansion": "The Last Khans",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle",
+                "krepost"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 70
+            },
+            "training_time": 19,
+            "hit_points": 120,
+            "melee_attack": 14,
+            "rate_of_fire": 2.4,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 5,
+            "ability": [
+                "Turn into an Elite Dismounted Konnik upon death"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/konnik_wdqafn.png"
+        },
+        {
+            "id": 140,
+            "name": "Dismounted Konnik",
+            "type": "Infantry",
+            "description": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
+            "expansion": "The Last Khans",
+            "age": "Castle Age",
+            "training_time": 3,
+            "hit_points": 45,
+            "melee_attack": 12,
+            "attack_bonus": [
+                "+4 vs Standard building"
+            ],
+            "rate_of_fire": 2.4,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 0.9,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/dismounted_konnik_k8hn3p.png"
+        },
+        {
+            "id": 141,
+            "name": "Elite Dismounted Konnik",
+            "type": "Infantry",
+            "description": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
+            "expansion": "The Last Khans",
+            "age": "Imperial Age",
+            "training_time": 3,
+            "hit_points": 50,
+            "melee_attack": 13,
+            "attack_bonus": [
+                "+4 vs Standard building"
+            ],
+            "rate_of_fire": 2.4,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 0.9,
+            "line_of_sight": 3,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/dismounted_konnik_k8hn3p.png"
+        },
+        {
+            "id": 142,
+            "name": "Kipchak",
+            "type": "Mounted archer",
+            "description": "Cuman unique cavalry archer with rapid-fire attack.",
+            "expansion": "The Last Khans",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 60,
+                "Gold": 35
+            },
+            "training_time": 20,
+            "hit_points": 40,
+            "pierce_attack": 4,
+            "attack_bonus": [
+                "+1 vs Spearman"
+            ],
+            "rate_of_fire": 2.2,
+            "frame_delay": 21,
+            "attack_delay": 0.5,
+            "range": 4,
+            "accuracy": "90%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.4,
+            "line_of_sight": 6,
+            "ability": [
+                "Fires two additional arrows at once which have 0 melee 3 pierce attack"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/kipchak_pic4dp.png"
+        },
+        {
+            "id": 143,
+            "name": "Elite Kipchak",
+            "type": "Mounted archer",
+            "description": "Cuman unique cavalry archer with rapid-fire attack.",
+            "expansion": "The Last Khans",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 60,
+                "Gold": 35
+            },
+            "training_time": 20,
+            "hit_points": 45,
+            "pierce_attack": 5,
+            "attack_bonus": [
+                "+1 vs Spearman"
+            ],
+            "rate_of_fire": 2.2,
+            "frame_delay": 21,
+            "attack_delay": 0.5,
+            "range": 4,
+            "accuracy": "90%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Cavalry archer",
+            "movement_rate": 1.4,
+            "line_of_sight": 6,
+            "ability": [
+                "Fires three additional arrows at once which have 0 melee 3 pierce attack"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/kipchak_pic4dp.png"
+        },
+        {
+            "id": 144,
+            "name": "Leitis",
+            "type": "Cavalry",
+            "description": "Lithuanian unique cavalry unit with attack that ignores armor.",
+            "expansion": "The Last Khans",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 50
+            },
+            "training_time": 20,
+            "hit_points": 100,
+            "melee_attack": 13,
+            "rate_of_fire": 1.9,
+            "melee_armor": 1,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.4,
+            "line_of_sight": 5,
+            "ability": [
+                "Attacks ignore armor of non-siege land units"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/leitis_pax50d.png"
+        },
+        {
+            "id": 145,
+            "name": "Elite Leitis",
+            "type": "Cavalry",
+            "description": "Lithuanian unique cavalry unit with attack that ignores armor.",
+            "expansion": "The Last Khans",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 50
+            },
+            "training_time": 18,
+            "hit_points": 130,
+            "melee_attack": 16,
+            "rate_of_fire": 1.9,
+            "melee_armor": 2,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.4,
+            "line_of_sight": 5,
+            "ability": [
+                "Attacks ignore armor of non-siege land units"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/leitis_pax50d.png"
+        },
+        {
+            "id": 146,
+            "name": "Keshik",
+            "type": "Cavalry",
+            "description": "Tatar unique cavalry unit that generates gold when fighting other units.",
+            "expansion": "The Last Khans",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 40
+            },
+            "training_time": 16,
+            "hit_points": 110,
+            "melee_attack": 9,
+            "rate_of_fire": 1.9,
+            "melee_armor": 1,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.4,
+            "line_of_sight": 5,
+            "ability": [
+                "Generates 0.367 gold per second when attacking enemy units"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/keshik_yxfm1z.png"
+        },
+        {
+            "id": 147,
+            "name": "Elite Keshik",
+            "type": "Cavalry",
+            "description": "Tatar unique cavalry unit that generates gold when fighting other units.",
+            "expansion": "The Last Khans",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 40
+            },
+            "training_time": 14,
+            "hit_points": 140,
+            "melee_attack": 11,
+            "rate_of_fire": 1.9,
+            "melee_armor": 1,
+            "pierce_armor": 3,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.4,
+            "line_of_sight": 5,
+            "ability": [
+                "Generates 0.367 gold per second when attacking enemy units"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/keshik_yxfm1z.png"
+        },
+        {
+            "id": 148,
+            "name": "Flaming Camel",
+            "type": "Siege unit",
+            "description": "Incendiary camel loaded with flammable hay and brush. Self-destructs when used.",
+            "expansion": "The Last Khans",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 75,
+                "Gold": 30
+            },
+            "training_time": 20,
+            "hit_points": 55,
+            "melee_attack": 20,
+            "attack_bonus": [
+                "+200 vs Building",
+                "+50 vs Cavalry",
+                "+50 vs Camel",
+                "+130 vs War elephant",
+                "+25 vs Siege weapon"
+            ],
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Camel",
+            "movement_rate": 1.3,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/flaming_camel_hqo6is.png"
+        },
+        {
+            "id": 149,
+            "name": "Coustillier",
+            "type": "Cavalry",
+            "description": "Burgundian unique cavalry unit which can charge its attack.",
+            "expansion": "Lords of the West",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 55
+            },
+            "training_time": 15,
+            "hit_points": 115,
+            "melee_attack": 8,
+            "rate_of_fire": 1.9,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 5,
+            "ability": [
+                "Charges its attack over 40 seconds, dealing +20 damage on the first enemy unit attacked"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/coustillier_zoqumb.png"
+        },
+        {
+            "id": 150,
+            "name": "Elite Coustillier",
+            "type": "Cavalry",
+            "description": "Burgundian unique cavalry unit which can charge its attack.",
+            "expansion": "Lords of the West",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 55
+            },
+            "training_time": 14,
+            "hit_points": 145,
+            "melee_attack": 11,
+            "rate_of_fire": 1.9,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.35,
+            "line_of_sight": 5,
+            "ability": [
+                "Charges its attack over 40 seconds, dealing +25 damage on the first enemy unit attacked"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/coustillier_zoqumb.png"
+        },
+        {
+            "id": 151,
+            "name": "Flemish Militia",
+            "type": "Infantry",
+            "description": "Burgundian unique infantry unit.",
+            "expansion": "Lords of the West",
+            "age": "Imperial Age",
+            "trained_at": [
+                "town_center"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 25
+            },
+            "training_time": 14,
+            "hit_points": 75,
+            "melee_attack": 12,
+            "attack_bonus": [
+                "+8 vs Cavalry",
+                "+8 vs War elephant",
+                "+6 vs Camel",
+                "+6 vs Ship",
+                "+6 vs Fishing Ship",
+                "+2 vs Eagle Warrior"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 1,
+            "armor_class": "Infantry",
+            "movement_rate": 0.9,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/flemish_militia_niksp1.png"
+        },
+        {
+            "id": 152,
+            "name": "Serjeant",
+            "type": "Infantry",
+            "description": "Sicilian unique infantry unit which can construct Donjons.",
+            "expansion": "Lords of the West",
+            "age": "Feudal Age",
+            "trained_at": [
+                "castle",
+                "donjon"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 35
+            },
+            "training_time": 12,
+            "hit_points": 45,
+            "melee_attack": 5,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Infantry",
+            "movement_rate": 0.9,
+            "line_of_sight": 3,
+            "ability": [
+                "Can build and repair Donjons"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003568/age-of-empires-2/units/serjeant_cfq8y7.png"
+        },
+        {
+            "id": 153,
+            "name": "Elite Serjeant",
+            "type": "Infantry",
+            "description": "Sicilian unique infantry unit which can construct Donjons.",
+            "expansion": "Lords of the West",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle",
+                "donjon"
+            ],
+            "cost": {
+                "Food": 60,
+                "Gold": 35
+            },
+            "training_time": 12,
+            "hit_points": 85,
+            "melee_attack": 11,
+            "attack_bonus": [
+                "+3 vs Eagle Warrior",
+                "+3 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 4,
+            "pierce_armor": 4,
+            "armor_class": "Infantry",
+            "movement_rate": 0.9,
+            "line_of_sight": 5,
+            "ability": [
+                "Can build and repair Donjons"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003568/age-of-empires-2/units/serjeant_cfq8y7.png"
+        },
+        {
+            "id": 154,
+            "name": "Hussite Wagon",
+            "type": "Siege unit",
+            "description": "Bohemian unique siege unit. Units behind it receive 50% less damage from incoming projectiles.",
+            "expansion": "Dawn of the Dukes",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 110,
+                "Gold": 70
+            },
+            "training_time": 21,
+            "hit_points": 200,
+            "pierce_attack": 17,
+            "attack_bonus": [
+                "+3 vs Ram",
+                "+1 vs Building"
+            ],
+            "rate_of_fire": 3.45,
+            "attack_delay": 0.93,
+            "range": 6,
+            "accuracy": "85%",
+            "projectile_speed": 7,
+            "melee_armor": 0,
+            "pierce_armor": 7,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.8,
+            "line_of_sight": 8,
+            "ability": [
+                "Halves the damage dealt by enemy projectiles passing through its hitbox by taking 1 damage",
+                "Fires 3 additional bullets which always deal 2 damage"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003568/age-of-empires-2/units/hussite_wagon_m9fhoq.png"
+        },
+        {
+            "id": 155,
+            "name": "Elite Hussite Wagon",
+            "type": "Siege unit",
+            "description": "Bohemian unique siege unit. Units behind it receive 50% less damage from incoming projectiles.",
+            "expansion": "Dawn of the Dukes",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 110,
+                "Gold": 70
+            },
+            "training_time": 21,
+            "hit_points": 250,
+            "pierce_attack": 20,
+            "attack_bonus": [
+                "+3 vs Ram",
+                "+2 vs Building"
+            ],
+            "rate_of_fire": 3.45,
+            "attack_delay": 0.93,
+            "range": 6,
+            "accuracy": "90%",
+            "projectile_speed": 7,
+            "melee_armor": 1,
+            "pierce_armor": 10,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.8,
+            "line_of_sight": 8,
+            "ability": [
+                "Halves the damage dealt by enemy projectiles passing through its hitbox by taking 1 damage",
+                "Fires 3 additional bullets which always deal 2 damage"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003568/age-of-empires-2/units/hussite_wagon_m9fhoq.png"
+        },
+        {
+            "id": 156,
+            "name": "Houfnice",
+            "type": "Gunpowder unit",
+            "description": "Bohemian unique siege unit. Siege weapon with long range.",
+            "expansion": "Dawn of the Dukes",
+            "age": "Imperial Age",
+            "trained_at": [
+                "siege_workshop"
+            ],
+            "cost": {
+                "Wood": 225,
+                "Gold": 225
+            },
+            "training_time": 56,
+            "hit_points": 90,
+            "melee_attack": 50,
+            "attack_bonus": [
+                "+250 vs Building",
+                "+50 vs Ship",
+                "+50 vs Fishing Ship",
+                "+50 vs Stone defense",
+                "+20 vs Siege weapon",
+                "+50 vs Hussite Wagon"
+            ],
+            "rate_of_fire": 6.5,
+            "frame_delay": 7,
+            "attack_delay": 0.21,
+            "range": 12,
+            "accuracy": "100%",
+            "projectile_speed": 4,
+            "melee_armor": 2,
+            "pierce_armor": 6,
+            "armor_class": "Siege weapon",
+            "movement_rate": 0.7,
+            "line_of_sight": 14,
+            "ability": [
+                "Can attack ground"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/houfnice_g9oa58.png"
+        },
+        {
+            "id": 157,
+            "name": "Obuch",
+            "type": "Infantry",
+            "description": "Polish unique infantry unit which can damage the armor of units it is fighting.",
+            "expansion": "Dawn of the Dukes",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 20
+            },
+            "training_time": 12,
+            "hit_points": 80,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+4 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Infantry",
+            "movement_rate": 0.9,
+            "line_of_sight": 3,
+            "ability": [
+                "Reduces armor and pierce armor of units by 1 each with every attack"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/obuch_qs73ip.png"
+        },
+        {
+            "id": 158,
+            "name": "Elite Obuch",
+            "type": "Infantry",
+            "description": "Polish unique infantry unit which can damage the armor of units it is fighting.",
+            "expansion": "Dawn of the Dukes",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 20
+            },
+            "training_time": 12,
+            "hit_points": 95,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+3 vs Eagle Warrior",
+                "+6 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 2,
+            "pierce_armor": 2,
+            "armor_class": "Infantry",
+            "movement_rate": 0.9,
+            "line_of_sight": 3,
+            "ability": [
+                "Reduces armor and pierce armor of units by 1 each with every attack"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/obuch_qs73ip.png"
+        },
+        {
+            "id": 159,
+            "name": "Ratha",
+            "type": "Cavalry",
+            "description": "Bengali unique chariot that can switch between melee and ranged attacks.",
+            "expansion": "Dynasties of India",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 60,
+                "Gold": 60
+            },
+            "training_time": 18,
+            "hit_points": 105,
+            "melee_attack": 10,
+            "pierce_attack": 5,
+            "rate_of_fire": 2,
+            "frame_delay": 14,
+            "attack_delay": 0.33,
+            "range": 4,
+            "accuracy": "80%",
+            "projectile_speed": 7,
+            "melee_armor": 2,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.3,
+            "line_of_sight": 6,
+            "ability": [
+                "Can switch between melee and ranged attack modes"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/ratha_zcxnjd.png"
+        },
+        {
+            "id": 160,
+            "name": "Elite Ratha",
+            "type": "Cavalry",
+            "description": "Bengali unique chariot that can switch between melee and ranged attacks.",
+            "expansion": "Dynasties of India",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Wood": 60,
+                "Gold": 60
+            },
+            "training_time": 18,
+            "hit_points": 115,
+            "melee_attack": 12,
+            "pierce_attack": 6,
+            "rate_of_fire": 2,
+            "frame_delay": 14,
+            "attack_delay": 0.33,
+            "range": 4,
+            "accuracy": "90%",
+            "projectile_speed": 7,
+            "melee_armor": 2,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.3,
+            "line_of_sight": 6,
+            "ability": [
+                "Can switch between melee and ranged attack modes"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/ratha_zcxnjd.png"
+        },
+        {
+            "id": 161,
+            "name": "Urumi Swordsman",
+            "type": "Infantry",
+            "description": "Dravidian unique infantry unit that can charge its attack.",
+            "expansion": "Dynasties of India",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 65,
+                "Gold": 20
+            },
+            "training_time": 9,
+            "hit_points": 55,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+1 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1.05,
+            "line_of_sight": 3,
+            "ability": [
+                "Charges its attack by +12 over 24 seconds, dealing a blast attack of 50% strength in 0.75 tiles radius"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/urumi_swordsman_bwhica.png"
+        },
+        {
+            "id": 162,
+            "name": "Elite Urumi Swordsman",
+            "type": "Infantry",
+            "description": "Dravidian unique infantry unit that can charge its attack.",
+            "expansion": "Dynasties of India",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 65,
+                "Gold": 20
+            },
+            "training_time": 9,
+            "hit_points": 65,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+3 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1.05,
+            "line_of_sight": 3,
+            "ability": [
+                "Charges its attack by +15 over 20 seconds, dealing a blast attack of 50% strength in 0.75 tiles radius"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/urumi_swordsman_bwhica.png"
+        },
+        {
+            "id": 163,
+            "name": "Thirisadai",
+            "type": "Naval vessel",
+            "description": "Dravidian unique warship that fires multiple projectiles.",
+            "expansion": "Dynasties of India",
+            "age": "Imperial Age",
+            "trained_at": [
+                "dock"
+            ],
+            "cost": {
+                "Wood": 180,
+                "Gold": 60
+            },
+            "training_time": 40,
+            "hit_points": 250,
+            "pierce_attack": 9,
+            "attack_bonus": [
+                "+9 vs Ship",
+                "+9 vs Fishing Ship",
+                "+9 vs Building",
+                "+4 vs Ram"
+            ],
+            "rate_of_fire": 3.45,
+            "range": 6,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 2,
+            "pierce_armor": 10,
+            "armor_class": "Ship",
+            "movement_rate": 1.3,
+            "line_of_sight": 8,
+            "ability": [
+                "Fires 4 additional projectiles which deal the minimum 1 damage"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/thirisadai_tvrjxh.png"
+        },
+        {
+            "id": 164,
+            "name": "Camel Scout",
+            "type": "Cavalry",
+            "description": "Gurjara unique scout unit.",
+            "expansion": "Dynasties of India",
+            "age": "Feudal Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 55,
+                "Gold": 60
+            },
+            "training_time": 38,
+            "hit_points": 70,
+            "melee_attack": 2,
+            "attack_bonus": [
+                "+5 vs Cavalry",
+                "+2 vs Camel",
+                "+2 vs Ship",
+                "+2 vs Fishing Ship"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 0,
+            "armor_class": "Camel",
+            "movement_rate": 1.2,
+            "line_of_sight": 4,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/camel_scout_d17sin.png"
+        },
+        {
+            "id": 165,
+            "name": "Chakram Thrower",
+            "type": "Infantry",
+            "description": "Gurjara unique infantry unit with ranged melee attack.",
+            "expansion": "Dynasties of India",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 65,
+                "Gold": 30
+            },
+            "training_time": 15,
+            "hit_points": 40,
+            "melee_attack": 3,
+            "attack_bonus": [
+                "+1 vs Eagle Warrior",
+                "+1 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.8,
+            "range": 5,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1.15,
+            "line_of_sight": 7,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/chakram_thrower_dok4mg.png"
+        },
+        {
+            "id": 166,
+            "name": "Elite Chakram Thrower",
+            "type": "Infantry",
+            "description": "Gurjara unique infantry unit with ranged melee attack.",
+            "expansion": "Dynasties of India",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 65,
+                "Gold": 30
+            },
+            "training_time": 15,
+            "hit_points": 50,
+            "melee_attack": 4,
+            "attack_bonus": [
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building",
+                "1 vs Infantry"
+            ],
+            "rate_of_fire": 2,
+            "frame_delay": 15,
+            "attack_delay": 0.8,
+            "range": 6,
+            "accuracy": "100%",
+            "projectile_speed": 6,
+            "melee_armor": 1,
+            "pierce_armor": 0,
+            "armor_class": "Infantry",
+            "movement_rate": 1.15,
+            "line_of_sight": 8,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/chakram_thrower_dok4mg.png"
+        },
+        {
+            "id": 167,
+            "name": "Shrivamsha Rider",
+            "type": "Cavalry",
+            "description": "Gurjara unique light cavalry unit which can dodge projectiles.",
+            "expansion": "Dynasties of India",
+            "age": "Castle Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 20
+            },
+            "training_time": 20,
+            "hit_points": 55,
+            "melee_attack": 8,
+            "rate_of_fire": 1.75,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.6,
+            "line_of_sight": 5,
+            "ability": [
+                "Can 'dodge' five consecutive projectiles in a 20 second time frame"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rider_cuqxve.png"
+        },
+        {
+            "id": 168,
+            "name": "Elite Shrivamsha Rider",
+            "type": "Cavalry",
+            "description": "Gurjara unique light cavalry unit which can dodge projectiles.",
+            "expansion": "Dynasties of India",
+            "age": "Imperial Age",
+            "trained_at": [
+                "stable"
+            ],
+            "cost": {
+                "Food": 70,
+                "Gold": 20
+            },
+            "training_time": 20,
+            "hit_points": 70,
+            "melee_attack": 11,
+            "rate_of_fire": 1.75,
+            "melee_armor": 0,
+            "pierce_armor": 1,
+            "armor_class": "Cavalry",
+            "movement_rate": 1.6,
+            "line_of_sight": 6,
+            "ability": [
+                "Can 'dodge' seven consecutive projectiles in a 20 second time frame"
+            ],
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rider_cuqxve.png"
+        },
+        {
+            "id": 169,
+            "name": "Ghulam",
+            "type": "Infantry",
+            "description": "Hindustani unique infantry unit that thrusts its spear through multiple targets.",
+            "expansion": "Dynasties of India",
+            "age": "Castle Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 30,
+                "Gold": 45
+            },
+            "training_time": 12,
+            "hit_points": 55,
+            "melee_attack": 8,
+            "attack_bonus": [
+                "+5 vs Archer",
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 3,
+            "armor_class": "Infantry",
+            "movement_rate": 1.15,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/ghulam_xfrium.png"
+        },
+        {
+            "id": 170,
+            "name": "Elite Ghulam",
+            "type": "Infantry",
+            "description": "Hindustani unique infantry unit that thrusts its spear through multiple targets.",
+            "expansion": "Dynasties of India",
+            "age": "Imperial Age",
+            "trained_at": [
+                "castle"
+            ],
+            "cost": {
+                "Food": 30,
+                "Gold": 45
+            },
+            "training_time": 12,
+            "hit_points": 65,
+            "melee_attack": 10,
+            "attack_bonus": [
+                "+6 vs Archer",
+                "+2 vs Eagle Warrior",
+                "+2 vs Standard building"
+            ],
+            "rate_of_fire": 2,
+            "melee_armor": 0,
+            "pierce_armor": 6,
+            "armor_class": "Infantry",
+            "movement_rate": 1.2,
+            "line_of_sight": 6,
+            "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/ghulam_xfrium.png"
         }
     ]
 }
