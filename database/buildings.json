@@ -1,0 +1,793 @@
+[
+  {
+    "_id": "town_center",
+    "id": 1,
+    "name": "Town Center",
+    "description": "Used to create villagers, deposit resources (food, wood, stone, gold), advance to next age, and improve buildings, villagers. Units can garrison inside for protection.",
+    "expansion": "The Age of Kings",
+    "type": "Town Center",
+    "age": "Castle Age",
+    "use": [
+      "Create and improve Villagers",
+      "Advance Ages",
+      "Drop off resources"
+    ],
+    "cost": {
+      "Wood": 275,
+      "Stone": 100
+    },
+    "build_time": 150,
+    "hit_points": 2400,
+    "pierce_attack": 5,
+    "attack_bonus": [
+      "+5 vs Ship",
+      "+5 vs Fishing Ship",
+      "+5 vs Building",
+      "+1 vs Camel"
+    ],
+    "rate_of_fire": 2,
+    "range": 6,
+    "accuracy": "100%",
+    "projectile_speed": 7,
+    "melee_armor": 3,
+    "pierce_armor": 5,
+    "line_of_sight": 8,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/town_center_ox0c0v.png"
+  },
+  {
+    "_id": "mill",
+    "id": 2,
+    "name": "Mill",
+    "description": "Used to deposit food and research farming improvements.",
+    "expansion": "The Age of Kings",
+    "type": "Economic",
+    "age": "Dark Age",
+    "use": ["Drop off food", "Upgrade and queue Farms"],
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 600,
+    "melee_armor": 0,
+    "pierce_armor": 7,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/mill_v3y8ov.png"
+  },
+  {
+    "_id": "folwark",
+    "id": 3,
+    "name": "Folwark",
+    "description": "Unique building of the Poles. Used to deposit food and research farming technologies. Immediately collects 10% of food from nearby newly constructed farms. Provides 5 population.",
+    "expansion": "Dawn of the Dukes",
+    "type": "Economic",
+    "age": "Dark Age",
+    "use": ["Drop off food", "Upgrade and queue Farms", "Provides population"],
+    "special_ability": [
+      "Instantly collects 10% of the food provided by seeded or reseeded Farms in a radius of 4 tiles around the Folwark"
+    ],
+    "cost": {
+      "Wood": 125
+    },
+    "build_time": 40,
+    "hit_points": 1000,
+    "melee_armor": 0,
+    "pierce_armor": 7,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/folwark_wujsrc.png"
+  },
+  {
+    "_id": "farm",
+    "id": 4,
+    "name": "Farm",
+    "description": "A renewable source of food. Provides a limited amount of food before it goes fallow and must be rebuilt.",
+    "expansion": "The Age of Kings",
+    "type": "Economic",
+    "age": "Dark Age",
+    "use": ["Provide food"],
+    "cost": {
+      "Wood": 60
+    },
+    "build_time": 15,
+    "hit_points": 480,
+    "melee_armor": 0,
+    "pierce_armor": 0,
+    "line_of_sight": 1,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/farm_ozeguo.png"
+  },
+  {
+    "_id": "market",
+    "id": 5,
+    "name": "Market",
+    "description": "Used to buy and sell resources, trade with other players by land, and research trade technologies. Required to send resources to other players. Enables you to see the line of sight of your allies.",
+    "expansion": "The Age of Kings",
+    "type": "Economic",
+    "age": "Feudal Age",
+    "use": [
+      "Exchange and send resources",
+      "Trade with Trade Carts",
+      "Research trade improvements"
+    ],
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 60,
+    "hit_points": 1800,
+    "melee_armor": 1,
+    "pierce_armor": 8,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/market_or0rrm.png"
+  },
+  {
+    "_id": "lumber_camp",
+    "id": 6,
+    "name": "Lumber Camp",
+    "description": "Used to deposit wood and research wood-gathering improvements.",
+    "expansion": "The Age of Kings",
+    "type": "Economic",
+    "age": "Dark Age",
+    "use": ["Drop off wood", "Research logging technologies"],
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 600,
+    "melee_armor": 0,
+    "pierce_armor": 7,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/lumber_camp_axhtlx.png"
+  },
+  {
+    "_id": "mining_camp",
+    "id": 7,
+    "name": "Mining Camp",
+    "description": "Used to deposit stone and gold and research mining technologies. Build near stone or gold mines to gather these resources faster.",
+    "expansion": "The Age of Kings",
+    "type": "Economic",
+    "age": "Dark Age",
+    "use": ["Drop off gold and stone", "Research mining technologies"],
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 35,
+    "hit_points": 600,
+    "melee_armor": 0,
+    "pierce_armor": 7,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/mining_camp_x42ztj.png"
+  },
+  {
+    "_id": "dock",
+    "id": 8,
+    "name": "Dock",
+    "description": "Used to build and upgrade ships, deposit food from Fishing Ships, and trade with other players by sea.",
+    "expansion": "The Age of Kings",
+    "type": "Economic",
+    "age": "Dark Age",
+    "use": ["Builds and improves ships"],
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 35,
+    "hit_points": 1800,
+    "melee_armor": 0,
+    "pierce_armor": 7,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/dock_lpqm4y.png"
+  },
+  {
+    "_id": "harbor",
+    "id": 9,
+    "name": "Harbor",
+    "description": "Used to build and improve ships, deposit food from Fishing Ships, and trade with other players by sea.",
+    "expansion": "Rise of the Rajas",
+    "type": "Military",
+    "age": "Castle Age",
+    "use": ["Builds and improves ships", "Attack enemies"],
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 35,
+    "hit_points": 2000,
+    "pierce_attack": 3,
+    "attack_bonus": ["+10 vs Ship", "+10 vs Fishing Ship"],
+    "rate_of_fire": 3,
+    "range": 7,
+    "accuracy": "100%",
+    "projectile_speed": 6,
+    "melee_armor": 3,
+    "pierce_armor": 10,
+    "line_of_sight": 20,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/harbor_izwamz.png"
+  },
+  {
+    "_id": "fish_trap",
+    "id": 10,
+    "name": "Fish Trap",
+    "description": "A renewable source of food. Similar to a Farm, but in water.",
+    "expansion": "The Age of Kings",
+    "type": "Economic",
+    "age": "Feudal Age",
+    "use": ["Provides food"],
+    "cost": {
+      "Wood": 100
+    },
+    "build_time": 40,
+    "hit_points": 50,
+    "melee_armor": 0,
+    "pierce_armor": 0,
+    "line_of_sight": 1,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/fish_trap_enqgvt.png"
+  },
+  {
+    "_id": "feitoria",
+    "id": 11,
+    "name": "Feitoria",
+    "description": "Economic building. Generates resources without the need of villagers. Requires 20 population.",
+    "expansion": "The African Kingdoms",
+    "type": "Economic",
+    "age": "Imperial Age",
+    "use": ["Generates resources"],
+    "cost": {
+      "Gold": 250,
+      "Stone": 250
+    },
+    "build_time": 120,
+    "hit_points": 2700,
+    "melee_armor": 3,
+    "pierce_armor": 10,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/feitoria_ma3iwt.png"
+  },
+  {
+    "_id": "caravanserai",
+    "id": 12,
+    "name": "Caravanserai",
+    "description": "Economic building. Heals and increases speed of Trade Carts in a 10 tile radius.",
+    "expansion": "Dynasties of India",
+    "type": "Economic",
+    "age": "Imperial Age",
+    "use": [
+      "Heals and increases the speed of the owner's and allied Trade Carts within its vicinity"
+    ],
+    "cost": {
+      "Wood": 175,
+      "Stone": 50
+    },
+    "build_time": 60,
+    "hit_points": 2700,
+    "range": 10,
+    "melee_armor": 3,
+    "pierce_armor": 10,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/caravanserai_qsdgxo.png"
+  },
+  {
+    "_id": "blacksmith",
+    "id": 13,
+    "name": "Blacksmith",
+    "description": "Used to research technologies to improve armor and attack of units. Required for Siege Workshop.",
+    "expansion": "The Age of Kings",
+    "type": "Research",
+    "age": "Feudal Age",
+    "use": ["Improves infantry, archers, cavalry and ships"],
+    "cost": {
+      "Wood": 150
+    },
+    "build_time": 40,
+    "hit_points": 1800,
+    "melee_armor": 1,
+    "pierce_armor": 8,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/blacksmith_jouqdo.png"
+  },
+  {
+    "_id": "university",
+    "id": 14,
+    "name": "University",
+    "description": "Used to research technologies to improve units and buildings.",
+    "expansion": "The Age of Kings",
+    "type": "Research",
+    "age": "Castle Age",
+    "use": ["Improve buildings and ranged units"],
+    "cost": {
+      "Wood": 200
+    },
+    "build_time": 60,
+    "hit_points": 2100,
+    "melee_armor": 2,
+    "pierce_armor": 9,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358877/age-of-empires-2/buildings/university_orjlqc.png"
+  },
+  {
+    "_id": "barracks",
+    "id": 15,
+    "name": "Barracks",
+    "description": "Used to train and upgrade infantry. Required for Archery Range, Stable.",
+    "expansion": "The Age of Kings",
+    "type": "Military",
+    "age": "Dark Age",
+    "use": ["Trains and improves infantry"],
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1200,
+    "melee_armor": 0,
+    "pierce_armor": 7,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/barracks_h64ukd.png"
+  },
+  {
+    "_id": "archery_range",
+    "id": 16,
+    "name": "Archery Range",
+    "description": "Used to train and upgrade archer units.",
+    "expansion": "The Age of Kings",
+    "type": "Military",
+    "age": "Feudal Age",
+    "use": ["Trains and improves archers"],
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1500,
+    "melee_armor": 1,
+    "pierce_armor": 8,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/archery_range_feidsj.png"
+  },
+  {
+    "_id": "stable",
+    "id": 17,
+    "name": "Stable",
+    "description": "Used to train and upgrade cavalry units.",
+    "expansion": "The Age of Kings",
+    "type": "Military",
+    "age": "Feudal Age",
+    "use": ["Trains and improves cavalry units"],
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 50,
+    "hit_points": 1500,
+    "melee_armor": 1,
+    "pierce_armor": 8,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358877/age-of-empires-2/buildings/stable_g0m7hf.png"
+  },
+  {
+    "_id": "siege_workshop",
+    "id": 18,
+    "name": "Siege Workshop",
+    "description": "Used to build and upgrade siege weapons.",
+    "expansion": "The Age of Kings",
+    "type": "Military",
+    "age": "Castle Age",
+    "use": ["Trains and upgrades siege units"],
+    "cost": {
+      "Wood": 200
+    },
+    "build_time": 40,
+    "hit_points": 1500,
+    "melee_armor": 1,
+    "pierce_armor": 8,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358877/age-of-empires-2/buildings/siege_workshop_wcacfi.png"
+  },
+  {
+    "_id": "monastery",
+    "id": 19,
+    "name": "Monastery",
+    "description": "Used to create and improve Monks. Garrisoned relics generate gold.",
+    "expansion": "The Age of Kings",
+    "type": "Special",
+    "age": "Castle Age",
+    "use": ["Train and improve Monks and Missionaries"],
+    "cost": {
+      "Wood": 175
+    },
+    "build_time": 40,
+    "hit_points": 2100,
+    "melee_armor": 2,
+    "pierce_armor": 9,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358877/age-of-empires-2/buildings/monastery_ipchcy.png"
+  },
+  {
+    "_id": "castle",
+    "id": 20,
+    "name": "Castle",
+    "description": "Used to create your unique unit, build Trebuchets, and improve villagers and buildings.",
+    "expansion": "The Age of Kings",
+    "type": "Military",
+    "age": "Castle Age",
+    "use": [
+      "Train unique units and siege weapons",
+      "Research technologies",
+      "Attack enemies"
+    ],
+    "special_ability": ["Cannot be converted"],
+    "cost": {
+      "Stone": 650
+    },
+    "build_time": 200,
+    "hit_points": 4800,
+    "pierce_attack": 11,
+    "attack_bonus": [
+      "+2 vs Spearman",
+      "+1 vs Camel",
+      "+11 vs Ship",
+      "+11 vs Fishing Ship",
+      "+11 vs Stone defense"
+    ],
+    "rate_of_fire": 2,
+    "range": 8,
+    "accuracy": "100%",
+    "projectile_speed": 7,
+    "melee_armor": 8,
+    "pierce_armor": 11,
+    "line_of_sight": 11,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/castle_m0cyf0.png"
+  },
+  {
+    "_id": "krepost",
+    "id": 21,
+    "name": "Krepost",
+    "description": "Fortification used to train your unique unit. Unique building of the Bulgarians.",
+    "expansion": "The Last Khans",
+    "type": "Military",
+    "age": "Castle Age",
+    "use": ["Train Konniks", "Attack enemies"],
+    "special_ability": ["Cannot be converted"],
+    "cost": {
+      "Stone": 350
+    },
+    "build_time": 150,
+    "hit_points": 2600,
+    "pierce_attack": 10,
+    "attack_bonus": [
+      "+2 vs Spearman",
+      "+1 vs Camel",
+      "+10 vs Ship",
+      "+10 vs Fishing Ship",
+      "+10 vs Stone defense"
+    ],
+    "rate_of_fire": 2,
+    "range": 7,
+    "accuracy": "100%",
+    "projectile_speed": 7,
+    "melee_armor": 8,
+    "pierce_armor": 11,
+    "line_of_sight": 10,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/krepost_ymustf.png"
+  },
+  {
+    "_id": "donjon",
+    "id": 22,
+    "name": "Donjon",
+    "description": "Fortification used to train Serjeants. Unique building of the Sicilians.",
+    "expansion": "Lords of the West",
+    "type": "Military",
+    "age": "Feudal Age",
+    "use": ["Train Serjeants", "Attack enemies"],
+    "cost": {
+      "Wood": 75,
+      "Stone": 175
+    },
+    "build_time": 90,
+    "hit_points": 1250,
+    "pierce_attack": 5,
+    "attack_bonus": [
+      "+2 vs Spearman",
+      "+1 vs Camel",
+      "+7 vs Ship",
+      "+7 vs Fishing Ship",
+      "+5 vs Stone defense"
+    ],
+    "rate_of_fire": 2,
+    "range": 8,
+    "accuracy": "100%",
+    "projectile_speed": 7,
+    "melee_armor": 1,
+    "pierce_armor": 7,
+    "line_of_sight": 10,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/donjon_czz1wt.png"
+  },
+  {
+    "_id": "palisade_wall",
+    "id": 23,
+    "name": "Palisade Wall",
+    "description": "Wooden Wall that is cheap and easy to build. Slows down your enemies and warns you of their approach.",
+    "expansion": "The Age of Kings",
+    "type": "Wall",
+    "age": "Dark Age",
+    "use": ["Delay enemy units"],
+    "cost": {
+      "Wood": 3
+    },
+    "build_time": 7,
+    "hit_points": 150,
+    "melee_armor": 2,
+    "pierce_armor": 5,
+    "line_of_sight": 2,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/palisade_wall_fd4y2e.png"
+  },
+  {
+    "_id": "palisade_gate",
+    "id": 24,
+    "name": "Palisade Gate",
+    "description": "Can be built into existing Walls. You and your allies can manually open and close this Gate.",
+    "expansion": "The Forgotten",
+    "type": "Defensive structure",
+    "age": "Dark Age",
+    "use": ["Shuts enemy units out", "Lets friendly units through"],
+    "cost": {
+      "Wood": 30
+    },
+    "build_time": 30,
+    "hit_points": 240,
+    "melee_armor": 2,
+    "pierce_armor": 2,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/palisade_gate_rarozb.png"
+  },
+  {
+    "_id": "stone_wall",
+    "id": 25,
+    "name": "Stone Wall",
+    "description": "Stone wall that is difficult to breach without siege weapons. Slows down your enemies and warns you of their approach. Cannot be converted by enemy Monks.",
+    "expansion": "The Age of Kings",
+    "type": "Wall",
+    "age": "Feudal Age",
+    "use": ["Delay enemy units"],
+    "cost": {
+      "Stone": 5
+    },
+    "build_time": 10,
+    "hit_points": 1080,
+    "melee_armor": 8,
+    "pierce_armor": 10,
+    "line_of_sight": 2,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/stone_wall_em7qgo.png"
+  },
+  {
+    "_id": "gate",
+    "id": 26,
+    "name": "Gate",
+    "description": "Can be built into existing walls to allow movement of friendly units. Can be locked and unlocked. Cannot be converted by enemy Monks.",
+    "expansion": "The Age of Kings",
+    "type": "Defensive structure",
+    "age": "Feudal Age",
+    "use": ["Shuts enemy units out", "Lets friendly units through"],
+    "cost": {
+      "Stone": 30
+    },
+    "build_time": 70,
+    "hit_points": 1650,
+    "melee_armor": 6,
+    "pierce_armor": 6,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/gate_wx0ly4.png"
+  },
+  {
+    "_id": "fortified_wall",
+    "id": 27,
+    "name": "Fortified Wall",
+    "description": "Stronger than Stone Wall. Difficult to breach without siege weapons.",
+    "expansion": "The Age of Kings",
+    "type": "Wall",
+    "age": "Castle Age",
+    "use": ["Delay enemy units"],
+    "cost": {
+      "Stone": 5
+    },
+    "build_time": 10,
+    "hit_points": 3000,
+    "melee_armor": 12,
+    "pierce_armor": 12,
+    "line_of_sight": 2,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/stone_wall_em7qgo.png"
+  },
+  {
+    "_id": "fortified_gate",
+    "id": 28,
+    "name": "Fortified Gate",
+    "description": "Can be built into existing walls to allow movement of friendly units. Can be locked and unlocked. Cannot be converted by enemy Monks.",
+    "expansion": "The Age of Kings",
+    "type": "Defensive structure",
+    "age": "Castle Age",
+    "use": ["Shuts enemy units out", "Lets friendly units through"],
+    "cost": {
+      "Stone": 30
+    },
+    "build_time": 70,
+    "hit_points": 4000,
+    "melee_armor": 6,
+    "pierce_armor": 6,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/gate_wx0ly4.png"
+  },
+  {
+    "_id": "outpost",
+    "id": 29,
+    "name": "Outpost",
+    "description": "A stationary watch point that provides advanced warning of nearby enemy activity.",
+    "expansion": "The Age of Kings",
+    "type": "Tower",
+    "age": "Dark Age",
+    "use": ["Provide Line of Sight"],
+    "cost": {
+      "Wood": 25,
+      "Stone": 5
+    },
+    "build_time": 15,
+    "hit_points": 500,
+    "melee_armor": 0,
+    "pierce_armor": 0,
+    "line_of_sight": 6,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/outpost_flsltu.png"
+  },
+  {
+    "_id": "watch_tower",
+    "id": 30,
+    "name": "Watch Tower",
+    "description": "Basic stone tower. Automatically attacks enemy units and buildings within range.",
+    "expansion": "The Age of Kings",
+    "type": "Tower",
+    "age": "Feudal Age",
+    "use": ["Attacks enemies at sight"],
+    "cost": {
+      "Wood": 50,
+      "Stone": 125
+    },
+    "build_time": 80,
+    "hit_points": 850,
+    "pierce_attack": 5,
+    "attack_bonus": [
+      "+7 vs Ship",
+      "+7 vs Fishing Ship",
+      "+2 vs Spearman",
+      "+1 vs Camel",
+      "+5 vs Stone defense"
+    ],
+    "rate_of_fire": 2,
+    "range": 8,
+    "accuracy": "100%",
+    "projectile_speed": 7,
+    "melee_armor": 1,
+    "pierce_armor": 7,
+    "line_of_sight": 10,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/tower_trprwi.png"
+  },
+  {
+    "_id": "guard_tower",
+    "id": 31,
+    "name": "Guard Tower",
+    "description": "Stronger than Watch Tower, with greater fighting ability.",
+    "expansion": "The Age of Kings",
+    "type": "Tower",
+    "age": "Castle Age",
+    "use": ["Provide Line of Sight", "Attacks enemies at sight"],
+    "cost": {
+      "Wood": 50,
+      "Stone": 125
+    },
+    "build_time": 80,
+    "hit_points": 1500,
+    "pierce_attack": 7,
+    "attack_bonus": [
+      "+9 vs Ship",
+      "+9 vs Fishing Ship",
+      "+2 vs Spearman",
+      "+1 vs Camel",
+      "+5 vs Stone defense"
+    ],
+    "rate_of_fire": 2,
+    "range": 8,
+    "accuracy": "100%",
+    "projectile_speed": 7,
+    "melee_armor": 2,
+    "pierce_armor": 8,
+    "line_of_sight": 10,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/tower_trprwi.png"
+  },
+  {
+    "_id": "keep",
+    "id": 32,
+    "name": "Keep",
+    "description": "Stronger than Guard Tower. Fires farther and is better armored.",
+    "expansion": "The Age of Kings",
+    "type": "Tower",
+    "age": "Imperial Age",
+    "use": ["Provide Line of Sight", "Attacks enemies at sight"],
+    "cost": {
+      "Wood": 50,
+      "Stone": 125
+    },
+    "build_time": 80,
+    "hit_points": 2250,
+    "pierce_attack": 8,
+    "attack_bonus": [
+      "+10 vs Ship",
+      "+10 vs Fishing Ship",
+      "+2 vs Spearman",
+      "+1 vs Camel",
+      "+5 vs Stone defense"
+    ],
+    "rate_of_fire": 2,
+    "range": 8,
+    "accuracy": "100%",
+    "projectile_speed": 7,
+    "melee_armor": 3,
+    "pierce_armor": 9,
+    "line_of_sight": 10,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/tower_trprwi.png"
+  },
+  {
+    "_id": "bombard_tower",
+    "id": 33,
+    "name": "Bombard Tower",
+    "description": "Powerful attack with extensive line of sight. Attack bonus vs. ships.",
+    "expansion": "The Age of Kings",
+    "type": "Tower",
+    "age": "Imperial Age",
+    "use": ["Provide Line of Sight", "Attacks enemies at sight"],
+    "cost": {
+      "Gold": 100,
+      "Stone": 125
+    },
+    "build_time": 80,
+    "hit_points": 2220,
+    "pierce_attack": 120,
+    "attack_bonus": ["+40 vs Ship", "+40 vs Fishing Ship", "+1 vs Camel"],
+    "rate_of_fire": 6,
+    "range": 8,
+    "accuracy": "92%",
+    "projectile_speed": 3,
+    "melee_armor": 3,
+    "pierce_armor": 9,
+    "line_of_sight": 10,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/bombard_tower_jysk5j.png"
+  },
+  {
+    "_id": "house",
+    "id": 34,
+    "name": "House",
+    "description": "Each House supports 5 units (villagers, military units, ships, Trade Carts).",
+    "expansion": "The Age of Kings",
+    "type": "Civilian",
+    "age": "Dark Age",
+    "use": ["Provides population"],
+    "cost": {
+      "Wood": 25
+    },
+    "build_time": 25,
+    "hit_points": 550,
+    "melee_armor": -2,
+    "pierce_armor": 7,
+    "line_of_sight": 2,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/house_ro9e8r.png"
+  },
+  {
+    "_id": "wonder",
+    "id": 35,
+    "name": "Wonder",
+    "description": "Building a Wonder of the World demonstrates the superiority of your civilization. Constructing a Wonder that stands for a certain period of time is one way to win the game.",
+    "expansion": "The Age of Kings",
+    "type": "Civilian",
+    "age": "Imperial Age",
+    "use": ["Grants victory if defended for 200 years"],
+    "cost": {
+      "Wood": 1000,
+      "Gold": 1000,
+      "Stone": 1000
+    },
+    "build_time": 3500,
+    "hit_points": 4800,
+    "melee_armor": 3,
+    "pierce_armor": 10,
+    "line_of_sight": 8,
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/wonder_gs7ucs.png"
+  }
+]

@@ -15,11 +15,11 @@
     "hit_points": 25,
     "melee_attack": 3,
     "attack_bonus": ["+6 vs Stone defense", "+3 vs Building"],
-    "reload_time": 2.0,
+    "rate_of_fire": 2.0,
     "range": 0,
     "melee_armor": 0,
     "pierce_armor": 0,
-    "speed": 0.8,
+    "movement_rate": 0.8,
     "line_of_sight": 4,
     "ability": [
       "Gather resources",
@@ -45,7 +45,7 @@
     "hit_points": 70,
     "melee_armor": 0,
     "pierce_armor": 0,
-    "speed": 1,
+    "movement_rate": 1,
     "line_of_sight": 7,
     "ability": ["Generate gold by trading"],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671984593/age-of-empires-2/units/trade_cart_zjewl9.png"
@@ -68,7 +68,7 @@
     "melee_armor": 0,
     "pierce_armor": 6,
     "armor_class": "Ship",
-    "speed": 1.32,
+    "movement_rate": 1.32,
     "line_of_sight": 6,
     "ability": ["Generate gold by trading"],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671984593/age-of-empires-2/units/trade_cog_kkkfbe.png"
@@ -90,7 +90,7 @@
     "melee_armor": 0,
     "pierce_armor": 4,
     "armor_class": "Fishing Ship",
-    "speed": 1.26,
+    "movement_rate": 1.26,
     "line_of_sight": 5,
     "ability": ["Gather food"],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671984593/age-of-empires-2/units/fishing_ship_aju6bp.png"
@@ -112,7 +112,7 @@
     "melee_armor": 4,
     "pierce_armor": 8,
     "armor_class": "Ship",
-    "speed": 1.45,
+    "movement_rate": 1.45,
     "garrison": 5,
     "line_of_sight": 5,
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671984593/age-of-empires-2/units/transport_ship_uprzdl.png"
@@ -135,7 +135,7 @@
     "melee_armor": 0,
     "pierce_armor": 0,
     "armor_class": "Monk",
-    "speed": 0.7,
+    "movement_rate": 0.7,
     "garrison": 5,
     "line_of_sight": 11,
     "ability": ["Carry Relics", "Convert units", "Heal units"],
