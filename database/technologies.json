@@ -385,5 +385,166 @@
     "research_time": 45,
     "effect": ["Fishing Ships work 25% faster"],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/gillnets_z94eat.png"
+  },
+  {
+    "_id": "redemption",
+    "id": 25,
+    "name": "Redemption",
+    "type": "Monastery",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Gold": 475
+    },
+    "research_time": 70,
+    "effect": [
+      "Monks and Missionaries can convert enemy buildings and siege units"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451218/age-of-empires-2/technologies/redemption_owqppc.png"
+  },
+  {
+    "_id": "atonement",
+    "id": 26,
+    "name": "Atonement",
+    "type": "Monastery",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Gold": 325
+    },
+    "research_time": 40,
+    "effect": [
+      "Monks and Missionaries can convert enemy Monks and Missionaries"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/atonement_sdmzq4.png"
+  },
+  {
+    "_id": "herbal_medicine",
+    "id": 27,
+    "name": "Herbal Medicine",
+    "type": "Monastery",
+    "expansion": "The Conquerors",
+    "age": "Castle Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Gold": 200
+    },
+    "research_time": 35,
+    "effect": ["Units garrisoned in buildings heal 6× faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/herbal_medicine_zvbrsf.png"
+  },
+  {
+    "_id": "heresy",
+    "id": 28,
+    "name": "Heresy",
+    "type": "Monastery",
+    "expansion": "The Conquerors",
+    "age": "Castle Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Gold": 1000
+    },
+    "research_time": 60,
+    "effect": [
+      "Converted units/buildings die/are destroyed instead of taking the enemy's color"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/heresy_fsoeyj.png"
+  },
+  {
+    "_id": "sanctity",
+    "id": 29,
+    "name": "Sanctity",
+    "type": "Monastery",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Gold": 120
+    },
+    "research_time": 60,
+    "effect": ["Monk and Missionary hit points +15"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/sanctity_r4ridv.png"
+  },
+  {
+    "_id": "fervor",
+    "id": 30,
+    "name": "Fervor",
+    "type": "Monastery",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Gold": 140
+    },
+    "research_time": 50,
+    "effect": ["Monk and Missionary speed +15%"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/fervor_oe2hsd.png"
+  },
+  {
+    "_id": "faith",
+    "id": 31,
+    "name": "Faith",
+    "type": "Monastery",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Food": 750,
+      "Gold": 1000
+    },
+    "research_time": 60,
+    "effect": ["Increases conversion resistance"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/faith_usdrbc.png"
+  },
+  {
+    "_id": "illumination",
+    "id": 32,
+    "name": "Illumination",
+    "type": "Monastery",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Gold": 120
+    },
+    "research_time": 65,
+    "effect": [
+      "Monks and Missionaries regain their faith 87.5% faster after a successful conversion"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/illumination_louzni.png"
+  },
+  {
+    "_id": "block_printing",
+    "id": 33,
+    "name": "Block Printing",
+    "type": "Monastery",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Gold": 200
+    },
+    "research_time": 55,
+    "effect": ["Monk and Missionary conversion range and Line of Sight +3"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/block_printing_pnw7ww.png"
+  },
+  {
+    "_id": "theocracy",
+    "id": 34,
+    "name": "Theocracy",
+    "type": "Monastery",
+    "expansion": "The Conquerors",
+    "age": "Imperial Age",
+    "researched_at": ["monastery"],
+    "cost": {
+      "Gold": 200
+    },
+    "research_time": 75,
+    "effect": [
+      "Only one Monk or Missionary must rest after a successful conversion"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/theocracy_nbb4vq.png"
   }
 ]
