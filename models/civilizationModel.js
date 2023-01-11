@@ -24,14 +24,10 @@ const civilizationSchema = new Schema({
     },
     unique_unit: [{
         type: String,
-        required: false,
-        unique: false,
         ref: 'Unit'
     }],
     unique_tech: [{
         type: String,
-        required: false,
-        unique: false,
         ref: 'Technology'
     }],
     team_bonus: [{

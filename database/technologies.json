@@ -1,0 +1,389 @@
+[
+  {
+    "_id": "town_watch",
+    "id": 1,
+    "name": "Town Watch",
+    "type": "Building",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["town_center"],
+    "cost": {
+      "Food": 75
+    },
+    "research_time": 25,
+    "effect": ["Building line of sight +4"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445949/age-of-empires-2/technologies/town_watch_mhfufy.png"
+  },
+  {
+    "_id": "town_patrol",
+    "id": 2,
+    "name": "Town Patrol",
+    "type": "Building",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["town_center"],
+    "cost": {
+      "Food": 300,
+      "Gold": 100
+    },
+    "research_time": 40,
+    "effect": ["Building line of sight +4"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/town_patrol_mecfzm.png"
+  },
+  {
+    "_id": "treadmill_crane",
+    "id": 3,
+    "name": "Treadmill Crane",
+    "type": "Building",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["university"],
+    "cost": {
+      "Food": 300,
+      "Wood": 200
+    },
+    "research_time": 50,
+    "effect": ["Villagers construct buildings 20% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/treadmill_crane_eqemex.png"
+  },
+  {
+    "_id": "masonry",
+    "id": 4,
+    "name": "Masonry",
+    "type": "Building",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["university"],
+    "cost": {
+      "Food": 150,
+      "Wood": 175
+    },
+    "research_time": 50,
+    "effect": [
+      "Buildings +10% HP, +1 armor, +1 pierce armor, +3 building armor"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/masonry_itotti.png"
+  },
+  {
+    "_id": "architecture",
+    "id": 5,
+    "name": "Architecture",
+    "type": "Building",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["university"],
+    "cost": {
+      "Food": 300,
+      "Wood": 200
+    },
+    "research_time": 70,
+    "effect": [
+      "Buildings +10% HP, +1 armor, +1 pierce armor, +3 building armor"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/architecture_farx7k.png"
+  },
+  {
+    "_id": "hoardings",
+    "id": 6,
+    "name": "Hoardings",
+    "type": "Building",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Wood": 400
+    },
+    "research_time": 75,
+    "effect": ["Castles +21% HP"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/hoardings_m95z2f.png"
+  },
+  {
+    "_id": "conscription",
+    "id": 7,
+    "name": "Conscription",
+    "type": "Building",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 150,
+      "Gold": 150
+    },
+    "research_time": 60,
+    "effect": ["Military buildings (except Siege Workshops) work 33% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/conscription_vdecf0.png"
+  },
+  {
+    "_id": "wheelbarrow",
+    "id": 8,
+    "name": "Wheelbarrow",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["town_center"],
+    "cost": {
+      "Food": 175,
+      "Wood": 50
+    },
+    "research_time": 75,
+    "effect": ["Villagers carry 25% more and move 10% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/wheelbarrow_qptjjh.png"
+  },
+  {
+    "_id": "hand_cart",
+    "id": 9,
+    "name": "Hand Cart",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["town_center"],
+    "cost": {
+      "Food": 300,
+      "Wood": 200
+    },
+    "research_time": 55,
+    "effect": ["Villagers carry 50% more and move 10% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/handcart_t2dn5z.png"
+  },
+  {
+    "_id": "double_bit_axe",
+    "id": 10,
+    "name": "Double-Bit Axe",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["lumber_camp"],
+    "cost": {
+      "Food": 100,
+      "Wood": 50
+    },
+    "research_time": 25,
+    "effect": ["Villagers gather wood 20% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/double_bit_axe_ponugw.png"
+  },
+  {
+    "_id": "bow_saw",
+    "id": 11,
+    "name": "Bow Saw",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["lumber_camp"],
+    "cost": {
+      "Food": 150,
+      "Wood": 100
+    },
+    "research_time": 50,
+    "effect": ["Villagers gather wood 20% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/bow_saw_v1vxzm.png"
+  },
+  {
+    "_id": "two_man_saw",
+    "id": 12,
+    "name": "Two-Man Saw",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["lumber_camp"],
+    "cost": {
+      "Food": 300,
+      "Wood": 200
+    },
+    "research_time": 100,
+    "effect": ["Villagers gather wood 10% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/two_man_saw_pgnp03.png"
+  },
+  {
+    "_id": "horse_collar",
+    "id": 13,
+    "name": "Horse Collar",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["mill", "folwark"],
+    "cost": {
+      "Food": 75,
+      "Wood": 75
+    },
+    "research_time": 20,
+    "effect": ["Villagers gather wood 10% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/horse_collar_bdbthv.png"
+  },
+  {
+    "_id": "heavy_plow",
+    "id": 14,
+    "name": "Heavy Plow",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["mill", "folwark"],
+    "cost": {
+      "Food": 125,
+      "Wood": 125
+    },
+    "research_time": 40,
+    "effect": ["Farms provide +125 food", "Villagers carry +1 food"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/heavy_plow_jskii4.png"
+  },
+  {
+    "_id": "crop_rotation",
+    "id": 15,
+    "name": "Crop Rotation",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["mill", "folwark"],
+    "cost": {
+      "Food": 250,
+      "Wood": 250
+    },
+    "research_time": 70,
+    "effect": ["Farms provide +175 food before they need to be reseeded"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446920/age-of-empires-2/technologies/crop_rotation_sioyfv.png"
+  },
+  {
+    "_id": "gold_mining",
+    "id": 16,
+    "name": "Gold Mining",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["mining_camp"],
+    "cost": {
+      "Food": 100,
+      "Wood": 75
+    },
+    "research_time": 30,
+    "effect": ["Villagers gather gold 15% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/gold_mining_lt1mto.png"
+  },
+  {
+    "_id": "gold_shaft_mining",
+    "id": 17,
+    "name": "Gold Shaft Mining",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["mining_camp"],
+    "cost": {
+      "Food": 200,
+      "Wood": 150
+    },
+    "research_time": 75,
+    "effect": ["Villagers gather gold 15% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/gold_shaft_mining_tw9mfw.png"
+  },
+  {
+    "_id": "stone_mining",
+    "id": 18,
+    "name": "Stone Mining",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["mining_camp"],
+    "cost": {
+      "Food": 100,
+      "Wood": 75
+    },
+    "research_time": 30,
+    "effect": ["Villagers gather stone 15% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/stone_mining_lrayms.png"
+  },
+  {
+    "_id": "stone_shaft_mining",
+    "id": 19,
+    "name": "Stone Shaft Mining",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["mining_camp"],
+    "cost": {
+      "Food": 200,
+      "Wood": 150
+    },
+    "research_time": 75,
+    "effect": ["Villagers gather stone 15% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447637/age-of-empires-2/technologies/stone_shaft_mining_jknjkx.png"
+  },
+  {
+    "_id": "caravan",
+    "id": 20,
+    "name": "Caravan",
+    "type": "Economy",
+    "expansion": "The Conquerors",
+    "age": "Castle Age",
+    "researched_at": ["market"],
+    "cost": {
+      "Food": 200,
+      "Gold": 200
+    },
+    "research_time": 40,
+    "effect": ["Trade Carts and Trade Cogs move 50% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/caravan_x2hczz.png"
+  },
+  {
+    "_id": "coinage",
+    "id": 21,
+    "name": "Coinage",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["market"],
+    "cost": {
+      "Food": 200,
+      "Gold": 100
+    },
+    "research_time": 70,
+    "effect": ["Tribute fee reduced to 20%"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/coinage_imxwef.png"
+  },
+  {
+    "_id": "banking",
+    "id": 22,
+    "name": "Banking",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["market"],
+    "cost": {
+      "Food": 300,
+      "Gold": 200
+    },
+    "research_time": 70,
+    "effect": ["Tribute fee reduced to 20%"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/banking_asoary.png"
+  },
+  {
+    "_id": "guilds",
+    "id": 23,
+    "name": "Guilds",
+    "type": "Economy",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["market"],
+    "cost": {
+      "Food": 300,
+      "Gold": 200
+    },
+    "research_time": 50,
+    "effect": ["Trading fee reduced to 15%"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/guilds_v2qjhy.png"
+  },
+  {
+    "_id": "gillnets",
+    "id": 24,
+    "name": "Gillnets",
+    "type": "Economy",
+    "expansion": "The Forgotten",
+    "age": "Castle Age",
+    "researched_at": ["dock"],
+    "cost": {
+      "Food": 150,
+      "Wood": 200
+    },
+    "research_time": 45,
+    "effect": ["Fishing Ships work 25% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/gillnets_z94eat.png"
+  }
+]
