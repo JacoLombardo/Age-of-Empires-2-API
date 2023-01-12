@@ -546,5 +546,613 @@
       "Only one Monk or Missionary must rest after a successful conversion"
     ],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/theocracy_nbb4vq.png"
+  },
+  {
+    "_id": "supplies",
+    "id": 35,
+    "name": "Supplies",
+    "type": "Military",
+    "expansion": "Definitive Edition",
+    "age": "Feudal Age",
+    "researched_at": ["barracks"],
+    "cost": {
+      "Food": 75,
+      "Gold": 75
+    },
+    "research_time": 35,
+    "effect": ["Militia line costs -15 food"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/supplies_w1wbt5.png"
+  },
+  {
+    "_id": "squires",
+    "id": 36,
+    "name": "Squires",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["barracks"],
+    "cost": {
+      "Food": 100
+    },
+    "research_time": 40,
+    "effect": ["Infantry speed +10%"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/squires_sflmwh.png"
+  },
+  {
+    "_id": "arson",
+    "id": 37,
+    "name": "Arson",
+    "type": "Military",
+    "expansion": "The African Kingdoms",
+    "age": "Castle Age",
+    "researched_at": ["barracks"],
+    "cost": {
+      "Food": 150,
+      "Gold": 50
+    },
+    "research_time": 25,
+    "effect": ["Infantry +2 attack vs standard buildings"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/arson_w5kx9c.png"
+  },
+  {
+    "_id": "forging",
+    "id": 38,
+    "name": "Forging",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 150
+    },
+    "research_time": 50,
+    "effect": ["Infantry and cavalry +1 attack"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/forging_do8fui.png"
+  },
+  {
+    "_id": "iron_casting",
+    "id": 39,
+    "name": "Iron Casting",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 220,
+      "Gold": 120
+    },
+    "research_time": 75,
+    "effect": ["Infantry and cavalry +1 attack"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/iron_casting_z63lea.png"
+  },
+  {
+    "_id": "blast_furnace",
+    "id": 40,
+    "name": "Blast Furnace",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 275,
+      "Gold": 225
+    },
+    "research_time": 100,
+    "effect": ["Infantry and cavalry +2 attack"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/blast_furnace_whlojy.png"
+  },
+  {
+    "_id": "scale_mail_armor",
+    "id": 41,
+    "name": "Scale Mail Armor",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 100
+    },
+    "research_time": 40,
+    "effect": ["Infantry armor +1/+1"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/scale_mail_armor_cqwiu2.png"
+  },
+  {
+    "_id": "chain_mail_armor",
+    "id": 42,
+    "name": "Chain Mail Armor",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 200,
+      "Gold": 100
+    },
+    "research_time": 55,
+    "effect": ["Infantry armor +1/+1"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/chain_mail_armor_giq0ri.png"
+  },
+  {
+    "_id": "plate_mail_armor",
+    "id": 43,
+    "name": "Plate Mail Armor",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 300,
+      "Gold": 150
+    },
+    "research_time": 70,
+    "effect": ["Infantry armor +1/+1"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/plate_mail_armor_dfzrzf.png"
+  },
+  {
+    "_id": "thumb_ring",
+    "id": 44,
+    "name": "Thumb Ring",
+    "type": "Military",
+    "expansion": "The Conquerors",
+    "age": "Castle Age",
+    "researched_at": ["archery_range"],
+    "cost": {
+      "Food": 300,
+      "Wood": 250
+    },
+    "research_time": 45,
+    "effect": ["Archers fire faster and with 100% accuracy"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523152/age-of-empires-2/technologies/thumb_ring_ck84dv.png"
+  },
+  {
+    "_id": "parthian_tactics",
+    "id": 45,
+    "name": "Parthian Tactics",
+    "type": "Military",
+    "expansion": "The Conquerors",
+    "age": "Imperial Age",
+    "researched_at": ["archery_range"],
+    "cost": {
+      "Food": 200,
+      "Gold": 250
+    },
+    "research_time": 65,
+    "effect": ["Mounted archer armor +1/+2 and +2 attack against Pikemen"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/parthian_tactics_of5yus.png"
+  },
+  {
+    "_id": "fletching",
+    "id": 46,
+    "name": "Fletching",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 100,
+      "Gold": 50
+    },
+    "research_time": 30,
+    "effect": ["Arrow using units and buildings +1 attack and range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/fletching_lqaeyn.png"
+  },
+  {
+    "_id": "bodkin_arrow",
+    "id": 47,
+    "name": "Bodkin Arrow",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 200,
+      "Gold": 100
+    },
+    "research_time": 35,
+    "effect": ["Arrow using units and buildings +1 attack and range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/bodkin_arrow_sf8jvo.png"
+  },
+  {
+    "_id": "bracer",
+    "id": 48,
+    "name": "Bracer",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 300,
+      "Gold": 200
+    },
+    "research_time": 40,
+    "effect": ["Arrow using units and buildings +1 attack and range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/bracer_lmqqbv.png"
+  },
+  {
+    "_id": "padded_archer_armor",
+    "id": 49,
+    "name": "Padded Archer Armor",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 100
+    },
+    "research_time": 40,
+    "effect": ["Archer armor +1/+1"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/padded_archer_armor_q1lsji.png"
+  },
+  {
+    "_id": "leather_archer_armor",
+    "id": 50,
+    "name": "Leather Archer Armor",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 150,
+      "Gold": 150
+    },
+    "research_time": 55,
+    "effect": ["Archer armor +1/+1"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/leather_archer_armor_ksmg08.png"
+  },
+  {
+    "_id": "ring_archer_armor",
+    "id": 51,
+    "name": "Ring Archer Armor",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 250,
+      "Gold": 250
+    },
+    "research_time": 70,
+    "effect": ["Archer armor +1/+2"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523152/age-of-empires-2/technologies/ring_archer_armor_ao6cu4.png"
+  },
+  {
+    "_id": "ballistics",
+    "id": 52,
+    "name": "Ballistics",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["university"],
+    "cost": {
+      "Wood": 300,
+      "Gold": 175
+    },
+    "research_time": 60,
+    "effect": ["Archer armor +1/+2"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/ballistics_lmtbqw.png"
+  },
+  {
+    "_id": "heated_shot",
+    "id": 53,
+    "name": "Heated Shot",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["university"],
+    "cost": {
+      "Food": 350,
+      "Gold": 100
+    },
+    "research_time": 30,
+    "effect": [
+      "Towers +125%",
+      "Castles, Harbors, and Kreposts +4 attack vs ships and fishing ships"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/heated_shot_rayw6w.png"
+  },
+  {
+    "_id": "murder_holes",
+    "id": 54,
+    "name": "Murder Holes",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["university"],
+    "cost": {
+      "Food": 200,
+      "Stone": 100
+    },
+    "research_time": 60,
+    "effect": ["Removes towers and Castles minimum range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/murder_holes_hxorvx.png"
+  },
+  {
+    "_id": "arrowslits",
+    "id": 55,
+    "name": "Arrowslits",
+    "type": "Military",
+    "expansion": "The African Kingdoms",
+    "age": "Imperial Age",
+    "researched_at": ["university"],
+    "cost": {
+      "Food": 250,
+      "Wood": 250
+    },
+    "research_time": 25,
+    "effect": ["Watch Tower/Guard Tower/Keep/Donjon +1/+2/+3/+3 attack"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/arrow_slits_reivfu.png"
+  },
+  {
+    "_id": "chemistry",
+    "id": 56,
+    "name": "Chemistry",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["university"],
+    "cost": {
+      "Food": 300,
+      "Gold": 200
+    },
+    "research_time": 100,
+    "effect": [
+      "Allows creation of gunpowder units; +1 attack for siege units, archers, and defensive structures"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/chemistry_n5r2tk.png"
+  },
+  {
+    "_id": "siege_engineers",
+    "id": 57,
+    "name": "Siege Engineers",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["university"],
+    "cost": {
+      "Food": 500,
+      "Wood": 600
+    },
+    "research_time": 45,
+    "effect": [
+      "Siege units +20% attack against buildings, +1 range (except rams)"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523152/age-of-empires-2/technologies/siege_engineers_smbwmh.png"
+  },
+  {
+    "_id": "bloodlines",
+    "id": 58,
+    "name": "Bloodlines",
+    "type": "Military",
+    "expansion": "The Conquerors",
+    "age": "Feudal Age",
+    "researched_at": ["stable"],
+    "cost": {
+      "Food": 150,
+      "Gold": 100
+    },
+    "research_time": 50,
+    "effect": ["Mounted units +20 HP"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/bloodlines_kuvnqs.png"
+  },
+  {
+    "_id": "husbandry",
+    "id": 59,
+    "name": "Husbandry",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["stable"],
+    "cost": {
+      "Food": 150
+    },
+    "research_time": 40,
+    "effect": ["Mounted units move 10% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/husbandry_fc3rdp.png"
+  },
+  {
+    "_id": "scale_barding_armor",
+    "id": 60,
+    "name": "Scale Barding Armor",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 150
+    },
+    "research_time": 45,
+    "effect": ["Cavalry armor +1/+1"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523921/age-of-empires-2/technologies/scale_barding_armor_bzzuxo.png"
+  },
+  {
+    "_id": "chain_barding_armor",
+    "id": 61,
+    "name": "Chain Barding Armor",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 250,
+      "Gold": 150
+    },
+    "research_time": 60,
+    "effect": ["Cavalry armor +1/+1"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523921/age-of-empires-2/technologies/chain_barding_armor_athd1k.png"
+  },
+  {
+    "_id": "plate_barding_armor",
+    "id": 62,
+    "name": "Plate Barding Armor",
+    "type": "Military",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["blacksmith"],
+    "cost": {
+      "Food": 350,
+      "Gold": 200
+    },
+    "research_time": 75,
+    "effect": ["Cavalry armor +1/+2"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/plate_barding_armor_wxktse.png"
+  },
+  {
+    "_id": "careening",
+    "id": 63,
+    "name": "Careening",
+    "type": "Dock",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["dock"],
+    "cost": {
+      "Food": 250,
+      "Gold": 150
+    },
+    "research_time": 50,
+    "effect": ["Ship pierce armor +1", "Transport Ship capacity +5"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/careening_tdlpeg.png"
+  },
+  {
+    "_id": "dry_dock",
+    "id": 64,
+    "name": "Dry Dock",
+    "type": "Dock",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["dock"],
+    "cost": {
+      "Food": 600,
+      "Gold": 400
+    },
+    "research_time": 60,
+    "effect": ["Ship speed +15%", "Transport Ship capacity +10"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/dry_dock_sazs0v.png"
+  },
+  {
+    "_id": "shipwright",
+    "id": 65,
+    "name": "Shipwright",
+    "type": "Dock",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["dock"],
+    "cost": {
+      "Food": 1000,
+      "Gold": 300
+    },
+    "research_time": 60,
+    "effect": ["Ships cost -20% wood and are trained 54% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523921/age-of-empires-2/technologies/shipwright_igzwst.png"
+  },
+  {
+    "_id": "loom",
+    "id": 66,
+    "name": "Loom",
+    "type": "Miscellaneous",
+    "expansion": "The Age of Kings",
+    "age": "Dark Age",
+    "researched_at": ["town_center"],
+    "cost": {
+      "Gold": 50
+    },
+    "research_time": 25,
+    "effect": ["Villagers +15 HP, +1/+2 armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/loom_lb6tjc.png"
+  },
+  {
+    "_id": "feudal_age",
+    "id": 67,
+    "name": "Feudal Age",
+    "type": "Miscellaneous",
+    "expansion": "The Age of Kings",
+    "age": "Dark Age",
+    "researched_at": ["town_center"],
+    "cost": {
+      "Food": 500
+    },
+    "research_time": 130,
+    "effect": ["Advance to Feudal Age"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/feudal_age_e7jeau.png"
+  },
+  {
+    "_id": "castle_age",
+    "id": 68,
+    "name": "Castle Age",
+    "type": "Miscellaneous",
+    "expansion": "The Age of Kings",
+    "age": "Feudal Age",
+    "researched_at": ["town_center"],
+    "cost": {
+      "Food": 800,
+      "Gold": 200
+    },
+    "research_time": 160,
+    "effect": ["Advance to Castle Age"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/castle_age_aiqeq2.png"
+  },
+  {
+    "_id": "imperial_age",
+    "id": 69,
+    "name": "Imperial Age",
+    "type": "Miscellaneous",
+    "expansion": "The Age of Kings",
+    "age": "Castle Age",
+    "researched_at": ["town_center"],
+    "cost": {
+      "Food": 1000,
+      "Gold": 800
+    },
+    "research_time": 190,
+    "effect": ["Advance to Imperial Age"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/imperial_age_sf4mzs.png"
+  },
+  {
+    "_id": "treason",
+    "id": 70,
+    "name": "Treason",
+    "type": "Miscellaneous",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Gold": 400
+    },
+    "research_time": 0,
+    "effect": ["See enemy Kings for a short time"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/spies_wsllr7.png"
+  },
+  {
+    "_id": "sappers",
+    "id": 71,
+    "name": "Sappers",
+    "type": "Miscellaneous",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Gold": 200
+    },
+    "research_time": 0,
+    "effect": [
+      "Villagers +15 attack against buildings and stone defense",
+      "Villagers chop down trees with one strike"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/sapper_mupa96.png"
+  },
+  {
+    "_id": "spies",
+    "id": 72,
+    "name": "Spies",
+    "type": "Miscellaneous",
+    "expansion": "The Age of Kings",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Gold": 200
+    },
+    "research_time": 1,
+    "effect": ["See enemy's Line of Sight", "The cost is per enemy Villager"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/spies_wsllr7.png"
   }
 ]
