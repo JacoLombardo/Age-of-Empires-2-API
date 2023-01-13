@@ -1154,5 +1154,1457 @@
     "research_time": 1,
     "effect": ["See enemy's Line of Sight", "The cost is per enemy Villager"],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/spies_wsllr7.png"
+  },
+  {
+    "_id": "anarchy",
+    "id": 73,
+    "name": "Anarchy",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "goths",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 450,
+      "Gold": 250
+    },
+    "research_time": 40,
+    "effect": ["Huskarls can be trained at Barracks"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "garland_wars",
+    "id": 74,
+    "name": "Garland Wars",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "aztecs",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 450,
+      "Gold": 750
+    },
+    "research_time": 60,
+    "effect": ["Infantry attack +4"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "yeomen",
+    "id": 75,
+    "name": "Yeomen",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "britons",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 750,
+      "Gold": 450
+    },
+    "research_time": 60,
+    "effect": ["Foot archer range +1, tower attack +2"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "logistica",
+    "id": 76,
+    "name": "Logistica",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "byzantines",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 800,
+      "Gold": 600
+    },
+    "research_time": 50,
+    "effect": ["Cataphracts cause trample damage, +6 attack vs infantry"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "furor_celtica",
+    "id": 77,
+    "name": "Furor Celtica",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "celts",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 750,
+      "Gold": 450
+    },
+    "research_time": 50,
+    "effect": ["Siege Workshop units +40% HP"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "rocketry",
+    "id": 78,
+    "name": "Rocketry",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "chinese",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 600,
+      "Gold": 600
+    },
+    "research_time": 60,
+    "effect": ["Chu Ko Nu attack +2", "Scorpion attack +4"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "bearded_axe",
+    "id": 79,
+    "name": "Bearded Axe",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "franks",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Gold": 300
+    },
+    "research_time": 60,
+    "effect": ["Throwing Axeman range +1"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "perfusion",
+    "id": 80,
+    "name": "Perfusion",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "goths",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 400,
+      "Gold": 600
+    },
+    "research_time": 40,
+    "effect": ["Barracks work 100% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "atheism",
+    "id": 81,
+    "name": "Atheism",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "huns",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 500,
+      "Gold": 500
+    },
+    "research_time": 60,
+    "effect": [
+      "Wonder and Relic victories take +100 years",
+      "Enemy Relic resource generation reduced by 50%"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "kataparuto",
+    "id": 82,
+    "name": "Kataparuto",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "japanese",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 750,
+      "Gold": 400
+    },
+    "research_time": 60,
+    "effect": ["Trebuchets pack/unpack and fire faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "shinkichon",
+    "id": 83,
+    "name": "Shinkichon",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "koreans",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 800,
+      "Gold": 500
+    },
+    "research_time": 60,
+    "effect": ["Mangonels +1 range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "el_dorado",
+    "id": 84,
+    "name": "El Dorado",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "mayans",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 750,
+      "Gold": 450
+    },
+    "research_time": 70,
+    "effect": ["Eagle Warrior HP +40"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "drill",
+    "id": 85,
+    "name": "Drill",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "mongols",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 500,
+      "Gold": 450
+    },
+    "research_time": 60,
+    "effect": ["Siege Workshop units movement speed +50%"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "mahouts",
+    "id": 86,
+    "name": "Mahouts",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "persians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Gold": 300
+    },
+    "research_time": 50,
+    "effect": ["War Elephant speed +30%"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "zealotry",
+    "id": 87,
+    "name": "Zealotry",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "saracens",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 500,
+      "Gold": 450
+    },
+    "research_time": 50,
+    "effect": ["Camel Rider and Mameluke +20 HP"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "supremacy",
+    "id": 88,
+    "name": "Supremacy",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "spanish",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Gold": 250
+    },
+    "research_time": 60,
+    "effect": ["Increases Villager combat skills"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "supremacy",
+    "id": 89,
+    "name": "Supremacy",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "spanish",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Gold": 250
+    },
+    "research_time": 60,
+    "effect": ["Increases Villager combat skills"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "crenellations",
+    "id": 90,
+    "name": "Crenellations",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "teutons",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 600,
+      "Stone": 400
+    },
+    "research_time": 60,
+    "effect": ["Castle range +3", "Garrisoned infantry fires arrows"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "artillery",
+    "id": 91,
+    "name": "Artillery",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "turks",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 450,
+      "Gold": 500
+    },
+    "research_time": 40,
+    "effect": ["Bombard Tower, Bombard Cannon, and Cannon Galleon range +2"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "berserkergang",
+    "id": 92,
+    "name": "Berserkergang",
+    "type": "Unique",
+    "expansion": "The Conquerors",
+    "civilization": "vikings",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 850,
+      "Gold": 400
+    },
+    "research_time": 40,
+    "effect": ["Berserks regenerate faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "atlatl",
+    "id": 93,
+    "name": "Atlatl",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "aztecs",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Gold": 350
+    },
+    "research_time": 40,
+    "effect": ["Skirmishers +1 attack and range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "greek_fire",
+    "id": 94,
+    "name": "Greek Fire",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "byzantines",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 250,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Fire Ships +1 range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "stronghold",
+    "id": 95,
+    "name": "Stronghold",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "celts",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 250,
+      "Gold": 200
+    },
+    "research_time": 30,
+    "effect": ["Castles and towers fire 25% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "great_wall",
+    "id": 96,
+    "name": "Great Wall",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "chinese",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 340,
+      "Stone": 170
+    },
+    "research_time": 30,
+    "effect": ["Walls and towers +30% hit points"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "chivalry",
+    "id": 97,
+    "name": "Chivalry",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "franks",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 600,
+      "Gold": 500
+    },
+    "research_time": 40,
+    "effect": ["Stables work 40% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "marauders",
+    "id": 98,
+    "name": "Marauders",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "huns",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 300,
+      "Gold": 200
+    },
+    "research_time": 40,
+    "effect": ["Tarkans can be trained at the Stable"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "andean_sling",
+    "id": 99,
+    "name": "Andean Sling",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "incas",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 200,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Skirmisher and Slinger minimum range removed"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "grand_trunk_road",
+    "id": 100,
+    "name": "Grand Trunk Road",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "hindustanis",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Wood": 400
+    },
+    "research_time": 40,
+    "effect": ["All gold gathering is 10% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "pavise",
+    "id": 101,
+    "name": "Pavise",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "italians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Gold": 150
+    },
+    "research_time": 40,
+    "effect": ["Foot archers and Condottieri +1/+1 armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "yasama",
+    "id": 102,
+    "name": "Yasama",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "japanese",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Wood": 300
+    },
+    "research_time": 40,
+    "effect": ["Towers fire 2 extra arrows"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "panokseon",
+    "id": 103,
+    "name": "Panokseon",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "koreans",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Wood": 300
+    },
+    "research_time": 40,
+    "effect": ["Turtle Ships move 15% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "corvinian_army",
+    "id": 104,
+    "name": "Corvinian Army",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "magyars",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 200,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Magyar Huszars cost no gold"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "obsidian_arrows",
+    "id": 105,
+    "name": "Obsidian Arrows",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "mayans",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Archer line has +6 attack vs standard buildings"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "nomads",
+    "id": 106,
+    "name": "Nomads",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "mongols",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 300,
+      "Gold": 150
+    },
+    "research_time": 40,
+    "effect": ["Houses do not lose population when destroyed"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "boiling_oil",
+    "id": 107,
+    "name": "Boiling Oil",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "persians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 200,
+      "Stone": 100
+    },
+    "research_time": 40,
+    "effect": ["Castles +9 bonus damage against rams"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "madrasah",
+    "id": 108,
+    "name": "Madrasah",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "saracens",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 200,
+      "Gold": 100
+    },
+    "research_time": 30,
+    "effect": ["Monks return 33 gold when killed"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "orthodoxy",
+    "id": 109,
+    "name": "Orthodoxy",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "slavs",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 200,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Monks +3/+3 armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "inquisition",
+    "id": 110,
+    "name": "Inquisition",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "spanish",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 100,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Monks convert faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "ironclad",
+    "id": 111,
+    "name": "Ironclad",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "teutons",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 400,
+      "Gold": 350
+    },
+    "research_time": 60,
+    "effect": ["Siege weapon melee armor +4"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "sipahi",
+    "id": 112,
+    "name": "Sipahi",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "turks",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 350,
+      "Gold": 150
+    },
+    "research_time": 60,
+    "effect": ["Cavalry Archers +20 HP"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "chieftains",
+    "id": 113,
+    "name": "Chieftains",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "vikings",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 700,
+      "Gold": 500
+    },
+    "research_time": 40,
+    "effect": ["Infantry +5 attack vs cavalry, +4 vs camels"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "warwolf",
+    "id": 114,
+    "name": "Warwolf",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "britons",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 800,
+      "Gold": 400
+    },
+    "research_time": 40,
+    "effect": [
+      "Trebuchets have +0.5 tiles blast radius, 100% accuracy against units"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "fabric_shields",
+    "id": 115,
+    "name": "Fabric Shields",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "incas",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 600,
+      "Gold": 600
+    },
+    "research_time": 40,
+    "effect": ["Kamayuks, Slingers, and Eagle Scouts +1/+2 armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "shatagni",
+    "id": 116,
+    "name": "Shatagni",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "hindustanis",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 500,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Hand Cannoneers +2 range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "silk_road",
+    "id": 117,
+    "name": "Silk Road",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "italians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 500,
+      "Gold": 250
+    },
+    "research_time": 60,
+    "effect": ["Trade unit cost halved"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "recurve_bow",
+    "id": 118,
+    "name": "Recurve Bow",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "magyars",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 600,
+      "Gold": 400
+    },
+    "research_time": 40,
+    "effect": ["Cavalry Archers +1 range and attack"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "druzhina",
+    "id": 119,
+    "name": "Druzhina",
+    "type": "Unique",
+    "expansion": "The Forgotten",
+    "civilization": "slavs",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 1200,
+      "Gold": 500
+    },
+    "research_time": 40,
+    "effect": ["Infantry deals trample damage"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "kasbah",
+    "id": 120,
+    "name": "Kasbah",
+    "type": "Unique",
+    "expansion": "The African Kingdoms",
+    "civilization": "berbers",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 250,
+      "Gold": 250
+    },
+    "research_time": 40,
+    "effect": ["Team Castles work +25% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "tigui",
+    "id": 121,
+    "name": "Tigui",
+    "type": "Unique",
+    "expansion": "The African Kingdoms",
+    "civilization": "malians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 200,
+      "Wood": 300
+    },
+    "research_time": 40,
+    "effect": ["Town Centers fire arrows"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "royal_heirs",
+    "id": 122,
+    "name": "Royal Heirs",
+    "type": "Unique",
+    "expansion": "The African Kingdoms",
+    "civilization": "ethiopians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Shotel Warriors are created nearly instantly"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "carrack",
+    "id": 123,
+    "name": "Carrack",
+    "type": "Unique",
+    "expansion": "The African Kingdoms",
+    "civilization": "portuguese",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 200,
+      "Gold": 300
+    },
+    "research_time": 32,
+    "effect": ["Ship armor +1/+1"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "maghrebi_camels",
+    "id": 124,
+    "name": "Maghrebi Camels",
+    "type": "Unique",
+    "expansion": "The African Kingdoms",
+    "civilization": "berbers",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 700,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Camels regenerate 15 HP per minute"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "farimba",
+    "id": 125,
+    "name": "Farimba",
+    "type": "Unique",
+    "expansion": "The African Kingdoms",
+    "civilization": "malians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 650,
+      "Gold": 400
+    },
+    "research_time": 40,
+    "effect": ["Cavalry units +5 attack"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "torsion_engines",
+    "id": 126,
+    "name": "Torsion Engines",
+    "type": "Unique",
+    "expansion": "The African Kingdoms",
+    "civilization": "ethiopians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 1000,
+      "Gold": 600
+    },
+    "research_time": 40,
+    "effect": ["Siege Workshop units blast radius increased"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "arquebus",
+    "id": 127,
+    "name": "Arquebus",
+    "type": "Unique",
+    "expansion": "The African Kingdoms",
+    "civilization": "portuguese",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 700,
+      "Gold": 400
+    },
+    "research_time": 32,
+    "effect": [
+      "Gunpowder units fire more accurately at moving targets",
+      "Increases projectile speed of Bombard Cannons and Bombard Towers by 0.2 and of remaining gunpowder units by 0.5"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "howdah",
+    "id": 128,
+    "name": "Howdah",
+    "type": "Unique",
+    "expansion": "Rise of the Rajas",
+    "civilization": "burmese",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Wood": 300
+    },
+    "research_time": 40,
+    "effect": ["Battle Elephants +1/+1 armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "tusk_swords",
+    "id": 129,
+    "name": "Tusk Swords",
+    "type": "Unique",
+    "expansion": "Rise of the Rajas",
+    "civilization": "khmer",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 300,
+      "Gold": 450
+    },
+    "research_time": 40,
+    "effect": ["Battle Elephants +3 attack"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "thalassocracy",
+    "id": 130,
+    "name": "Thalassocracy",
+    "type": "Unique",
+    "expansion": "Rise of the Rajas",
+    "civilization": "malay",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Turns Docks into Harbors"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "chatras",
+    "id": 131,
+    "name": "Chatras",
+    "type": "Unique",
+    "expansion": "Rise of the Rajas",
+    "civilization": "vietnamese",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 250,
+      "Gold": 250
+    },
+    "research_time": 40,
+    "effect": ["Turns Docks into Harbors"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "manipur_cavalry",
+    "id": 132,
+    "name": "Manipur Cavalry",
+    "type": "Unique",
+    "expansion": "Rise of the Rajas",
+    "civilization": "burmese",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Gold": 400
+    },
+    "research_time": 40,
+    "effect": ["Cavalry +5 attack vs archers"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "double_crossbow",
+    "id": 133,
+    "name": "Double Crossbow",
+    "type": "Unique",
+    "expansion": "Rise of the Rajas",
+    "civilization": "khmer",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 700,
+      "Gold": 400
+    },
+    "research_time": 40,
+    "effect": [
+      "Ballista Elephants and Scorpions fire an additional projectile of half strength"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "forced_levy",
+    "id": 134,
+    "name": "Forced Levy",
+    "type": "Unique",
+    "expansion": "Rise of the Rajas",
+    "civilization": "malay",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 850,
+      "Gold": 500
+    },
+    "research_time": 40,
+    "effect": ["Militia-line costs +20 food, -20 gold"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "paper_money",
+    "id": 135,
+    "name": "Paper Money",
+    "type": "Unique",
+    "expansion": "Rise of the Rajas",
+    "civilization": "vietnamese",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 600,
+      "Gold": 350
+    },
+    "research_time": 60,
+    "effect": [
+      "Lumberjacks generate 0.014 gold (0.023 gold when fully upgraded) per second while gathering wood"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "stirrups",
+    "id": 136,
+    "name": "Stirrups",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "bulgarians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Gold": 200
+    },
+    "research_time": 35,
+    "effect": ["Cavalry units attack 33% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "steppe_husbandry",
+    "id": 137,
+    "name": "Steppe Husbandry",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "cumans",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 200,
+      "Wood": 300
+    },
+    "research_time": 40,
+    "effect": [
+      "Scout Cavalry line, Steppe Lancers and Cavalry Archers are created 100% faster"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "hill_forts",
+    "id": 138,
+    "name": "Hill Forts",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "lithuanians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 250,
+      "Gold": 250
+    },
+    "research_time": 40,
+    "effect": ["Town Centers +3 range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "silk_armor",
+    "id": 139,
+    "name": "Silk Armor",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "tatars",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 400,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": [
+      "Scout Cavalry line, Cavalry Archers, and Steppe Lancers +1/+1 armor"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "kamandaran",
+    "id": 140,
+    "name": "Kamandaran",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "persians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Archer line units cost 60 wood instead of 25 wood, 45 gold"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "eupseong",
+    "id": 141,
+    "name": "Eupseong",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "koreans",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Wood": 300
+    },
+    "research_time": 40,
+    "effect": ["Watch Towers, Guard Towers and Keeps +2 range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "bagains",
+    "id": 142,
+    "name": "Bagains",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "bulgarians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 900,
+      "Gold": 450
+    },
+    "research_time": 40,
+    "effect": ["Militia line units +5 melee armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "cuman_mercenaries",
+    "id": 143,
+    "name": "Cuman Mercenaries",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "cumans",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 650,
+      "Gold": 400
+    },
+    "research_time": 40,
+    "effect": ["Team members can create 5 free Elite Kipchaks per Castle"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "tower_shields",
+    "id": 144,
+    "name": "Tower Shields",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "lithuanians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 500,
+      "Gold": 200
+    },
+    "research_time": 40,
+    "effect": ["Spearman and Skirmisher lines +2 pierce armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "timurid_siegecraft",
+    "id": 145,
+    "name": "Timurid Siegecraft",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "tatars",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 500,
+      "Gold": 400
+    },
+    "research_time": 50,
+    "effect": ["Trebuchets +2 range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "timurid_siegecraft",
+    "id": 146,
+    "name": "Timurid Siegecraft",
+    "type": "Unique",
+    "expansion": "The Last Khans",
+    "civilization": "tatars",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 500,
+      "Gold": 400
+    },
+    "research_time": 50,
+    "effect": ["Trebuchets +2 range"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "burgundian_vineyards",
+    "id": 147,
+    "name": "Burgundian Vineyards",
+    "type": "Unique",
+    "expansion": "Lords of the West",
+    "civilization": "burgundians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 400,
+      "Gold": 300
+    },
+    "research_time": 45,
+    "effect": ["Farmers generate 0.017 gold per second while gathering food"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "first_crusade",
+    "id": 148,
+    "name": "First Crusade",
+    "type": "Unique",
+    "expansion": "Lords of the West",
+    "civilization": "sicilians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Gold": 600
+    },
+    "research_time": 60,
+    "effect": [
+      "Each Town Center (max. 5) spawns 7 Serjeants; units become more resistant to conversion"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "hul_che_javelineers",
+    "id": 149,
+    "name": "Hul'che Javelineers",
+    "type": "Unique",
+    "expansion": "Lords of the West",
+    "civilization": "mayans",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Gold": 300
+    },
+    "research_time": 40,
+    "effect": ["Skirmishers throw two projectiles"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "flemish_revolution",
+    "id": 150,
+    "name": "Flemish Revolution",
+    "type": "Unique",
+    "expansion": "Lords of the West",
+    "civilization": "burgundians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 1200,
+      "Gold": 650
+    },
+    "research_time": 10,
+    "effect": ["Turns all Villagers into Flemish Militia"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "scutage",
+    "id": 151,
+    "name": "Scutage",
+    "type": "Unique",
+    "expansion": "Lords of the West",
+    "civilization": "sicilians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 500,
+      "Gold": 400
+    },
+    "research_time": 45,
+    "effect": [
+      "The player and all allies receive 15 gold for every military unit (including Monks) that they own"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "wagenburg_tactics",
+    "id": 152,
+    "name": "Wagenburg Tactics",
+    "type": "Unique",
+    "expansion": "Dawn of the Dukes",
+    "civilization": "bohemians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 300,
+      "Gold": 300
+    },
+    "research_time": 45,
+    "effect": ["Gunpowder units move 15% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "szlachta_privileges",
+    "id": 153,
+    "name": "Szlachta Privileges",
+    "type": "Unique",
+    "expansion": "Dawn of the Dukes",
+    "civilization": "poles",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 500,
+      "Gold": 300
+    },
+    "research_time": 45,
+    "effect": ["Reduces the gold cost of Knight-line by 60%"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "hussite_reforms",
+    "id": 154,
+    "name": "Hussite Reforms",
+    "type": "Unique",
+    "expansion": "Dawn of the Dukes",
+    "civilization": "bohemians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 800,
+      "Gold": 450
+    },
+    "research_time": 45,
+    "effect": [
+      "Turns the gold cost of Monks and Monastery technologies into food"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "lechitic_legacy",
+    "id": 155,
+    "name": "Lechitic Legacy",
+    "type": "Unique",
+    "expansion": "Dawn of the Dukes",
+    "civilization": "poles",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 750,
+      "Gold": 550
+    },
+    "research_time": 60,
+    "effect": [
+      "Gives 33% trample damage (blast damage) to the Scout Cavalry line within 0.5 tile blast radius"
+    ],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "hauberk",
+    "id": 156,
+    "name": "Hauberk",
+    "type": "Unique",
+    "expansion": "Dawn of the Dukes",
+    "civilization": "sicilians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 700,
+      "Gold": 600
+    },
+    "research_time": 45,
+    "effect": ["Knight-line +1/+2 armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   }
 ]
