@@ -2606,5 +2606,141 @@
     "research_time": 45,
     "effect": ["Knight-line +1/+2 armor"],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "paiks",
+    "id": 157,
+    "name": "Paiks",
+    "type": "Unique",
+    "expansion": "Dynasties of India",
+    "civilization": "bengalis",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 375,
+      "Gold": 275
+    },
+    "research_time": 45,
+    "effect": ["Rathas and elephant units attack 20% faster"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "medical_corps",
+    "id": 158,
+    "name": "Medical Corps",
+    "type": "Unique",
+    "expansion": "Dynasties of India",
+    "civilization": "dravidians",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 350,
+      "Gold": 250
+    },
+    "research_time": 45,
+    "effect": ["Elephant units regenerate 20 HP per minute"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "kshatriyas",
+    "id": 159,
+    "name": "Kshatriyas",
+    "type": "Unique",
+    "expansion": "Dynasties of India",
+    "civilization": "gurjaras",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 200,
+      "Gold": 400
+    },
+    "research_time": 45,
+    "effect": ["Military units cost -25% food"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "detinets",
+    "id": 160,
+    "name": "Detinets",
+    "type": "Unique",
+    "expansion": "Dynasties of India",
+    "civilization": "slavs",
+    "age": "Castle Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 400,
+      "Gold": 200
+    },
+    "research_time": 40,
+    "effect": ["Replaces 40% of Castles' and towers' stone cost with wood"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
+  },
+  {
+    "_id": "mahayana",
+    "id": 161,
+    "name": "Mahayana",
+    "type": "Unique",
+    "expansion": "Dynasties of India",
+    "civilization": "bengalis",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Wood": 800,
+      "Gold": 650
+    },
+    "research_time": 60,
+    "effect": ["Villagers take -10% population space"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "wootz_steel",
+    "id": 162,
+    "name": "Wootz Steel",
+    "type": "Unique",
+    "expansion": "Dynasties of India",
+    "civilization": "dravidians",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 750,
+      "Gold": 600
+    },
+    "research_time": 60,
+    "effect": ["Infantry and cavalry attacks ignore armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "frontier_guards",
+    "id": 163,
+    "name": "Frontier Guards",
+    "type": "Unique",
+    "expansion": "Dynasties of India",
+    "civilization": "gurjaras",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 800,
+      "Gold": 700
+    },
+    "research_time": 0,
+    "effect": ["Camel Riders and Elephant Archers get +4 armor"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
+  },
+  {
+    "_id": "counterweights",
+    "id": 164,
+    "name": "Counterweights",
+    "type": "Unique",
+    "expansion": "Dynasties of India",
+    "civilization": "saracens",
+    "age": "Imperial Age",
+    "researched_at": ["castle"],
+    "cost": {
+      "Food": 650,
+      "Gold": 500
+    },
+    "research_time": 60,
+    "effect": ["Trebuchets and Mangonel-line +15% attack"],
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   }
 ]
