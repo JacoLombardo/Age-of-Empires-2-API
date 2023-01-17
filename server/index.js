@@ -12,10 +12,11 @@ dotenv.config();
 const app = express();
 const router = express.Router();
 
-const corsOptions = {
-  origin: "https://age-of-empires-2-api.vercel.app",
-};
-app.use(cors(corsOptions));
+// const corsOptions = {
+//   origin: "http://localhost:3000",
+//   // origin: "https://age-of-empires-2-api.vercel.app",
+// };
+app.use(cors());
 
 const port = process.env.PORT || 5000;
 
