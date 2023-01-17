@@ -1,9 +1,9 @@
 [
   {
-    "_id": "town_center",
-    "id": 1,
+    "id": "town_center",
+    "number_id": 1,
     "name": "Town Center",
-    "description": "Used to create villagers, deposit resources (food, wood, stone, gold), advance to next age, and improve buildings, villagers. Units can garrison inside for protection.",
+    "description": "Used to create villagers, deposit resources (food, wood, stone, gold), advance to next age, and improve buildings, villagers. Units can garrison insnumber_ide for protection.",
     "expansion": "The Age of Kings",
     "type": "Town Center",
     "age": "Castle Age",
@@ -35,8 +35,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/town_center_ox0c0v.png"
   },
   {
-    "_id": "mill",
-    "id": 2,
+    "id": "mill",
+    "number_id": 2,
     "name": "Mill",
     "description": "Used to deposit food and research farming improvements.",
     "expansion": "The Age of Kings",
@@ -54,16 +54,20 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/mill_v3y8ov.png"
   },
   {
-    "_id": "folwark",
-    "id": 3,
+    "id": "folwark",
+    "number_id": 3,
     "name": "Folwark",
-    "description": "Unique building of the Poles. Used to deposit food and research farming technologies. Immediately collects 10% of food from nearby newly constructed farms. Provides 5 population.",
+    "description": "Unique building of the Poles. Used to deposit food and research farming technologies. Immediately collects 10% of food from nearby newly constructed farms. Provnumber_ides 5 population.",
     "expansion": "Dawn of the Dukes",
     "type": "Economic",
     "age": "Dark Age",
-    "use": ["Drop off food", "Upgrade and queue Farms", "Provides population"],
+    "use": [
+      "Drop off food",
+      "Upgrade and queue Farms",
+      "Provnumber_ides population"
+    ],
     "special_ability": [
-      "Instantly collects 10% of the food provided by seeded or reseeded Farms in a radius of 4 tiles around the Folwark"
+      "Instantly collects 10% of the food provnumber_ided by seeded or reseeded Farms in a radius of 4 tiles around the Folwark"
     ],
     "cost": {
       "Wood": 125
@@ -76,14 +80,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/folwark_wujsrc.png"
   },
   {
-    "_id": "farm",
-    "id": 4,
+    "id": "farm",
+    "number_id": 4,
     "name": "Farm",
-    "description": "A renewable source of food. Provides a limited amount of food before it goes fallow and must be rebuilt.",
+    "description": "A renewable source of food. Provnumber_ides a limited amount of food before it goes fallow and must be rebuilt.",
     "expansion": "The Age of Kings",
     "type": "Economic",
     "age": "Dark Age",
-    "use": ["Provide food"],
+    "use": ["Provnumber_ide food"],
     "cost": {
       "Wood": 60
     },
@@ -95,8 +99,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/farm_ozeguo.png"
   },
   {
-    "_id": "market",
-    "id": 5,
+    "id": "market",
+    "number_id": 5,
     "name": "Market",
     "description": "Used to buy and sell resources, trade with other players by land, and research trade technologies. Required to send resources to other players. Enables you to see the line of sight of your allies.",
     "expansion": "The Age of Kings",
@@ -118,8 +122,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/market_or0rrm.png"
   },
   {
-    "_id": "lumber_camp",
-    "id": 6,
+    "id": "lumber_camp",
+    "number_id": 6,
     "name": "Lumber Camp",
     "description": "Used to deposit wood and research wood-gathering improvements.",
     "expansion": "The Age of Kings",
@@ -137,8 +141,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/lumber_camp_axhtlx.png"
   },
   {
-    "_id": "mining_camp",
-    "id": 7,
+    "id": "mining_camp",
+    "number_id": 7,
     "name": "Mining Camp",
     "description": "Used to deposit stone and gold and research mining technologies. Build near stone or gold mines to gather these resources faster.",
     "expansion": "The Age of Kings",
@@ -156,8 +160,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/mining_camp_x42ztj.png"
   },
   {
-    "_id": "dock",
-    "id": 8,
+    "id": "dock",
+    "number_id": 8,
     "name": "Dock",
     "description": "Used to build and upgrade ships, deposit food from Fishing Ships, and trade with other players by sea.",
     "expansion": "The Age of Kings",
@@ -175,8 +179,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/dock_lpqm4y.png"
   },
   {
-    "_id": "harbor",
-    "id": 9,
+    "id": "harbor",
+    "number_id": 9,
     "name": "Harbor",
     "description": "Used to build and improve ships, deposit food from Fishing Ships, and trade with other players by sea.",
     "expansion": "Rise of the Rajas",
@@ -200,14 +204,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357724/age-of-empires-2/buildings/harbor_izwamz.png"
   },
   {
-    "_id": "fish_trap",
-    "id": 10,
+    "id": "fish_trap",
+    "number_id": 10,
     "name": "Fish Trap",
     "description": "A renewable source of food. Similar to a Farm, but in water.",
     "expansion": "The Age of Kings",
     "type": "Economic",
     "age": "Feudal Age",
-    "use": ["Provides food"],
+    "use": ["Provnumber_ides food"],
     "cost": {
       "Wood": 100
     },
@@ -219,8 +223,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/fish_trap_enqgvt.png"
   },
   {
-    "_id": "feitoria",
-    "id": 11,
+    "id": "feitoria",
+    "number_id": 11,
     "name": "Feitoria",
     "description": "Economic building. Generates resources without the need of villagers. Requires 20 population.",
     "expansion": "The African Kingdoms",
@@ -239,8 +243,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/feitoria_ma3iwt.png"
   },
   {
-    "_id": "caravanserai",
-    "id": 12,
+    "id": "caravanserai",
+    "number_id": 12,
     "name": "Caravanserai",
     "description": "Economic building. Heals and increases speed of Trade Carts in a 10 tile radius.",
     "expansion": "Dynasties of India",
@@ -262,8 +266,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673357723/age-of-empires-2/buildings/caravanserai_qsdgxo.png"
   },
   {
-    "_id": "blacksmith",
-    "id": 13,
+    "id": "blacksmith",
+    "number_id": 13,
     "name": "Blacksmith",
     "description": "Used to research technologies to improve armor and attack of units. Required for Siege Workshop.",
     "expansion": "The Age of Kings",
@@ -281,8 +285,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/blacksmith_jouqdo.png"
   },
   {
-    "_id": "university",
-    "id": 14,
+    "id": "university",
+    "number_id": 14,
     "name": "University",
     "description": "Used to research technologies to improve units and buildings.",
     "expansion": "The Age of Kings",
@@ -300,8 +304,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358877/age-of-empires-2/buildings/university_orjlqc.png"
   },
   {
-    "_id": "barracks",
-    "id": 15,
+    "id": "barracks",
+    "number_id": 15,
     "name": "Barracks",
     "description": "Used to train and upgrade infantry. Required for Archery Range, Stable.",
     "expansion": "The Age of Kings",
@@ -319,8 +323,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/barracks_h64ukd.png"
   },
   {
-    "_id": "archery_range",
-    "id": 16,
+    "id": "archery_range",
+    "number_id": 16,
     "name": "Archery Range",
     "description": "Used to train and upgrade archer units.",
     "expansion": "The Age of Kings",
@@ -335,11 +339,11 @@
     "melee_armor": 1,
     "pierce_armor": 8,
     "line_of_sight": 6,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/archery_range_feidsj.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/archery_range_fenumber_idsj.png"
   },
   {
-    "_id": "stable",
-    "id": 17,
+    "id": "stable",
+    "number_id": 17,
     "name": "Stable",
     "description": "Used to train and upgrade cavalry units.",
     "expansion": "The Age of Kings",
@@ -357,8 +361,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358877/age-of-empires-2/buildings/stable_g0m7hf.png"
   },
   {
-    "_id": "siege_workshop",
-    "id": 18,
+    "id": "siege_workshop",
+    "number_id": 18,
     "name": "Siege Workshop",
     "description": "Used to build and upgrade siege weapons.",
     "expansion": "The Age of Kings",
@@ -376,8 +380,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358877/age-of-empires-2/buildings/siege_workshop_wcacfi.png"
   },
   {
-    "_id": "monastery",
-    "id": 19,
+    "id": "monastery",
+    "number_id": 19,
     "name": "Monastery",
     "description": "Used to create and improve Monks. Garrisoned relics generate gold.",
     "expansion": "The Age of Kings",
@@ -395,8 +399,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358877/age-of-empires-2/buildings/monastery_ipchcy.png"
   },
   {
-    "_id": "castle",
-    "id": 20,
+    "id": "castle",
+    "number_id": 20,
     "name": "Castle",
     "description": "Used to create your unique unit, build Trebuchets, and improve villagers and buildings.",
     "expansion": "The Age of Kings",
@@ -431,8 +435,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/castle_m0cyf0.png"
   },
   {
-    "_id": "krepost",
-    "id": 21,
+    "id": "krepost",
+    "number_id": 21,
     "name": "Krepost",
     "description": "Fortification used to train your unique unit. Unique building of the Bulgarians.",
     "expansion": "The Last Khans",
@@ -463,8 +467,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/krepost_ymustf.png"
   },
   {
-    "_id": "donjon",
-    "id": 22,
+    "id": "donjon",
+    "number_id": 22,
     "name": "Donjon",
     "description": "Fortification used to train Serjeants. Unique building of the Sicilians.",
     "expansion": "Lords of the West",
@@ -495,8 +499,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/donjon_czz1wt.png"
   },
   {
-    "_id": "palisade_wall",
-    "id": 23,
+    "id": "palisade_wall",
+    "number_id": 23,
     "name": "Palisade Wall",
     "description": "Wooden Wall that is cheap and easy to build. Slows down your enemies and warns you of their approach.",
     "expansion": "The Age of Kings",
@@ -514,8 +518,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/palisade_wall_fd4y2e.png"
   },
   {
-    "_id": "palisade_gate",
-    "id": 24,
+    "id": "palisade_gate",
+    "number_id": 24,
     "name": "Palisade Gate",
     "description": "Can be built into existing Walls. You and your allies can manually open and close this Gate.",
     "expansion": "The Forgotten",
@@ -533,8 +537,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/palisade_gate_rarozb.png"
   },
   {
-    "_id": "stone_wall",
-    "id": 25,
+    "id": "stone_wall",
+    "number_id": 25,
     "name": "Stone Wall",
     "description": "Stone wall that is difficult to breach without siege weapons. Slows down your enemies and warns you of their approach. Cannot be converted by enemy Monks.",
     "expansion": "The Age of Kings",
@@ -552,8 +556,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/stone_wall_em7qgo.png"
   },
   {
-    "_id": "gate",
-    "id": 26,
+    "id": "gate",
+    "number_id": 26,
     "name": "Gate",
     "description": "Can be built into existing walls to allow movement of friendly units. Can be locked and unlocked. Cannot be converted by enemy Monks.",
     "expansion": "The Age of Kings",
@@ -571,8 +575,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/gate_wx0ly4.png"
   },
   {
-    "_id": "fortified_wall",
-    "id": 27,
+    "id": "fortified_wall",
+    "number_id": 27,
     "name": "Fortified Wall",
     "description": "Stronger than Stone Wall. Difficult to breach without siege weapons.",
     "expansion": "The Age of Kings",
@@ -590,8 +594,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/stone_wall_em7qgo.png"
   },
   {
-    "_id": "fortified_gate",
-    "id": 28,
+    "id": "fortified_gate",
+    "number_id": 28,
     "name": "Fortified Gate",
     "description": "Can be built into existing walls to allow movement of friendly units. Can be locked and unlocked. Cannot be converted by enemy Monks.",
     "expansion": "The Age of Kings",
@@ -609,14 +613,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/gate_wx0ly4.png"
   },
   {
-    "_id": "outpost",
-    "id": 29,
+    "id": "outpost",
+    "number_id": 29,
     "name": "Outpost",
-    "description": "A stationary watch point that provides advanced warning of nearby enemy activity.",
+    "description": "A stationary watch point that provnumber_ides advanced warning of nearby enemy activity.",
     "expansion": "The Age of Kings",
     "type": "Tower",
     "age": "Dark Age",
-    "use": ["Provide Line of Sight"],
+    "use": ["Provnumber_ide Line of Sight"],
     "cost": {
       "Wood": 25,
       "Stone": 5
@@ -629,8 +633,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/outpost_flsltu.png"
   },
   {
-    "_id": "watch_tower",
-    "id": 30,
+    "id": "watch_tower",
+    "number_id": 30,
     "name": "Watch Tower",
     "description": "Basic stone tower. Automatically attacks enemy units and buildings within range.",
     "expansion": "The Age of Kings",
@@ -661,14 +665,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/tower_trprwi.png"
   },
   {
-    "_id": "guard_tower",
-    "id": 31,
+    "id": "guard_tower",
+    "number_id": 31,
     "name": "Guard Tower",
     "description": "Stronger than Watch Tower, with greater fighting ability.",
     "expansion": "The Age of Kings",
     "type": "Tower",
     "age": "Castle Age",
-    "use": ["Provide Line of Sight", "Attacks enemies at sight"],
+    "use": ["Provnumber_ide Line of Sight", "Attacks enemies at sight"],
     "cost": {
       "Wood": 50,
       "Stone": 125
@@ -693,14 +697,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/tower_trprwi.png"
   },
   {
-    "_id": "keep",
-    "id": 32,
+    "id": "keep",
+    "number_id": 32,
     "name": "Keep",
     "description": "Stronger than Guard Tower. Fires farther and is better armored.",
     "expansion": "The Age of Kings",
     "type": "Tower",
     "age": "Imperial Age",
-    "use": ["Provide Line of Sight", "Attacks enemies at sight"],
+    "use": ["Provnumber_ide Line of Sight", "Attacks enemies at sight"],
     "cost": {
       "Wood": 50,
       "Stone": 125
@@ -725,14 +729,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/tower_trprwi.png"
   },
   {
-    "_id": "bombard_tower",
-    "id": 33,
+    "id": "bombard_tower",
+    "number_id": 33,
     "name": "Bombard Tower",
     "description": "Powerful attack with extensive line of sight. Attack bonus vs. ships.",
     "expansion": "The Age of Kings",
     "type": "Tower",
     "age": "Imperial Age",
-    "use": ["Provide Line of Sight", "Attacks enemies at sight"],
+    "use": ["Provnumber_ide Line of Sight", "Attacks enemies at sight"],
     "cost": {
       "Gold": 100,
       "Stone": 125
@@ -751,14 +755,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/bombard_tower_jysk5j.png"
   },
   {
-    "_id": "house",
-    "id": 34,
+    "id": "house",
+    "number_id": 34,
     "name": "House",
     "description": "Each House supports 5 units (villagers, military units, ships, Trade Carts).",
     "expansion": "The Age of Kings",
     "type": "Civilian",
     "age": "Dark Age",
-    "use": ["Provides population"],
+    "use": ["Provnumber_ides population"],
     "cost": {
       "Wood": 25
     },
@@ -770,8 +774,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673360411/age-of-empires-2/buildings/house_ro9e8r.png"
   },
   {
-    "_id": "wonder",
-    "id": 35,
+    "id": "wonder",
+    "number_id": 35,
     "name": "Wonder",
     "description": "Building a Wonder of the World demonstrates the superiority of your civilization. Constructing a Wonder that stands for a certain period of time is one way to win the game.",
     "expansion": "The Age of Kings",

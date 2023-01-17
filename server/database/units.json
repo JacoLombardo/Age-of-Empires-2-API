@@ -1,13 +1,13 @@
 [
   {
-    "_id": "villager",
-    "id": 1,
+    "id": "villager",
+    "number_id": 1,
     "name": "Villager",
     "type": "Civilian",
     "description": "Gathers wood, food, stone, gold. Builds and repairs buildings. Also repairs ships, siege weapons.",
     "expansion": "Age of Kings",
     "age": "Dark Age",
-    "trained_at": ["town_center"],
+    "trainedAt": ["town_center"],
     "cost": {
       "Food": 50
     },
@@ -29,14 +29,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671984593/age-of-empires-2/units/villager_ryaeqn.jpg"
   },
   {
-    "_id": "trade_cart",
-    "id": 2,
+    "id": "trade_cart",
+    "number_id": 2,
     "name": "Trade Cart",
     "type": "Civilian",
     "description": "Trade unit used for generating gold at another player's Market.",
     "expansion": "Age of Kings",
     "age": "Feudal Age",
-    "trained_at": ["Market"],
+    "trainedAt": ["market"],
     "cost": {
       "Wood": 100,
       "Gold": 50
@@ -51,14 +51,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671984593/age-of-empires-2/units/trade_cart_zjewl9.png"
   },
   {
-    "_id": "trade_cog",
-    "id": 3,
+    "id": "trade_cog",
+    "number_id": 3,
     "name": "Trade Cog",
     "type": "Civilian Ship",
     "description": "Used to trade with other players by sea.",
     "expansion": "Age of Kings",
     "age": "Feudal Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 100,
       "Gold": 50
@@ -74,14 +74,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671984593/age-of-empires-2/units/trade_cog_kkkfbe.png"
   },
   {
-    "_id": "fishing_ship",
-    "id": 4,
+    "id": "fishing_ship",
+    "number_id": 4,
     "name": "Fishing Ship",
     "type": "Civilian Ship",
     "description": "Gathers food from fish and Fish Traps. Builds Fish Traps.",
     "expansion": "Age of Kings",
     "age": "dark Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 75
     },
@@ -96,14 +96,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671984593/age-of-empires-2/units/fishing_ship_aju6bp.png"
   },
   {
-    "_id": "transport_ship",
-    "id": 5,
+    "id": "transport_ship",
+    "number_id": 5,
     "name": "Transport Ship",
     "type": "Naval Vessel",
     "description": "Used to move units across water. Select the units you want to transport, then right-click on the Transport Ship to board them. Use the Unload button to unload units on the shore.",
     "expansion": "Age of Kings",
     "age": "Dark Age",
-    "trained_at": ["dock", "harbor"],
+    "trainedAt": ["dock", "harbor"],
     "cost": {
       "Wood": 125
     },
@@ -118,14 +118,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671984593/age-of-empires-2/units/transport_ship_uprzdl.png"
   },
   {
-    "_id": "monk",
-    "id": 6,
+    "id": "monk",
+    "number_id": 6,
     "name": "Monk",
     "type": "Monk",
     "description": "Converts enemy units to your civilization. Heals friendly units (except ships and siege weapons). Can collect Relics and bring them to Monasteries.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["monastery"],
+    "trainedAt": ["monastery"],
     "cost": {
       "Gold": 100
     },
@@ -142,14 +142,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987552/age-of-empires-2/units/monk_w4hnkq.png"
   },
   {
-    "_id": "militia",
-    "id": 7,
+    "id": "militia",
+    "number_id": 7,
     "name": "Militia",
     "type": "Infantry",
     "description": "All-purpose infantry unit.",
     "expansion": "Age of Kings",
     "age": "Dark Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 60,
       "Gold": 20
@@ -166,14 +166,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987552/age-of-empires-2/units/militia_e1lulo.png"
   },
   {
-    "_id": "man_at_arms",
-    "id": 8,
+    "id": "man_at_arms",
+    "number_id": 8,
     "name": "Man-at-Arms",
     "type": "Infantry",
     "description": "All-purpose infantry unit.",
     "expansion": "Age of Kings",
     "age": "Feudal Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 60,
       "Gold": 20
@@ -191,14 +191,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987551/age-of-empires-2/units/man_at-arms_ughla5.png"
   },
   {
-    "_id": "long_swordsman",
-    "id": 9,
+    "id": "long_swordsman",
+    "number_id": 9,
     "name": "Long Swordsman",
     "type": "Infantry",
     "description": "All-purpose infantry unit.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 60,
       "Gold": 20
@@ -216,14 +216,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987551/age-of-empires-2/units/long_swordsman_kumagf.png"
   },
   {
-    "_id": "two_handed_swordsman",
-    "id": 10,
+    "id": "two_handed_swordsman",
+    "number_id": 10,
     "name": "Two-Handed Swordsman",
     "type": "Infantry",
     "description": "All-purpose infantry unit.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 60,
       "Gold": 20
@@ -241,14 +241,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987552/age-of-empires-2/units/two_handed_swordsman_sljbdh.png"
   },
   {
-    "_id": "champion",
-    "id": 11,
+    "id": "champion",
+    "number_id": 11,
     "name": "Champion",
     "type": "Infantry",
     "description": "All-purpose infantry unit.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 60,
       "Gold": 20
@@ -266,14 +266,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987551/age-of-empires-2/units/champion_mttjym.png"
   },
   {
-    "_id": "spearman",
-    "id": 12,
+    "id": "spearman",
+    "number_id": 12,
     "name": "Spearman",
     "type": "Infantry",
     "description": "Anti-cavalry infantry unit.",
     "expansion": "Age of Kings",
     "age": "Feudal Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 35,
       "Wood": 25
@@ -300,14 +300,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987552/age-of-empires-2/units/spearman_hc2j16.png"
   },
   {
-    "_id": "pikeman",
-    "id": 13,
+    "id": "pikeman",
+    "number_id": 13,
     "name": "Pikeman",
     "type": "Infantry",
     "description": "Anti-cavalry infantry unit.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 35,
       "Wood": 25
@@ -334,14 +334,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987552/age-of-empires-2/units/pikeman_wg8vt9.png"
   },
   {
-    "_id": "halbardier",
-    "id": 14,
+    "id": "halbardier",
+    "number_id": 14,
     "name": "Halberdier",
     "type": "Infantry",
     "description": "Anti-cavalry infantry unit.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 35,
       "Wood": 25
@@ -368,14 +368,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987551/age-of-empires-2/units/halberdier_eik26z.png"
   },
   {
-    "_id": "eagle_scout",
-    "id": 15,
+    "id": "eagle_scout",
+    "number_id": 15,
     "name": "Eagle Scout",
     "type": "Infantry",
-    "description": "Fast infantry for scouting and raiding. Resistant to conversion.",
+    "description": "Fast infantry for scouting and ranumber_iding. Resistant to conversion.",
     "expansion": "The Forgotten",
     "age": "Feudal Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 20,
       "Gold": 50
@@ -394,14 +394,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987551/age-of-empires-2/units/eagle_scout_y9ztik.png"
   },
   {
-    "_id": "eagle_warrior",
-    "id": 16,
+    "id": "eagle_warrior",
+    "number_id": 16,
     "name": "Eagle Warrior",
     "type": "Infantry",
-    "description": "Fast infantry for scouting and raiding. Resistant to conversion.",
+    "description": "Fast infantry for scouting and ranumber_iding. Resistant to conversion.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 20,
       "Gold": 50
@@ -427,14 +427,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987551/age-of-empires-2/units/eagle_warrior_rdracp.png"
   },
   {
-    "_id": "elite_eagle_warrior",
-    "id": 17,
+    "id": "elite_eagle_warrior",
+    "number_id": 17,
     "name": "Elite Eagle Warrior",
     "type": "Infantry",
-    "description": "Fast infantry for scouting and raiding. Resistant to conversion.",
+    "description": "Fast infantry for scouting and ranumber_iding. Resistant to conversion.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 20,
       "Gold": 50
@@ -460,14 +460,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671987551/age-of-empires-2/units/elite_eagle_warrior_cqzcle.png"
   },
   {
-    "_id": "archer",
-    "id": 18,
+    "id": "archer",
+    "number_id": 18,
     "name": "Archer",
     "type": "Foot archer",
     "description": "Ranged unit.",
     "expansion": "Age of Kings",
     "age": "Feudal Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Wood": 25,
       "Gold": 45
@@ -490,14 +490,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070211/age-of-empires-2/units/archer_navprz.png"
   },
   {
-    "_id": "crossbowman",
-    "id": 19,
+    "id": "crossbowman",
+    "number_id": 19,
     "name": "Crossbowman",
     "type": "Foot archer",
     "description": "Ranged unit.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Wood": 25,
       "Gold": 45
@@ -520,14 +520,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070211/age-of-empires-2/units/crossbowman_wjwsx6.png"
   },
   {
-    "_id": "arbalester",
-    "id": 20,
+    "id": "arbalester",
+    "number_id": 20,
     "name": "Arbalester",
     "type": "Foot archer",
     "description": "Ranged unit.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Wood": 25,
       "Gold": 45
@@ -550,14 +550,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070211/age-of-empires-2/units/arbalester_jbovwx.png"
   },
   {
-    "_id": "skirmisher",
-    "id": 21,
+    "id": "skirmisher",
+    "number_id": 21,
     "name": "Skirmisher",
     "type": "Foot archer",
     "description": "Ranged anti-archer unit that cannot attack at close range.",
     "expansion": "Age of Kings",
     "age": "Feudal Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Food": 25,
       "Wood": 35
@@ -580,14 +580,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070213/age-of-empires-2/units/skirmisher_ndj2he.png"
   },
   {
-    "_id": "elite_skirmisher",
-    "id": 22,
+    "id": "elite_skirmisher",
+    "number_id": 22,
     "name": "Elite Skirmisher",
     "type": "Foot archer",
     "description": "Ranged anti-archer unit that cannot attack at close range.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Food": 25,
       "Wood": 35
@@ -610,14 +610,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070212/age-of-empires-2/units/elite_skirmisher_ztnhwe.png"
   },
   {
-    "_id": "hand_cannoneer",
-    "id": 23,
+    "id": "hand_cannoneer",
+    "number_id": 23,
     "name": "Hand Cannoneer",
     "type": "Gunpowder unit",
     "description": "Gunpowder unit with powerful attack, but inaccurate at long range.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Food": 45,
       "Gold": 50
@@ -640,14 +640,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070213/age-of-empires-2/units/hand_cannoneer_in32je.png"
   },
   {
-    "_id": "cavalry_archer",
-    "id": 24,
+    "id": "cavalry_archer",
+    "number_id": 24,
     "name": "Cavalry Archer",
     "type": "Mounted Archer",
-    "description": "Fast, with ranged attack. Ideal for hit-and-run attacks.",
+    "description": "Fast, with ranged attack. number_ideal for hit-and-run attacks.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Wood": 40,
       "Gold": 60
@@ -670,14 +670,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070212/age-of-empires-2/units/cavalry_archer_qreuj3.png"
   },
   {
-    "_id": "heavy_cavalry_archer",
-    "id": 25,
+    "id": "heavy_cavalry_archer",
+    "number_id": 25,
     "name": "Heavy Cavalry Archer",
     "type": "Mounted Archer",
-    "description": "Fast, with ranged attack. Ideal for hit-and-run attacks.",
+    "description": "Fast, with ranged attack. number_ideal for hit-and-run attacks.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Wood": 40,
       "Gold": 60
@@ -700,14 +700,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070213/age-of-empires-2/units/heavy_cavalry_archer_u3yb9x.png"
   },
   {
-    "_id": "elephant_archer",
-    "id": 26,
+    "id": "elephant_archer",
+    "number_id": 26,
     "name": "Elephant Archer",
     "type": "Mounted Archer",
     "description": "Slow and heavy mounted archer.",
     "expansion": "Dynasties of India",
     "age": "Castle Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Food": 80,
       "Gold": 70
@@ -729,14 +729,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070212/age-of-empires-2/units/elephant_archer_dasgh0.png"
   },
   {
-    "_id": "elite_elephant_archer",
-    "id": 27,
+    "id": "elite_elephant_archer",
+    "number_id": 27,
     "name": "Elite Elephant Archer",
     "type": "Mounted Archer",
     "description": "Slow and heavy mounted archer.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Food": 80,
       "Gold": 70
@@ -758,14 +758,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672070213/age-of-empires-2/units/elite_elephant_archer_tlv9yq.png"
   },
   {
-    "_id": "scout_cavalry",
-    "id": 28,
+    "id": "scout_cavalry",
+    "number_id": 28,
     "name": "Scout Cavalry",
     "type": "Cavalry",
-    "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+    "description": "Fast cavalry for scouting and ranumber_iding. Resistant to conversion.",
     "expansion": "Age of Kings",
     "age": "Feudal Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 80
     },
@@ -783,14 +783,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/scout_cavalry_pa2mbx.png"
   },
   {
-    "_id": "light_cavalry",
-    "id": 29,
+    "id": "light_cavalry",
+    "number_id": 29,
     "name": "Light Cavalry",
     "type": "Cavalry",
-    "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+    "description": "Fast cavalry for scouting and ranumber_iding. Resistant to conversion.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 80
     },
@@ -808,14 +808,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/light_cavalry_eegsn8.png"
   },
   {
-    "_id": "hussar",
-    "id": 30,
+    "id": "hussar",
+    "number_id": 30,
     "name": "Hussar",
     "type": "Cavalry",
-    "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
+    "description": "Fast cavalry for scouting and ranumber_iding. Resistant to conversion.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 80
     },
@@ -833,14 +833,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/hussar_uacdon.png"
   },
   {
-    "_id": "winged_hussar",
-    "id": 31,
+    "id": "winged_hussar",
+    "number_id": 31,
     "name": "Winged Hussar",
     "type": "Cavalry",
-    "description": "Unique to Poles and Lithuanians. Fast cavalry for scouting and raiding. Resistant to conversion.",
+    "description": "Unique to Poles and Lithuanians. Fast cavalry for scouting and ranumber_iding. Resistant to conversion.",
     "expansion": "Dawn of the Dukes",
     "age": "Imperial Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 80
     },
@@ -858,14 +858,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/winged_hussar_finye8.png"
   },
   {
-    "_id": "knight",
-    "id": 32,
+    "id": "knight",
+    "number_id": 32,
     "name": "Knight",
     "type": "Cavalry",
     "description": "Powerful all-purpose cavalry.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 60,
       "Gold": 75
@@ -882,14 +882,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/knight_g7wtph.png"
   },
   {
-    "_id": "cavalier",
-    "id": 33,
+    "id": "cavalier",
+    "number_id": 33,
     "name": "Cavalier",
     "type": "Cavalry",
     "description": "Powerful all-purpose cavalry.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 60,
       "Gold": 75
@@ -906,14 +906,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/cavalier_jyi25d.png"
   },
   {
-    "_id": "paladin",
-    "id": 34,
+    "id": "paladin",
+    "number_id": 34,
     "name": "Paladin",
     "type": "Cavalry",
     "description": "Powerful all-purpose cavalry.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 60,
       "Gold": 75
@@ -930,14 +930,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/paladin_jxm0ig.png"
   },
   {
-    "_id": "camel_rider",
-    "id": 35,
-    "name": "Camel Rider",
+    "id": "camel_rnumber_ider",
+    "number_id": 35,
+    "name": "Camel Rnumber_ider",
     "type": "Cavalry",
     "description": "Fast anti-cavalry unit.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 55,
       "Gold": 60
@@ -956,17 +956,17 @@
     "armor_class": "Camel",
     "movement_rate": 1.45,
     "line_of_sight": 5,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/camel_rider_cgcqih.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/camel_rnumber_ider_cgcqih.png"
   },
   {
-    "_id": "heavy_camel_rider",
-    "id": 36,
-    "name": "Heavy Camel Rider",
+    "id": "heavy_camel_rnumber_ider",
+    "number_id": 36,
+    "name": "Heavy Camel Rnumber_ider",
     "type": "Cavalry",
     "description": "Fast anti-cavalry unit.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 55,
       "Gold": 60
@@ -986,17 +986,17 @@
     "armor_class": "Camel",
     "movement_rate": 1.45,
     "line_of_sight": 5,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/heavy_camel_rider_p7clkn.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/heavy_camel_rnumber_ider_p7clkn.png"
   },
   {
-    "_id": "battle_elephant",
-    "id": 37,
+    "id": "battle_elephant",
+    "number_id": 37,
     "name": "Battle Elephant",
     "type": "Cavalry",
     "description": "Slow and heavy cavalry.",
     "expansion": "Rise of the Rajas",
     "age": "Castle Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 110,
       "Gold": 70
@@ -1014,14 +1014,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/battle_elephant_s5plfm.png"
   },
   {
-    "_id": "elite_battle_elephant",
-    "id": 38,
+    "id": "elite_battle_elephant",
+    "number_id": 38,
     "name": "Elite Battle Elephant",
     "type": "Cavalry",
     "description": "Slow and heavy cavalry.",
     "expansion": "Rise of the Rajas",
     "age": "Imperial Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 110,
       "Gold": 70
@@ -1039,14 +1039,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/elite_battle_elephant_aropql.png"
   },
   {
-    "_id": "steppe_lancer",
-    "id": 39,
+    "id": "steppe_lancer",
+    "number_id": 39,
     "name": "Steppe Lancer",
     "type": "Cavalry",
     "description": "Light cavalry unit with increased attack range.",
     "expansion": "The Last Khans",
     "age": "Castle Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 70,
       "Gold": 40
@@ -1064,14 +1064,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/steppe_lancer_jhmug2.png"
   },
   {
-    "_id": "elite_steppe_lancer",
-    "id": 40,
+    "id": "elite_steppe_lancer",
+    "number_id": 40,
     "name": "Elite Steppe Lancer",
     "type": "Cavalry",
     "description": "Light cavalry unit with increased attack range.",
     "expansion": "The Last Khans",
     "age": "Imperial Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 70,
       "Gold": 40
@@ -1089,14 +1089,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/elite_steppe_lancer_e3lg9x.png"
   },
   {
-    "_id": "xolotl_warrior",
-    "id": 41,
+    "id": "xolotl_warrior",
+    "number_id": 41,
     "name": "Xolotl Warrior",
     "type": "Cavalry",
     "description": "Mesoamerican cavalry unit.",
     "expansion": "The Last Khans",
     "age": "Castle Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 60,
       "Gold": 75
@@ -1113,14 +1113,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/xolotlicon_warrior_m6nxfz.png"
   },
   {
-    "_id": "armored_elephant",
-    "id": 42,
+    "id": "armored_elephant",
+    "number_id": 42,
     "name": "Armored Elephant",
     "type": "Siege unit",
     "description": "Anti-building cavalry unit. Resistant to most ranged attacks.",
     "expansion": "Dynasties of India",
     "age": "Castle Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Food": 130,
       "Gold": 95
@@ -1138,14 +1138,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/armored_elephant_tmrv0b.png"
   },
   {
-    "_id": "siege_elephant",
-    "id": 43,
+    "id": "siege_elephant",
+    "number_id": 43,
     "name": "Siege Elephant",
     "type": "Siege unit",
     "description": "Anti-building cavalry unit. Resistant to most ranged attacks.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Food": 130,
       "Gold": 95
@@ -1164,14 +1164,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/siege_elephant_s9uod2.png"
   },
   {
-    "_id": "battering_ram",
-    "id": 44,
+    "id": "battering_ram",
+    "number_id": 44,
     "name": "Battering Ram",
     "type": "Siege unit",
     "description": "Anti-building siege weapon. Resistant to most ranged attacks.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 160,
       "Gold": 75
@@ -1191,14 +1191,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/battering_ram_f3gxf9.png"
   },
   {
-    "_id": "capped_ram",
-    "id": 45,
+    "id": "capped_ram",
+    "number_id": 45,
     "name": "Capped Ram",
     "type": "Siege unit",
     "description": "Anti-building siege weapon. Resistant to most ranged attacks.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 160,
       "Gold": 75
@@ -1218,14 +1218,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/capped_ram_wzowmd.png"
   },
   {
-    "_id": "siege_ram",
-    "id": 46,
+    "id": "siege_ram",
+    "number_id": 46,
     "name": "Siege Ram",
     "type": "Siege unit",
     "description": "Anti-building siege weapon. Resistant to most ranged attacks.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 160,
       "Gold": 75
@@ -1245,14 +1245,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/siege_ram_lzom9u.png"
   },
   {
-    "_id": "mangonel",
-    "id": 47,
+    "id": "mangonel",
+    "number_id": 47,
     "name": "Mangonel",
     "type": "Siege unit",
     "description": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 160,
       "Gold": 135
@@ -1283,14 +1283,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/mangonel_tto4ry.png"
   },
   {
-    "_id": "onager",
-    "id": 48,
+    "id": "onager",
+    "number_id": 48,
     "name": "Onager",
     "type": "Siege unit",
     "description": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 160,
       "Gold": 135
@@ -1322,14 +1322,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/onager_hh0az0.png"
   },
   {
-    "_id": "siege_onager",
-    "id": 49,
+    "id": "siege_onager",
+    "number_id": 49,
     "name": "Siege Onager",
     "type": "Siege unit",
     "description": "Ranged siege weapon with area of effect attack, but cannot attack enemies at close range. Strong vs. tight groups of units. Can attack ground.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 160,
       "Gold": 135
@@ -1361,14 +1361,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/siege_onager_eqcitr.png"
   },
   {
-    "_id": "scorpion",
-    "id": 50,
+    "id": "scorpion",
+    "number_id": 50,
     "name": "Scorpion",
     "type": "Siege unit",
     "description": "Anti-unit siege weapon. Fires bolts that pierce multiple units.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 75,
       "Gold": 75
@@ -1392,14 +1392,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/scorpion_x5vpjf.png"
   },
   {
-    "_id": "heavy_scorpion",
-    "id": 51,
+    "id": "heavy_scorpion",
+    "number_id": 51,
     "name": "Heavy Scorpion",
     "type": "Siege unit",
     "description": "Anti-unit siege weapon. Fires bolts that pierce multiple units.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 75,
       "Gold": 75
@@ -1423,14 +1423,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/heavy_scorpion_i5qpdl.png"
   },
   {
-    "_id": "bombard_cannon",
-    "id": 52,
+    "id": "bombard_cannon",
+    "number_id": 52,
     "name": "Bombard Cannon",
     "type": "Gunpowder unit",
     "description": "Siege weapon with long range.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 225,
       "Gold": 225
@@ -1461,14 +1461,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/bombard_cannon_bzypsj.png"
   },
   {
-    "_id": "trebuchet",
-    "id": 53,
+    "id": "trebuchet",
+    "number_id": 53,
     "name": "Trebuchet",
     "type": "Siege unit",
     "description": "Powerful anti-building siege weapon with long range. Must be packed to move, unpacked to attack. Cannot attack enemies at close range. Can attack ground and destroy trees.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 200,
       "Gold": 200
@@ -1496,14 +1496,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/trebuchet_j068uo.png"
   },
   {
-    "_id": "petard",
-    "id": 54,
+    "id": "petard",
+    "number_id": 54,
     "name": "Petard",
     "type": "Siege unit",
     "description": "Demolition siege unit armed with explosives. Self-destructs when used.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 65,
       "Gold": 20
@@ -1524,14 +1524,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919121/age-of-empires-2/units/petard_flfyfl.png"
   },
   {
-    "_id": "siege_tower",
-    "id": 55,
+    "id": "siege_tower",
+    "number_id": 55,
     "name": "Siege Tower",
     "type": "Siege unit",
     "description": "Quick land transport used to unload units over enemy walls. Resistant to archer attack. Cannot be used by mounted units",
     "expansion": "The African Kingdoms",
     "age": "Castle Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 200,
       "Gold": 160
@@ -1548,14 +1548,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672919122/age-of-empires-2/units/siege_tower_mhj57j.png"
   },
   {
-    "_id": "galley",
-    "id": 56,
+    "id": "galley",
+    "number_id": 56,
     "name": "Galley",
     "type": "Naval vessel",
     "description": "All-purpose warship with ranged attack.",
     "expansion": "Age of Kings",
     "age": "Feudal Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 90,
       "Gold": 30
@@ -1582,14 +1582,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/galley_hrnupn.png"
   },
   {
-    "_id": "war_galley",
-    "id": 57,
+    "id": "war_galley",
+    "number_id": 57,
     "name": "War Galley",
     "type": "Naval vessel",
     "description": "All-purpose warship with ranged attack.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 90,
       "Gold": 30
@@ -1616,14 +1616,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/war_galley_jo5qie.png"
   },
   {
-    "_id": "galleon",
-    "id": 58,
+    "id": "galleon",
+    "number_id": 58,
     "name": "Galleon",
     "type": "Naval vessel",
     "description": "All-purpose warship with ranged attack.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 90,
       "Gold": 30
@@ -1650,14 +1650,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/galleon_esyfky.png"
   },
   {
-    "_id": "fire_galley",
-    "id": 59,
+    "id": "fire_galley",
+    "number_id": 59,
     "name": "Fire Galley",
     "type": "Naval vessel",
     "description": "Warship that spews fire at close range.",
     "expansion": "The African Kingdoms",
     "age": "Feudal Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 75,
       "Gold": 45
@@ -1686,14 +1686,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/fire_galley_nmeju3.png"
   },
   {
-    "_id": "fire_ship",
-    "id": 60,
+    "id": "fire_ship",
+    "number_id": 60,
     "name": "Fire Ship",
     "type": "Naval vessel",
     "description": "Warship that spews fire at close range.",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 75,
       "Gold": 45
@@ -1722,14 +1722,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/fire_ship_phbfoy.png"
   },
   {
-    "_id": "fast_fire_ship",
-    "id": 61,
+    "id": "fast_fire_ship",
+    "number_id": 61,
     "name": "Fast Fire Ship",
     "type": "Naval vessel",
     "description": "Warship that spews fire at close range.",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 75,
       "Gold": 45
@@ -1758,14 +1758,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920610/age-of-empires-2/units/fast_fire_ship_a4wgpp.png"
   },
   {
-    "_id": "demolition_raft",
-    "id": 62,
+    "id": "demolition_raft",
+    "number_id": 62,
     "name": "Demolition Raft",
     "type": "Naval vessel",
     "description": "Filled with explosives. Self-destructs when used.",
     "expansion": "The African Kingdoms",
     "age": "Feudal Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 70,
       "Gold": 50
@@ -1782,14 +1782,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920610/age-of-empires-2/units/demolition_raft_jxiyjp.png"
   },
   {
-    "_id": "demolition_ship",
-    "id": 63,
+    "id": "demolition_ship",
+    "number_id": 63,
     "name": "Demolition Ship",
     "type": "Naval vessel",
     "description": "Filled with explosives. Self-destructs when used.",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 70,
       "Gold": 50
@@ -1806,14 +1806,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/demolition_ship_ied6ib.png"
   },
   {
-    "_id": "heavy_demolition_ship",
-    "id": 64,
+    "id": "heavy_demolition_ship",
+    "number_id": 64,
     "name": "Heavy Demolition Ship",
     "type": "Naval vessel",
     "description": "Filled with explosives. Self-destructs when used.",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 70,
       "Gold": 50
@@ -1830,14 +1830,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920612/age-of-empires-2/units/heavy_demolition_ship_if5do0.png"
   },
   {
-    "_id": "cannon_galleon",
-    "id": 65,
+    "id": "cannon_galleon",
+    "number_id": 65,
     "name": "Cannon Galleon",
     "type": "Naval vessel",
     "description": "Anti-building siege warship with long range, but cannot attack enemies at close range.",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 200,
       "Gold": 150
@@ -1866,14 +1866,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/cannon_galleon_kfekle.png"
   },
   {
-    "_id": "elite_cannon_galleon",
-    "id": 66,
+    "id": "elite_cannon_galleon",
+    "number_id": 66,
     "name": "Elite Cannon Galleon",
     "type": "Naval vessel",
     "description": "Anti-building siege warship with long range, but cannot attack enemies at close range.",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 200,
       "Gold": 150
@@ -1902,14 +1902,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672920611/age-of-empires-2/units/elite_cannon_galleon_dgb8qe.png"
   },
   {
-    "_id": "longbowman",
-    "id": 67,
+    "id": "longbowman",
+    "number_id": 67,
     "name": "Longbowman",
     "type": "Foot Archer",
     "description": "British unique archer with very long range.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 35,
       "Gold": 40
@@ -1932,14 +1932,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/longbowman_lisub9.png"
   },
   {
-    "_id": "elite_longbowmen",
-    "id": 68,
+    "id": "elite_longbowmen",
+    "number_id": 68,
     "name": "Elite Longbowman",
     "type": "Foot Archer",
     "description": "British unique archer with very long range.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 35,
       "Gold": 40
@@ -1962,14 +1962,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/longbowman_lisub9.png"
   },
   {
-    "_id": "cataphract",
-    "id": 69,
+    "id": "cataphract",
+    "number_id": 69,
     "name": "Cataphract",
     "type": "Cavalry",
     "description": "Byzantine unique cavalry unit.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 70,
       "Gold": 75
@@ -1987,14 +1987,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/cataphract_dgduem.png"
   },
   {
-    "_id": "elite_cataphract",
-    "id": 70,
+    "id": "elite_cataphract",
+    "number_id": 70,
     "name": "Elite Cataphract",
     "type": "Cavalry",
     "description": "Byzantine unique cavalry unit.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 70,
       "Gold": 75
@@ -2012,14 +2012,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/cataphract_dgduem.png"
   },
   {
-    "_id": "woad_raider",
-    "id": 71,
-    "name": "Woad Raider",
+    "id": "woad_ranumber_ider",
+    "number_id": 71,
+    "name": "Woad Ranumber_ider",
     "type": "Infantry",
     "description": "Celtic unique infantry unit. Fast-moving.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 65,
       "Gold": 25
@@ -2034,17 +2034,17 @@
     "armor_class": "Infantry",
     "movement_rate": 1.38,
     "line_of_sight": 3,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_raider_togsft.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_ranumber_ider_togsft.png"
   },
   {
-    "_id": "elite_woad_raider",
-    "id": 72,
-    "name": "Elite Woad Raider",
+    "id": "elite_woad_ranumber_ider",
+    "number_id": 72,
+    "name": "Elite Woad Ranumber_ider",
     "type": "Infantry",
     "description": "Celtic unique infantry unit. Fast-moving.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 65,
       "Gold": 25
@@ -2059,17 +2059,17 @@
     "armor_class": "Infantry",
     "movement_rate": 1.38,
     "line_of_sight": 5,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_raider_togsft.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_ranumber_ider_togsft.png"
   },
   {
-    "_id": "chu_ko_nu",
-    "id": 73,
+    "id": "chu_ko_nu",
+    "number_id": 73,
     "name": "Chu Ko Nu",
     "type": "Foot archer",
-    "description": "Chinese unique archer with rapid-fire attack.",
+    "description": "Chinese unique archer with rapnumber_id-fire attack.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 40,
       "Gold": 35
@@ -2096,14 +2096,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931771/age-of-empires-2/units/chu_ko_nu_ubipdl.png"
   },
   {
-    "_id": "elite_chu_ko_nu",
-    "id": 74,
+    "id": "elite_chu_ko_nu",
+    "number_id": 74,
     "name": "Elite Chu Ko Nu",
     "type": "Foot archer",
-    "description": "Chinese unique archer with rapid-fire attack.",
+    "description": "Chinese unique archer with rapnumber_id-fire attack.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 40,
       "Gold": 35
@@ -2130,14 +2130,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931771/age-of-empires-2/units/chu_ko_nu_ubipdl.png"
   },
   {
-    "_id": "throwing_axeman",
-    "id": 75,
+    "id": "throwing_axeman",
+    "number_id": 75,
     "name": "Throwing Axeman",
     "type": "Infantry",
     "description": "Frankish unique infantry unit with ranged melee attack.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 55,
       "Gold": 25
@@ -2160,14 +2160,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931771/age-of-empires-2/units/throwing_axeman_sqb50b.png"
   },
   {
-    "_id": "elite_throwing_axeman",
-    "id": 76,
+    "id": "elite_throwing_axeman",
+    "number_id": 76,
     "name": "Elite Throwing Axeman",
     "type": "Infantry",
     "description": "Frankish unique infantry unit with ranged melee attack.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 55,
       "Gold": 25
@@ -2190,14 +2190,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931771/age-of-empires-2/units/throwing_axeman_sqb50b.png"
   },
   {
-    "_id": "huskarl",
-    "id": 77,
+    "id": "huskarl",
+    "number_id": 77,
     "name": "Huskarl",
     "type": "Infantry",
     "description": "Gothic unique infantry unit with high pierce armor.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 56,
       "Gold": 28
@@ -2219,14 +2219,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/huskarl_x6tpzi.png"
   },
   {
-    "_id": "elite_huskarl",
-    "id": 78,
+    "id": "elite_huskarl",
+    "number_id": 78,
     "name": "Elite Huskarl",
     "type": "Infantry",
     "description": "Gothic unique infantry unit with high pierce armor.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 56,
       "Gold": 28
@@ -2248,14 +2248,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/huskarl_x6tpzi.png"
   },
   {
-    "_id": "samurai",
-    "id": 79,
+    "id": "samurai",
+    "number_id": 79,
     "name": "Samurai",
     "type": "Infantry",
     "description": "Japanese unique infantry unit with fast attack.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 30
@@ -2277,14 +2277,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/samurai_hoqi06.png"
   },
   {
-    "_id": "elite_samurai",
-    "id": 80,
+    "id": "elite_samurai",
+    "number_id": 80,
     "name": "Elite Samurai",
     "type": "Infantry",
     "description": "Japanese unique infantry unit with fast attack.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 30
@@ -2306,14 +2306,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/samurai_hoqi06.png"
   },
   {
-    "_id": "war_elephant",
-    "id": 81,
+    "id": "war_elephant",
+    "number_id": 81,
     "name": "War Elephant",
     "type": "Cavalry",
     "description": "Persian unique unit. Slow and powerful cavalry.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 170,
       "Gold": 85
@@ -2331,14 +2331,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/war_elephant_jmmaeg.png"
   },
   {
-    "_id": "elite_war_elephant",
-    "id": 82,
+    "id": "elite_war_elephant",
+    "number_id": 82,
     "name": "Elite War Elephant",
     "type": "Cavalry",
     "description": "Persian unique unit. Slow and powerful cavalry.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 170,
       "Gold": 85
@@ -2356,14 +2356,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/war_elephant_jmmaeg.png"
   },
   {
-    "_id": "mameluke",
-    "id": 83,
+    "id": "mameluke",
+    "number_id": 83,
     "name": "Mameluke",
     "type": "Cavalry",
     "description": "Saracen unique camel unit with ranged melee attack.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 55,
       "Gold": 85
@@ -2386,14 +2386,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/mameluke_flbdjj.png"
   },
   {
-    "_id": "elite_mameluke",
-    "id": 84,
+    "id": "elite_mameluke",
+    "number_id": 84,
     "name": "Elite Mameluke",
     "type": "Cavalry",
     "description": "Saracen unique camel unit with ranged melee attack.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 55,
       "Gold": 85
@@ -2416,14 +2416,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/mameluke_flbdjj.png"
   },
   {
-    "_id": "teutonic_knight",
-    "id": 85,
+    "id": "teutonic_knight",
+    "number_id": 85,
     "name": "Teutonic Knight",
     "type": "Infantry",
     "description": "Teutonic unique infantry unit. Slow and powerful.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 85,
       "Gold": 40
@@ -2441,14 +2441,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/teutonic_knight_eqtgdc.png"
   },
   {
-    "_id": "elite_teutonic_knight",
-    "id": 86,
+    "id": "elite_teutonic_knight",
+    "number_id": 86,
     "name": "Elite Teutonic Knight",
     "type": "Infantry",
     "description": "Teutonic unique infantry unit. Slow and powerful.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 85,
       "Gold": 40
@@ -2466,14 +2466,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931773/age-of-empires-2/units/teutonic_knight_eqtgdc.png"
   },
   {
-    "_id": "janissary",
-    "id": 87,
+    "id": "janissary",
+    "number_id": 87,
     "name": "Janissary",
     "type": "Gunpowder unit",
     "description": "Turkish unique hand cannoneer with longer range and no minimum range.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 55
@@ -2496,14 +2496,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/janissary_lrf9p6.png"
   },
   {
-    "_id": "elite_janissary",
-    "id": 88,
+    "id": "elite_janissary",
+    "number_id": 88,
     "name": "Elite Janissary",
     "type": "Gunpowder unit",
     "description": "Turkish unique hand cannoneer with longer range and no minimum range.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 55
@@ -2526,14 +2526,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/janissary_lrf9p6.png"
   },
   {
-    "_id": "berserk",
-    "id": 89,
+    "id": "berserk",
+    "number_id": 89,
     "name": "Berserk",
     "type": "Infantry",
     "description": "Viking unique infantry unit that slowly heals itself.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 65,
       "Gold": 25
@@ -2552,14 +2552,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/berserk_rsnsop.png"
   },
   {
-    "_id": "elite_berserk",
-    "id": 90,
+    "id": "elite_berserk",
+    "number_id": 90,
     "name": "Elite Berserk",
     "type": "Infantry",
     "description": "Viking unique infantry unit that slowly heals itself.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 65,
       "Gold": 25
@@ -2578,14 +2578,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/berserk_rsnsop.png"
   },
   {
-    "_id": "mangudai",
-    "id": 91,
+    "id": "mangudai",
+    "number_id": 91,
     "name": "Mangudai",
     "type": "Mounted archer",
     "description": "Mongol unique cavalry archer with fast-firing attack.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 55,
       "Gold": 65
@@ -2608,14 +2608,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/mangudai_ztn0sc.png"
   },
   {
-    "_id": "elite_mangudai",
-    "id": 92,
+    "id": "elite_mangudai",
+    "number_id": 92,
     "name": "Elite Mangudai",
     "type": "Mounted archer",
     "description": "Mongol unique cavalry archer with fast-firing attack.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 55,
       "Gold": 65
@@ -2638,14 +2638,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/mangudai_ztn0sc.png"
   },
   {
-    "_id": "longboat",
-    "id": 93,
+    "id": "longboat",
+    "number_id": 93,
     "name": "Longboat",
     "type": "Naval vessel",
     "description": "Viking unique ship that fires multiple arrows.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 85,
       "Gold": 43
@@ -2675,14 +2675,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/longboat_rs9ttm.png"
   },
   {
-    "_id": "elite_longboat",
-    "id": 94,
+    "id": "elite_longboat",
+    "number_id": 94,
     "name": "Elite Longboat",
     "type": "Naval vessel",
     "description": "Viking unique ship that fires multiple arrows.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 85,
       "Gold": 43
@@ -2712,14 +2712,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/longboat_rs9ttm.png"
   },
   {
-    "_id": "war_wagon",
-    "id": 95,
+    "id": "war_wagon",
+    "number_id": 95,
     "name": "War Wagon",
     "type": "Mounted archer",
     "description": "Korean unique cavalry archer unit.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 100,
       "Gold": 60
@@ -2742,14 +2742,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/war_wagon_ivvu1y.png"
   },
   {
-    "_id": "elite_war_wagon",
-    "id": 96,
+    "id": "elite_war_wagon",
+    "number_id": 96,
     "name": "Elite War Wagon",
     "type": "Mounted archer",
     "description": "Korean unique cavalry archer unit.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 100,
       "Gold": 60
@@ -2772,14 +2772,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/war_wagon_ivvu1y.png"
   },
   {
-    "_id": "turtle_ship",
-    "id": 96,
+    "id": "turtle_ship",
+    "number_id": 96,
     "name": "Turtle Ship",
     "type": "Naval vessel",
     "description": "Korean unique ship. Slow and ironclad.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 152,
       "Gold": 180
@@ -2800,14 +2800,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/turtle_ship_gesfbi.png"
   },
   {
-    "_id": "elite_turtle_ship",
-    "id": 96,
+    "id": "elite_turtle_ship",
+    "number_id": 96,
     "name": "Elite Turtle Ship",
     "type": "Naval vessel",
     "description": "Korean unique ship. Slow and ironclad.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 152,
       "Gold": 180
@@ -2828,14 +2828,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/turtle_ship_gesfbi.png"
   },
   {
-    "_id": "jaguar_warrior",
-    "id": 97,
+    "id": "jaguar_warrior",
+    "number_id": 97,
     "name": "Jaguar Warrior",
     "type": "Infantry",
     "description": "Aztec unique infantry unit.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 30
@@ -2858,14 +2858,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/jaguar_warrior_dukmxf.png"
   },
   {
-    "_id": "elite_jaguar_warrior",
-    "id": 98,
+    "id": "elite_jaguar_warrior",
+    "number_id": 98,
     "name": "Elite Jaguar Warrior",
     "type": "Infantry",
     "description": "Aztec unique infantry unit.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 30
@@ -2888,14 +2888,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/jaguar_warrior_dukmxf.png"
   },
   {
-    "_id": "tarkan",
-    "id": 99,
+    "id": "tarkan",
+    "number_id": 99,
     "name": "Tarkan",
     "type": "Cavalry",
     "description": "Hunnic unique cavalry unit with attack bonus vs. buildings.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 60
@@ -2918,14 +2918,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/tarkan_u5lg0b.png"
   },
   {
-    "_id": "elite_tarkan",
-    "id": 100,
+    "id": "elite_tarkan",
+    "number_id": 100,
     "name": "Elite Tarkan",
     "type": "Cavalry",
     "description": "Hunnic unique cavalry unit with attack bonus vs. buildings.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 60
@@ -2948,14 +2948,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/tarkan_u5lg0b.png"
   },
   {
-    "_id": "missionary",
-    "id": 101,
+    "id": "missionary",
+    "number_id": 101,
     "name": "Missionary",
     "type": "Monk",
     "description": "Spanish unique mounted monk. Converts enemy units and heals friendly units. Cannot collect Relics.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "trained_at": ["monastery"],
+    "trainedAt": ["monastery"],
     "cost": {
       "Gold": 100
     },
@@ -2971,14 +2971,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934005/age-of-empires-2/units/missionary_nsnpxp.png"
   },
   {
-    "_id": "conquistador",
-    "id": 102,
+    "id": "conquistador",
+    "number_id": 102,
     "name": "Conquistador",
     "type": "Gunpowder unit",
     "description": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 70
@@ -3001,14 +3001,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/conquistador_mzwvoa.png"
   },
   {
-    "_id": "elite_conquistador",
-    "id": 103,
+    "id": "elite_conquistador",
+    "number_id": 103,
     "name": "Elite Conquistador",
     "type": "Gunpowder unit",
     "description": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 70
@@ -3031,14 +3031,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/conquistador_mzwvoa.png"
   },
   {
-    "_id": "plumed_archer",
-    "id": 104,
+    "id": "plumed_archer",
+    "number_id": 104,
     "name": "Plumed Archer",
     "type": "Foot archer",
     "description": "Mayan unique fast-moving archer.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 44,
       "Gold": 44
@@ -3061,14 +3061,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/plumed_archer_mwnx2l.png"
   },
   {
-    "_id": "elite_plumed_archer",
-    "id": 105,
+    "id": "elite_plumed_archer",
+    "number_id": 105,
     "name": "Elite Plumed Archer",
     "type": "Foot archer",
     "description": "Mayan unique fast-moving archer.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 39,
       "Gold": 39
@@ -3091,14 +3091,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672934004/age-of-empires-2/units/plumed_archer_mwnx2l.png"
   },
   {
-    "_id": "slinger",
-    "id": 106,
+    "id": "slinger",
+    "number_id": 106,
     "name": "Slinger",
     "type": "Foot archer",
     "description": "Inca unique unit. Ranged anti-infantry unit that cannot attack at close range.",
     "expansion": "The Forgotten",
     "age": "Castle Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Food": 30,
       "Gold": 40
@@ -3126,14 +3126,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935475/age-of-empires-2/units/slinger_agfph1.png"
   },
   {
-    "_id": "genoese_crossbowman",
-    "id": 107,
+    "id": "genoese_crossbowman",
+    "number_id": 107,
     "name": "Genoese Crossbowman",
     "type": "Foot archer",
     "description": "Italian unique archer.",
     "expansion": "The Forgotten",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 45,
       "Gold": 40
@@ -3162,14 +3162,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/genoese_crossbowman_vtqavg.png"
   },
   {
-    "_id": "elite_genoese_crossbowman",
-    "id": 108,
+    "id": "elite_genoese_crossbowman",
+    "number_id": 108,
     "name": "Elite Genoese Crossbowman",
     "type": "Foot archer",
     "description": "Italian unique archer.",
     "expansion": "The Forgotten",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 45,
       "Gold": 40
@@ -3198,14 +3198,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/genoese_crossbowman_vtqavg.png"
   },
   {
-    "_id": "condottiero",
-    "id": 109,
+    "id": "condottiero",
+    "number_id": 109,
     "name": "Condottiero",
     "type": "Infantry",
     "description": "Fast anti-gunpowder infantry. Trainable by Italians and their allies.",
     "expansion": "The Forgotten",
     "age": "Imperial Age",
-    "trained_at": ["barracks"],
+    "trainedAt": ["barracks"],
     "cost": {
       "Food": 50,
       "Gold": 35
@@ -3223,14 +3223,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/condottiero_s0a7vo.png"
   },
   {
-    "_id": "kamayuk",
-    "id": 110,
+    "id": "kamayuk",
+    "number_id": 110,
     "name": "Kamayuk",
     "type": "Infantry",
     "description": "Inca unique spearman with increased attack range.",
     "expansion": "The Forgotten",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 30
@@ -3249,14 +3249,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/kamayuk_mkx2p5.png"
   },
   {
-    "_id": "elite_kamayuk",
-    "id": 111,
+    "id": "elite_kamayuk",
+    "number_id": 111,
     "name": "Elite Kamayuk",
     "type": "Infantry",
     "description": "Inca unique spearman with increased attack range.",
     "expansion": "The Forgotten",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 30
@@ -3280,14 +3280,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/kamayuk_mkx2p5.png"
   },
   {
-    "_id": "magyar_huszar",
-    "id": 112,
+    "id": "magyar_huszar",
+    "number_id": 112,
     "name": "Magyar Huszar",
     "type": "Cavalry",
     "description": "Magyar unique light cavalry unit.",
     "expansion": "The Forgotten",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 80,
       "Gold": 10
@@ -3305,14 +3305,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/magyar_huszar_lebdcc.png"
   },
   {
-    "_id": "elite_magyar_huszar",
-    "id": 113,
+    "id": "elite_magyar_huszar",
+    "number_id": 113,
     "name": "Elite Magyar Huszar",
     "type": "Cavalry",
     "description": "Magyar unique light cavalry unit.",
     "expansion": "The Forgotten",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 80,
       "Gold": 10
@@ -3330,14 +3330,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/magyar_huszar_lebdcc.png"
   },
   {
-    "_id": "boyar",
-    "id": 114,
+    "id": "boyar",
+    "number_id": 114,
     "name": "Boyar",
     "type": "Cavalry",
     "description": "Slavic unique cavalry unit. Resistant to melee attack.",
     "expansion": "The Forgotten",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 50,
       "Gold": 80
@@ -3354,14 +3354,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/boyar_xnmmxy.png"
   },
   {
-    "_id": "elite_boyar",
-    "id": 115,
+    "id": "elite_boyar",
+    "number_id": 115,
     "name": "Elite Boyar",
     "type": "Cavalry",
     "description": "Slavic unique cavalry unit. Resistant to melee attack.",
     "expansion": "The Forgotten",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 50,
       "Gold": 80
@@ -3378,14 +3378,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/boyar_xnmmxy.png"
   },
   {
-    "_id": "imperial_camel_rider",
-    "id": 116,
-    "name": "Imperial Camel Rider",
+    "id": "imperial_camel_rnumber_ider",
+    "number_id": 116,
+    "name": "Imperial Camel Rnumber_ider",
     "type": "Cavalry",
     "description": "Hindustani unique anti-cavalry unit. Fast-moving.",
     "expansion": "The Forgotten",
     "age": "Imperial Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 55,
       "Gold": 60
@@ -3406,17 +3406,17 @@
     "armor_class": "Camel",
     "movement_rate": 1.45,
     "line_of_sight": 5,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/imperial_camel_rider_em73kn.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/imperial_camel_rnumber_ider_em73kn.png"
   },
   {
-    "_id": "camel_archer",
-    "id": 117,
+    "id": "camel_archer",
+    "number_id": 117,
     "name": "Camel Archer",
     "type": "Mounted archer",
     "description": "Berber unique mounted archer.",
     "expansion": "The African Kingdoms",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 50,
       "Gold": 60
@@ -3439,14 +3439,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937781/age-of-empires-2/units/camel_archer_ru6uyr.png"
   },
   {
-    "_id": "elite_camel_archer",
-    "id": 118,
+    "id": "elite_camel_archer",
+    "number_id": 118,
     "name": "Elite Camel Archer",
     "type": "Mounted archer",
     "description": "Berber unique mounted archer.",
     "expansion": "The African Kingdoms",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 50,
       "Gold": 60
@@ -3469,14 +3469,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937781/age-of-empires-2/units/camel_archer_ru6uyr.png"
   },
   {
-    "_id": "genitour",
-    "id": 119,
+    "id": "genitour",
+    "number_id": 119,
     "name": "Genitour",
     "type": "Mounted archer",
     "description": "Mounted skirmisher. Trainable by Berbers and their allies.",
     "expansion": "The African Kingdoms",
     "age": "Castle Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Food": 40,
       "Wood": 35
@@ -3499,14 +3499,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/genitour_dnrkzz.png"
   },
   {
-    "_id": "elite_genitour",
-    "id": 120,
+    "id": "elite_genitour",
+    "number_id": 120,
     "name": "Elite Genitour",
     "type": "Mounted archer",
     "description": "Mounted skirmisher. Trainable by Berbers and their allies.",
     "expansion": "The African Kingdoms",
     "age": "Imperial Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Food": 40,
       "Wood": 35
@@ -3529,14 +3529,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/genitour_dnrkzz.png"
   },
   {
-    "_id": "gbeto",
-    "id": 121,
+    "id": "gbeto",
+    "number_id": 121,
     "name": "Gbeto",
     "type": "Infantry",
     "description": "Malian unique infantry unit with ranged melee attack. Fast-moving.",
     "expansion": "The African Kingdoms",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 50,
       "Gold": 40
@@ -3559,14 +3559,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937781/age-of-empires-2/units/gbeto_cgffgt.png"
   },
   {
-    "_id": "elite_gbeto",
-    "id": 122,
+    "id": "elite_gbeto",
+    "number_id": 122,
     "name": "Elite Gbeto",
     "type": "Infantry",
     "description": "Malian unique infantry unit with ranged melee attack. Fast-moving.",
     "expansion": "The African Kingdoms",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 50,
       "Gold": 40
@@ -3589,14 +3589,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937781/age-of-empires-2/units/gbeto_cgffgt.png"
   },
   {
-    "_id": "shotel_warrior",
-    "id": 123,
+    "id": "shotel_warrior",
+    "number_id": 123,
     "name": "Shotel Warrior",
     "type": "Infantry",
     "description": "Ethiopian unique infantry with high attack and fast training speed. Fast-moving.",
     "expansion": "The African Kingdoms",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 50,
       "Gold": 30
@@ -3614,14 +3614,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/shotel_warrior_pvns9j.png"
   },
   {
-    "_id": "elite_shotel_warrior",
-    "id": 124,
+    "id": "elite_shotel_warrior",
+    "number_id": 124,
     "name": "Elite Shotel Warrior",
     "type": "Infantry",
     "description": "Ethiopian unique infantry with high attack and fast training speed. Fast-moving.",
     "expansion": "The African Kingdoms",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 50,
       "Gold": 30
@@ -3639,14 +3639,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/shotel_warrior_pvns9j.png"
   },
   {
-    "_id": "caravel",
-    "id": 125,
+    "id": "caravel",
+    "number_id": 125,
     "name": "Caravel",
     "type": "Naval vessel",
     "description": "Portuguese unique ship that fires bolts that pierce multiple units.",
     "expansion": "The African Kingdoms",
     "age": "Castle Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 90,
       "Gold": 34
@@ -3673,14 +3673,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/caravel_cwtpln.png"
   },
   {
-    "_id": "elite_caravel",
-    "id": 126,
+    "id": "elite_caravel",
+    "number_id": 126,
     "name": "Elite Caravel",
     "type": "Naval vessel",
     "description": "Portuguese unique ship that fires bolts that pierce multiple units.",
     "expansion": "The African Kingdoms",
     "age": "Imperial Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 90,
       "Gold": 34
@@ -3707,14 +3707,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/caravel_cwtpln.png"
   },
   {
-    "_id": "organ_gun",
-    "id": 127,
+    "id": "organ_gun",
+    "number_id": 127,
     "name": "Organ Gun",
     "type": "Gunpowder unit",
     "description": "Portuguese unique siege unit. Fires a volley of bullets",
     "expansion": "The African Kingdoms",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 80,
       "Gold": 56
@@ -3738,14 +3738,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/organ_gun_gfzpda.png"
   },
   {
-    "_id": "elite_organ_gun",
-    "id": 128,
+    "id": "elite_organ_gun",
+    "number_id": 128,
     "name": "Elite Organ Gun",
     "type": "Gunpowder unit",
     "description": "Portuguese unique siege unit. Fires a volley of bullets",
     "expansion": "The African Kingdoms",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 80,
       "Gold": 56
@@ -3769,14 +3769,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672937782/age-of-empires-2/units/organ_gun_gfzpda.png"
   },
   {
-    "_id": "arambai",
-    "id": 129,
+    "id": "arambai",
+    "number_id": 129,
     "name": "Arambai",
     "type": "Mounted archer",
     "description": "Burmese unique cavalry archer with a powerful but inaccurate dart attack.",
     "expansion": "Rise of the Rajas",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 75,
       "Gold": 60
@@ -3800,14 +3800,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/arambai_ucjpcu.png"
   },
   {
-    "_id": "elite_arambai",
-    "id": 130,
+    "id": "elite_arambai",
+    "number_id": 130,
     "name": "Elite Arambai",
     "type": "Mounted archer",
     "description": "Burmese unique cavalry archer with a powerful but inaccurate dart attack.",
     "expansion": "Rise of the Rajas",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 75,
       "Gold": 60
@@ -3831,14 +3831,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/arambai_ucjpcu.png"
   },
   {
-    "_id": "ballista_elephant",
-    "id": 131,
+    "id": "ballista_elephant",
+    "number_id": 131,
     "name": "Ballista Elephant",
     "type": "Cavalry Siege unit",
     "description": "Khmer unique elephant equipped with a Scorpion. Can destroy trees.",
     "expansion": "Rise of the Rajas",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 100,
       "Gold": 80
@@ -3867,14 +3867,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939375/age-of-empires-2/units/ballista_elephant_eudvdv.png"
   },
   {
-    "_id": "elite_ballista_elephant",
-    "id": 132,
+    "id": "elite_ballista_elephant",
+    "number_id": 132,
     "name": "Elite Ballista Elephant",
     "type": "Cavalry Siege unit",
     "description": "Khmer unique elephant equipped with a Scorpion. Can destroy trees.",
     "expansion": "Rise of the Rajas",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 100,
       "Gold": 80
@@ -3903,14 +3903,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939375/age-of-empires-2/units/ballista_elephant_eudvdv.png"
   },
   {
-    "_id": "karambit_warrior",
-    "id": 133,
+    "id": "karambit_warrior",
+    "number_id": 133,
     "name": "Karambit Warrior",
     "type": "Infantry",
     "description": "Malay unique infantry unit. Cheap and only takes half a population unit.",
     "expansion": "Rise of the Rajas",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Population": 0.5,
       "Food": 25,
@@ -3929,14 +3929,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/karambit_warrior_eycet0.png"
   },
   {
-    "_id": "elite_karambit_warrior",
-    "id": 134,
+    "id": "elite_karambit_warrior",
+    "number_id": 134,
     "name": "Elite Karambit Warrior",
     "type": "Infantry",
     "description": "Malay unique infantry unit. Cheap and only takes half a population unit.",
     "expansion": "Rise of the Rajas",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Population": 0.5,
       "Food": 25,
@@ -3955,14 +3955,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/karambit_warrior_eycet0.png"
   },
   {
-    "_id": "rattan_archer",
-    "id": 135,
+    "id": "rattan_archer",
+    "number_id": 135,
     "name": "Rattan Archer",
     "type": "Foot archer",
     "description": "Vietnamese unique archer with high pierce armor.",
     "expansion": "Rise of the Rajas",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 50,
       "Gold": 45
@@ -3985,14 +3985,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/rattan_archer_y4va4l.png"
   },
   {
-    "_id": "elite_rattan_archer",
-    "id": 136,
+    "id": "elite_rattan_archer",
+    "number_id": 136,
     "name": "Elite Rattan Archer",
     "type": "Foot archer",
     "description": "Vietnamese unique archer with high pierce armor.",
     "expansion": "Rise of the Rajas",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 50,
       "Gold": 45
@@ -4015,14 +4015,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939374/age-of-empires-2/units/rattan_archer_y4va4l.png"
   },
   {
-    "_id": "imperial_skirmisher",
-    "id": 137,
+    "id": "imperial_skirmisher",
+    "number_id": 137,
     "name": "Imperial Skirmisher",
     "type": "Foot archer",
     "description": "Ranged anti-archer unit that cannot attack at close range. Trainable by Vietnamese and their allies.",
     "expansion": "Rise of the Rajas",
     "age": "Imperial Age",
-    "trained_at": ["archery_range"],
+    "trainedAt": ["archery_range"],
     "cost": {
       "Food": 25,
       "Wood": 35
@@ -4045,14 +4045,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672939375/age-of-empires-2/units/imperial_skirmisher_rnmqyt.png"
   },
   {
-    "_id": "konnik",
-    "id": 138,
+    "id": "konnik",
+    "number_id": 138,
     "name": "Konnik",
     "type": "Cavalry",
     "description": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
     "expansion": "The Last Khans",
     "age": "Castle Age",
-    "trained_at": ["castle", "krepost"],
+    "trainedAt": ["castle", "krepost"],
     "cost": {
       "Food": 60,
       "Gold": 70
@@ -4070,14 +4070,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/konnik_wdqafn.png"
   },
   {
-    "_id": "elite_konnik",
-    "id": 139,
+    "id": "elite_konnik",
+    "number_id": 139,
     "name": "Elite Konnik",
     "type": "Cavalry",
     "description": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
     "expansion": "The Last Khans",
     "age": "Imperial Age",
-    "trained_at": ["castle", "krepost"],
+    "trainedAt": ["castle", "krepost"],
     "cost": {
       "Food": 60,
       "Gold": 70
@@ -4095,8 +4095,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/konnik_wdqafn.png"
   },
   {
-    "_id": "dismounted_konnik",
-    "id": 140,
+    "id": "dismounted_konnik",
+    "number_id": 140,
     "name": "Dismounted Konnik",
     "type": "Infantry",
     "description": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
@@ -4115,8 +4115,8 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/dismounted_konnik_k8hn3p.png"
   },
   {
-    "_id": "elite_dismounted_konnik",
-    "id": 141,
+    "id": "elite_dismounted_konnik",
+    "number_id": 141,
     "name": "Elite Dismounted Konnik",
     "type": "Infantry",
     "description": "Bulgarian unique cavalry unit that fights on as infantry when felled.",
@@ -4135,14 +4135,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/dismounted_konnik_k8hn3p.png"
   },
   {
-    "_id": "kipchak",
-    "id": 142,
+    "id": "kipchak",
+    "number_id": 142,
     "name": "Kipchak",
     "type": "Mounted archer",
-    "description": "Cuman unique cavalry archer with rapid-fire attack.",
+    "description": "Cuman unique cavalry archer with rapnumber_id-fire attack.",
     "expansion": "The Last Khans",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 60,
       "Gold": 35
@@ -4168,14 +4168,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/kipchak_pic4dp.png"
   },
   {
-    "_id": "elite_kipchak",
-    "id": 143,
+    "id": "elite_kipchak",
+    "number_id": 143,
     "name": "Elite Kipchak",
     "type": "Mounted archer",
-    "description": "Cuman unique cavalry archer with rapid-fire attack.",
+    "description": "Cuman unique cavalry archer with rapnumber_id-fire attack.",
     "expansion": "The Last Khans",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 60,
       "Gold": 35
@@ -4201,14 +4201,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/kipchak_pic4dp.png"
   },
   {
-    "_id": "leitis",
-    "id": 144,
+    "id": "leitis",
+    "number_id": 144,
     "name": "Leitis",
     "type": "Cavalry",
     "description": "Lithuanian unique cavalry unit with attack that ignores armor.",
     "expansion": "The Last Khans",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 70,
       "Gold": 50
@@ -4226,14 +4226,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/leitis_pax50d.png"
   },
   {
-    "_id": "elite_leitis",
-    "id": 145,
+    "id": "elite_leitis",
+    "number_id": 145,
     "name": "Elite Leitis",
     "type": "Cavalry",
     "description": "Lithuanian unique cavalry unit with attack that ignores armor.",
     "expansion": "The Last Khans",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 70,
       "Gold": 50
@@ -4251,14 +4251,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/leitis_pax50d.png"
   },
   {
-    "_id": "keshik",
-    "id": 146,
+    "id": "keshik",
+    "number_id": 146,
     "name": "Keshik",
     "type": "Cavalry",
     "description": "Tatar unique cavalry unit that generates gold when fighting other units.",
     "expansion": "The Last Khans",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 40
@@ -4276,14 +4276,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/keshik_yxfm1z.png"
   },
   {
-    "_id": "elite_keshik",
-    "id": 147,
+    "id": "elite_keshik",
+    "number_id": 147,
     "name": "Elite Keshik",
     "type": "Cavalry",
     "description": "Tatar unique cavalry unit that generates gold when fighting other units.",
     "expansion": "The Last Khans",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 60,
       "Gold": 40
@@ -4301,14 +4301,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/keshik_yxfm1z.png"
   },
   {
-    "_id": "flaming_camel",
-    "id": 148,
+    "id": "flaming_camel",
+    "number_id": 148,
     "name": "Flaming Camel",
     "type": "Siege unit",
     "description": "Incendiary camel loaded with flammable hay and brush. Self-destructs when used.",
     "expansion": "The Last Khans",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 75,
       "Gold": 30
@@ -4331,14 +4331,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673002268/age-of-empires-2/units/flaming_camel_hqo6is.png"
   },
   {
-    "_id": "coustillier",
-    "id": 149,
+    "id": "coustillier",
+    "number_id": 149,
     "name": "Coustillier",
     "type": "Cavalry",
     "description": "Burgundian unique cavalry unit which can charge its attack.",
     "expansion": "Lords of the West",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 55,
       "Gold": 55
@@ -4358,14 +4358,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/coustillier_zoqumb.png"
   },
   {
-    "_id": "elite_coustillier",
-    "id": 150,
+    "id": "elite_coustillier",
+    "number_id": 150,
     "name": "Elite Coustillier",
     "type": "Cavalry",
     "description": "Burgundian unique cavalry unit which can charge its attack.",
     "expansion": "Lords of the West",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 55,
       "Gold": 55
@@ -4385,14 +4385,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/coustillier_zoqumb.png"
   },
   {
-    "_id": "flemish_militia",
-    "id": 151,
+    "id": "flemish_militia",
+    "number_id": 151,
     "name": "Flemish Militia",
     "type": "Infantry",
     "description": "Burgundian unique infantry unit.",
     "expansion": "Lords of the West",
     "age": "Imperial Age",
-    "trained_at": ["town_center"],
+    "trainedAt": ["town_center"],
     "cost": {
       "Food": 60,
       "Gold": 25
@@ -4417,14 +4417,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/flemish_militia_niksp1.png"
   },
   {
-    "_id": "serjeant",
-    "id": 152,
+    "id": "serjeant",
+    "number_id": 152,
     "name": "Serjeant",
     "type": "Infantry",
     "description": "Sicilian unique infantry unit which can construct Donjons.",
     "expansion": "Lords of the West",
     "age": "Feudal Age",
-    "trained_at": ["castle", "donjon"],
+    "trainedAt": ["castle", "donjon"],
     "cost": {
       "Food": 60,
       "Gold": 35
@@ -4443,14 +4443,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003568/age-of-empires-2/units/serjeant_cfq8y7.png"
   },
   {
-    "_id": "elite_serjeant",
-    "id": 153,
+    "id": "elite_serjeant",
+    "number_id": 153,
     "name": "Elite Serjeant",
     "type": "Infantry",
     "description": "Sicilian unique infantry unit which can construct Donjons.",
     "expansion": "Lords of the West",
     "age": "Imperial Age",
-    "trained_at": ["castle", "donjon"],
+    "trainedAt": ["castle", "donjon"],
     "cost": {
       "Food": 60,
       "Gold": 35
@@ -4469,14 +4469,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003568/age-of-empires-2/units/serjeant_cfq8y7.png"
   },
   {
-    "_id": "hussite_wagon",
-    "id": 154,
+    "id": "hussite_wagon",
+    "number_id": 154,
     "name": "Hussite Wagon",
     "type": "Siege unit",
     "description": "Bohemian unique siege unit. Units behind it receive 50% less damage from incoming projectiles.",
     "expansion": "Dawn of the Dukes",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 110,
       "Gold": 70
@@ -4502,14 +4502,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003568/age-of-empires-2/units/hussite_wagon_m9fhoq.png"
   },
   {
-    "_id": "elite_hussite_wagon",
-    "id": 155,
+    "id": "elite_hussite_wagon",
+    "number_id": 155,
     "name": "Elite Hussite Wagon",
     "type": "Siege unit",
     "description": "Bohemian unique siege unit. Units behind it receive 50% less damage from incoming projectiles.",
     "expansion": "Dawn of the Dukes",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 110,
       "Gold": 70
@@ -4535,14 +4535,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003568/age-of-empires-2/units/hussite_wagon_m9fhoq.png"
   },
   {
-    "_id": "houfnice",
-    "id": 156,
+    "id": "houfnice",
+    "number_id": 156,
     "name": "Houfnice",
     "type": "Gunpowder unit",
     "description": "Bohemian unique siege unit. Siege weapon with long range.",
     "expansion": "Dawn of the Dukes",
     "age": "Imperial Age",
-    "trained_at": ["siege_workshop"],
+    "trainedAt": ["siege_workshop"],
     "cost": {
       "Wood": 225,
       "Gold": 225
@@ -4573,14 +4573,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/houfnice_g9oa58.png"
   },
   {
-    "_id": "obuch",
-    "id": 157,
+    "id": "obuch",
+    "number_id": 157,
     "name": "Obuch",
     "type": "Infantry",
     "description": "Polish unique infantry unit which can damage the armor of units it is fighting.",
     "expansion": "Dawn of the Dukes",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 55,
       "Gold": 20
@@ -4601,14 +4601,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/obuch_qs73ip.png"
   },
   {
-    "_id": "elite_obuch",
-    "id": 158,
+    "id": "elite_obuch",
+    "number_id": 158,
     "name": "Elite Obuch",
     "type": "Infantry",
     "description": "Polish unique infantry unit which can damage the armor of units it is fighting.",
     "expansion": "Dawn of the Dukes",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 55,
       "Gold": 20
@@ -4629,14 +4629,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673003567/age-of-empires-2/units/obuch_qs73ip.png"
   },
   {
-    "_id": "ratha",
-    "id": 159,
+    "id": "ratha",
+    "number_id": 159,
     "name": "Ratha",
     "type": "Cavalry",
     "description": "Bengali unique chariot that can switch between melee and ranged attacks.",
     "expansion": "Dynasties of India",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 60,
       "Gold": 60
@@ -4660,14 +4660,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/ratha_zcxnjd.png"
   },
   {
-    "_id": "elite_ratha",
-    "id": 160,
+    "id": "elite_ratha",
+    "number_id": 160,
     "name": "Elite Ratha",
     "type": "Cavalry",
     "description": "Bengali unique chariot that can switch between melee and ranged attacks.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Wood": 60,
       "Gold": 60
@@ -4691,14 +4691,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/ratha_zcxnjd.png"
   },
   {
-    "_id": "urumi_swordsman",
-    "id": 161,
+    "id": "urumi_swordsman",
+    "number_id": 161,
     "name": "Urumi Swordsman",
     "type": "Infantry",
-    "description": "Dravidian unique infantry unit that can charge its attack.",
+    "description": "Dravnumber_idian unique infantry unit that can charge its attack.",
     "expansion": "Dynasties of India",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 65,
       "Gold": 20
@@ -4719,14 +4719,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/urumi_swordsman_bwhica.png"
   },
   {
-    "_id": "elite_urumi_swordsman",
-    "id": 162,
+    "id": "elite_urumi_swordsman",
+    "number_id": 162,
     "name": "Elite Urumi Swordsman",
     "type": "Infantry",
-    "description": "Dravidian unique infantry unit that can charge its attack.",
+    "description": "Dravnumber_idian unique infantry unit that can charge its attack.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 65,
       "Gold": 20
@@ -4747,14 +4747,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/urumi_swordsman_bwhica.png"
   },
   {
-    "_id": "thirisadai",
-    "id": 163,
+    "id": "thirisadai",
+    "number_id": 163,
     "name": "Thirisadai",
     "type": "Naval vessel",
-    "description": "Dravidian unique warship that fires multiple projectiles.",
+    "description": "Dravnumber_idian unique warship that fires multiple projectiles.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
-    "trained_at": ["dock"],
+    "trainedAt": ["dock"],
     "cost": {
       "Wood": 180,
       "Gold": 60
@@ -4783,14 +4783,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/thirisadai_tvrjxh.png"
   },
   {
-    "_id": "camel_scout",
-    "id": 164,
+    "id": "camel_scout",
+    "number_id": 164,
     "name": "Camel Scout",
     "type": "Cavalry",
     "description": "Gurjara unique scout unit.",
     "expansion": "Dynasties of India",
     "age": "Feudal Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 55,
       "Gold": 60
@@ -4813,14 +4813,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/camel_scout_d17sin.png"
   },
   {
-    "_id": "chakram_thrower",
-    "id": 165,
+    "id": "chakram_thrower",
+    "number_id": 165,
     "name": "Chakram Thrower",
     "type": "Infantry",
     "description": "Gurjara unique infantry unit with ranged melee attack.",
     "expansion": "Dynasties of India",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 65,
       "Gold": 30
@@ -4843,14 +4843,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/chakram_thrower_dok4mg.png"
   },
   {
-    "_id": "elite_chakram_thrower",
-    "id": 166,
+    "id": "elite_chakram_thrower",
+    "number_id": 166,
     "name": "Elite Chakram Thrower",
     "type": "Infantry",
     "description": "Gurjara unique infantry unit with ranged melee attack.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 65,
       "Gold": 30
@@ -4877,14 +4877,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/chakram_thrower_dok4mg.png"
   },
   {
-    "_id": "shrivamsha_rider",
-    "id": 167,
-    "name": "Shrivamsha Rider",
+    "id": "shrivamsha_rnumber_ider",
+    "number_id": 167,
+    "name": "Shrivamsha Rnumber_ider",
     "type": "Cavalry",
     "description": "Gurjara unique light cavalry unit which can dodge projectiles.",
     "expansion": "Dynasties of India",
     "age": "Castle Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 70,
       "Gold": 20
@@ -4901,17 +4901,17 @@
     "ability": [
       "Can 'dodge' five consecutive projectiles in a 20 second time frame"
     ],
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rider_cuqxve.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rnumber_ider_cuqxve.png"
   },
   {
-    "_id": "elite_shrivamsha_rider",
-    "id": 168,
-    "name": "Elite Shrivamsha Rider",
+    "id": "elite_shrivamsha_rnumber_ider",
+    "number_id": 168,
+    "name": "Elite Shrivamsha Rnumber_ider",
     "type": "Cavalry",
     "description": "Gurjara unique light cavalry unit which can dodge projectiles.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
-    "trained_at": ["stable"],
+    "trainedAt": ["stable"],
     "cost": {
       "Food": 70,
       "Gold": 20
@@ -4928,17 +4928,17 @@
     "ability": [
       "Can 'dodge' seven consecutive projectiles in a 20 second time frame"
     ],
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rider_cuqxve.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rnumber_ider_cuqxve.png"
   },
   {
-    "_id": "ghulam",
-    "id": 169,
+    "id": "ghulam",
+    "number_id": 169,
     "name": "Ghulam",
     "type": "Infantry",
     "description": "Hindustani unique infantry unit that thrusts its spear through multiple targets.",
     "expansion": "Dynasties of India",
     "age": "Castle Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 30,
       "Gold": 45
@@ -4960,14 +4960,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/ghulam_xfrium.png"
   },
   {
-    "_id": "elite_ghulam",
-    "id": 170,
+    "id": "elite_ghulam",
+    "number_id": 170,
     "name": "Elite Ghulam",
     "type": "Infantry",
     "description": "Hindustani unique infantry unit that thrusts its spear through multiple targets.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
-    "trained_at": ["castle"],
+    "trainedAt": ["castle"],
     "cost": {
       "Food": 30,
       "Gold": 45

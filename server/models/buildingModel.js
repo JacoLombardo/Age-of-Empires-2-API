@@ -3,6 +3,11 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 const buildingSchema = new Schema({
     id: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    number_id: {
         type: Number,
         required: true,
         unique: true
@@ -97,7 +102,7 @@ const buildingSchema = new Schema({
         required: true,
         unique: false
     },
-    ability: [{
+    special_ability: [{
         type: String,
         required: false,
         unique: false

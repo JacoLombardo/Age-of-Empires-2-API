@@ -3,6 +3,11 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 const civilizationSchema = new Schema({
     id: {
+        type: String,
+        required: true,
+        unique: true,
+    },
+    number_id: {
         type: Number,
         required: true,
         unique: true,
@@ -20,15 +25,22 @@ const civilizationSchema = new Schema({
     army_type: {
         type: String,
         required: true,
-        unique: false,
+        unique: false
     },
-    unique_unit: [{
+    uniqueUnit: [{
         type: String,
-        ref: 'Unit'
+        required: false,
+        unique: false
     }],
-    unique_tech: [{
+    uniqueTech: [{
         type: String,
-        ref: 'Technology'
+        required: false,
+        unique: false
+    }],
+    uniqueBuilding: [{
+        type: String,
+        required: false,
+        unique: false
     }],
     team_bonus: [{
         type: String,
@@ -45,6 +57,25 @@ const civilizationSchema = new Schema({
         required: true,
         unique: true,
     }
+}, {
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
 });
+civilizationSchema.virtual('unique_unit', {
+    ref: 'Unit',
+    localField: 'uniqueUnit',
+    foreignField: 'id'
+});
+civilizationSchema.virtual('unique_tech', {
+    ref: 'Technology',
+    localField: 'uniqueTech',
+    foreignField: 'id'
+});
+civilizationSchema.virtual('unique_building', {
+    ref: 'Building',
+    localField: 'uniqueBuilding',
+    foreignField: 'id'
+});
+
 const Civilization = mongoose.model('Civilization', civilizationSchema);
 export default Civilization

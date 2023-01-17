@@ -1,12 +1,12 @@
 [
   {
-    "_id": "town_watch",
-    "id": 1,
+    "id": "town_watch",
+    "number_id": 1,
     "name": "Town Watch",
     "type": "Building",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["town_center"],
+    "researchedAt": ["town_center"],
     "cost": {
       "Food": 75
     },
@@ -15,13 +15,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445949/age-of-empires-2/technologies/town_watch_mhfufy.png"
   },
   {
-    "_id": "town_patrol",
-    "id": 2,
+    "id": "town_patrol",
+    "number_id": 2,
     "name": "Town Patrol",
     "type": "Building",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["town_center"],
+    "researchedAt": ["town_center"],
     "cost": {
       "Food": 300,
       "Gold": 100
@@ -31,13 +31,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/town_patrol_mecfzm.png"
   },
   {
-    "_id": "treadmill_crane",
-    "id": 3,
+    "id": "treadmill_crane",
+    "number_id": 3,
     "name": "Treadmill Crane",
     "type": "Building",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["university"],
+    "researchedAt": ["university"],
     "cost": {
       "Food": 300,
       "Wood": 200
@@ -47,13 +47,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/treadmill_crane_eqemex.png"
   },
   {
-    "_id": "masonry",
-    "id": 4,
+    "id": "masonry",
+    "number_id": 4,
     "name": "Masonry",
     "type": "Building",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["university"],
+    "researchedAt": ["university"],
     "cost": {
       "Food": 150,
       "Wood": 175
@@ -65,13 +65,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/masonry_itotti.png"
   },
   {
-    "_id": "architecture",
-    "id": 5,
+    "id": "architecture",
+    "number_id": 5,
     "name": "Architecture",
     "type": "Building",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["university"],
+    "researchedAt": ["university"],
     "cost": {
       "Food": 300,
       "Wood": 200
@@ -83,13 +83,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/architecture_farx7k.png"
   },
   {
-    "_id": "hoardings",
-    "id": 6,
+    "id": "hoardings",
+    "number_id": 6,
     "name": "Hoardings",
     "type": "Building",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Wood": 400
@@ -99,13 +99,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/hoardings_m95z2f.png"
   },
   {
-    "_id": "conscription",
-    "id": 7,
+    "id": "conscription",
+    "number_id": 7,
     "name": "Conscription",
     "type": "Building",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 150,
       "Gold": 150
@@ -115,13 +115,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673445950/age-of-empires-2/technologies/conscription_vdecf0.png"
   },
   {
-    "_id": "wheelbarrow",
-    "id": 8,
+    "id": "wheelbarrow",
+    "number_id": 8,
     "name": "Wheelbarrow",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["town_center"],
+    "researchedAt": ["town_center"],
     "cost": {
       "Food": 175,
       "Wood": 50
@@ -131,13 +131,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/wheelbarrow_qptjjh.png"
   },
   {
-    "_id": "hand_cart",
-    "id": 9,
+    "id": "hand_cart",
+    "number_id": 9,
     "name": "Hand Cart",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["town_center"],
+    "researchedAt": ["town_center"],
     "cost": {
       "Food": 300,
       "Wood": 200
@@ -147,13 +147,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/handcart_t2dn5z.png"
   },
   {
-    "_id": "double_bit_axe",
-    "id": 10,
+    "id": "double_bit_axe",
+    "number_id": 10,
     "name": "Double-Bit Axe",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["lumber_camp"],
+    "researchedAt": ["lumber_camp"],
     "cost": {
       "Food": 100,
       "Wood": 50
@@ -163,13 +163,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/double_bit_axe_ponugw.png"
   },
   {
-    "_id": "bow_saw",
-    "id": 11,
+    "id": "bow_saw",
+    "number_id": 11,
     "name": "Bow Saw",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["lumber_camp"],
+    "researchedAt": ["lumber_camp"],
     "cost": {
       "Food": 150,
       "Wood": 100
@@ -179,13 +179,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/bow_saw_v1vxzm.png"
   },
   {
-    "_id": "two_man_saw",
-    "id": 12,
+    "id": "two_man_saw",
+    "number_id": 12,
     "name": "Two-Man Saw",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["lumber_camp"],
+    "researchedAt": ["lumber_camp"],
     "cost": {
       "Food": 300,
       "Wood": 200
@@ -195,13 +195,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/two_man_saw_pgnp03.png"
   },
   {
-    "_id": "horse_collar",
-    "id": 13,
+    "id": "horse_collar",
+    "number_id": 13,
     "name": "Horse Collar",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["mill", "folwark"],
+    "researchedAt": ["mill", "folwark"],
     "cost": {
       "Food": 75,
       "Wood": 75
@@ -211,45 +211,47 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/horse_collar_bdbthv.png"
   },
   {
-    "_id": "heavy_plow",
-    "id": 14,
+    "id": "heavy_plow",
+    "number_id": 14,
     "name": "Heavy Plow",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["mill", "folwark"],
+    "researchedAt": ["mill", "folwark"],
     "cost": {
       "Food": 125,
       "Wood": 125
     },
     "research_time": 40,
-    "effect": ["Farms provide +125 food", "Villagers carry +1 food"],
+    "effect": ["Farms provnumber_ide +125 food", "Villagers carry +1 food"],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446865/age-of-empires-2/technologies/heavy_plow_jskii4.png"
   },
   {
-    "_id": "crop_rotation",
-    "id": 15,
+    "id": "crop_rotation",
+    "number_id": 15,
     "name": "Crop Rotation",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["mill", "folwark"],
+    "researchedAt": ["mill", "folwark"],
     "cost": {
       "Food": 250,
       "Wood": 250
     },
     "research_time": 70,
-    "effect": ["Farms provide +175 food before they need to be reseeded"],
+    "effect": [
+      "Farms provnumber_ide +175 food before they need to be reseeded"
+    ],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673446920/age-of-empires-2/technologies/crop_rotation_sioyfv.png"
   },
   {
-    "_id": "gold_mining",
-    "id": 16,
+    "id": "gold_mining",
+    "number_id": 16,
     "name": "Gold Mining",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["mining_camp"],
+    "researchedAt": ["mining_camp"],
     "cost": {
       "Food": 100,
       "Wood": 75
@@ -259,13 +261,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/gold_mining_lt1mto.png"
   },
   {
-    "_id": "gold_shaft_mining",
-    "id": 17,
+    "id": "gold_shaft_mining",
+    "number_id": 17,
     "name": "Gold Shaft Mining",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["mining_camp"],
+    "researchedAt": ["mining_camp"],
     "cost": {
       "Food": 200,
       "Wood": 150
@@ -275,13 +277,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/gold_shaft_mining_tw9mfw.png"
   },
   {
-    "_id": "stone_mining",
-    "id": 18,
+    "id": "stone_mining",
+    "number_id": 18,
     "name": "Stone Mining",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["mining_camp"],
+    "researchedAt": ["mining_camp"],
     "cost": {
       "Food": 100,
       "Wood": 75
@@ -291,13 +293,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/stone_mining_lrayms.png"
   },
   {
-    "_id": "stone_shaft_mining",
-    "id": 19,
+    "id": "stone_shaft_mining",
+    "number_id": 19,
     "name": "Stone Shaft Mining",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["mining_camp"],
+    "researchedAt": ["mining_camp"],
     "cost": {
       "Food": 200,
       "Wood": 150
@@ -307,13 +309,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447637/age-of-empires-2/technologies/stone_shaft_mining_jknjkx.png"
   },
   {
-    "_id": "caravan",
-    "id": 20,
+    "id": "caravan",
+    "number_id": 20,
     "name": "Caravan",
     "type": "Economy",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "researched_at": ["market"],
+    "researchedAt": ["market"],
     "cost": {
       "Food": 200,
       "Gold": 200
@@ -323,13 +325,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/caravan_x2hczz.png"
   },
   {
-    "_id": "coinage",
-    "id": 21,
+    "id": "coinage",
+    "number_id": 21,
     "name": "Coinage",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["market"],
+    "researchedAt": ["market"],
     "cost": {
       "Food": 200,
       "Gold": 100
@@ -339,13 +341,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/coinage_imxwef.png"
   },
   {
-    "_id": "banking",
-    "id": 22,
+    "id": "banking",
+    "number_id": 22,
     "name": "Banking",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["market"],
+    "researchedAt": ["market"],
     "cost": {
       "Food": 300,
       "Gold": 200
@@ -355,13 +357,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/banking_asoary.png"
   },
   {
-    "_id": "guilds",
-    "id": 23,
+    "id": "guilds",
+    "number_id": 23,
     "name": "Guilds",
     "type": "Economy",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["market"],
+    "researchedAt": ["market"],
     "cost": {
       "Food": 300,
       "Gold": 200
@@ -371,13 +373,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/guilds_v2qjhy.png"
   },
   {
-    "_id": "gillnets",
-    "id": 24,
+    "id": "gillnets",
+    "number_id": 24,
     "name": "Gillnets",
     "type": "Economy",
     "expansion": "The Forgotten",
     "age": "Castle Age",
-    "researched_at": ["dock"],
+    "researchedAt": ["dock"],
     "cost": {
       "Food": 150,
       "Wood": 200
@@ -387,13 +389,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673447636/age-of-empires-2/technologies/gillnets_z94eat.png"
   },
   {
-    "_id": "redemption",
-    "id": 25,
+    "id": "redemption",
+    "number_id": 25,
     "name": "Redemption",
     "type": "Monastery",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Gold": 475
     },
@@ -404,13 +406,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451218/age-of-empires-2/technologies/redemption_owqppc.png"
   },
   {
-    "_id": "atonement",
-    "id": 26,
+    "id": "atonement",
+    "number_id": 26,
     "name": "Atonement",
     "type": "Monastery",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Gold": 325
     },
@@ -421,13 +423,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/atonement_sdmzq4.png"
   },
   {
-    "_id": "herbal_medicine",
-    "id": 27,
+    "id": "herbal_medicine",
+    "number_id": 27,
     "name": "Herbal Medicine",
     "type": "Monastery",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Gold": 200
     },
@@ -436,13 +438,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/herbal_medicine_zvbrsf.png"
   },
   {
-    "_id": "heresy",
-    "id": 28,
+    "id": "heresy",
+    "number_id": 28,
     "name": "Heresy",
     "type": "Monastery",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Gold": 1000
     },
@@ -453,28 +455,28 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/heresy_fsoeyj.png"
   },
   {
-    "_id": "sanctity",
-    "id": 29,
+    "id": "sanctity",
+    "number_id": 29,
     "name": "Sanctity",
     "type": "Monastery",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Gold": 120
     },
     "research_time": 60,
     "effect": ["Monk and Missionary hit points +15"],
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/sanctity_r4ridv.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/sanctity_r4rnumber_idv.png"
   },
   {
-    "_id": "fervor",
-    "id": 30,
+    "id": "fervor",
+    "number_id": 30,
     "name": "Fervor",
     "type": "Monastery",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Gold": 140
     },
@@ -483,13 +485,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/fervor_oe2hsd.png"
   },
   {
-    "_id": "faith",
-    "id": 31,
+    "id": "faith",
+    "number_id": 31,
     "name": "Faith",
     "type": "Monastery",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Food": 750,
       "Gold": 1000
@@ -499,13 +501,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/faith_usdrbc.png"
   },
   {
-    "_id": "illumination",
-    "id": 32,
+    "id": "illumination",
+    "number_id": 32,
     "name": "Illumination",
     "type": "Monastery",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Gold": 120
     },
@@ -516,13 +518,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/illumination_louzni.png"
   },
   {
-    "_id": "block_printing",
-    "id": 33,
+    "id": "block_printing",
+    "number_id": 33,
     "name": "Block Printing",
     "type": "Monastery",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Gold": 200
     },
@@ -531,13 +533,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/block_printing_pnw7ww.png"
   },
   {
-    "_id": "theocracy",
-    "id": 34,
+    "id": "theocracy",
+    "number_id": 34,
     "name": "Theocracy",
     "type": "Monastery",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "researched_at": ["monastery"],
+    "researchedAt": ["monastery"],
     "cost": {
       "Gold": 200
     },
@@ -548,13 +550,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673451217/age-of-empires-2/technologies/theocracy_nbb4vq.png"
   },
   {
-    "_id": "supplies",
-    "id": 35,
+    "id": "supplies",
+    "number_id": 35,
     "name": "Supplies",
     "type": "Military",
     "expansion": "Definitive Edition",
     "age": "Feudal Age",
-    "researched_at": ["barracks"],
+    "researchedAt": ["barracks"],
     "cost": {
       "Food": 75,
       "Gold": 75
@@ -564,13 +566,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/supplies_w1wbt5.png"
   },
   {
-    "_id": "squires",
-    "id": 36,
+    "id": "squires",
+    "number_id": 36,
     "name": "Squires",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["barracks"],
+    "researchedAt": ["barracks"],
     "cost": {
       "Food": 100
     },
@@ -579,13 +581,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/squires_sflmwh.png"
   },
   {
-    "_id": "arson",
-    "id": 37,
+    "id": "arson",
+    "number_id": 37,
     "name": "Arson",
     "type": "Military",
     "expansion": "The African Kingdoms",
     "age": "Castle Age",
-    "researched_at": ["barracks"],
+    "researchedAt": ["barracks"],
     "cost": {
       "Food": 150,
       "Gold": 50
@@ -595,13 +597,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/arson_w5kx9c.png"
   },
   {
-    "_id": "forging",
-    "id": 38,
+    "id": "forging",
+    "number_id": 38,
     "name": "Forging",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 150
     },
@@ -610,13 +612,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/forging_do8fui.png"
   },
   {
-    "_id": "iron_casting",
-    "id": 39,
+    "id": "iron_casting",
+    "number_id": 39,
     "name": "Iron Casting",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 220,
       "Gold": 120
@@ -626,13 +628,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/iron_casting_z63lea.png"
   },
   {
-    "_id": "blast_furnace",
-    "id": 40,
+    "id": "blast_furnace",
+    "number_id": 40,
     "name": "Blast Furnace",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 275,
       "Gold": 225
@@ -642,13 +644,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/blast_furnace_whlojy.png"
   },
   {
-    "_id": "scale_mail_armor",
-    "id": 41,
+    "id": "scale_mail_armor",
+    "number_id": 41,
     "name": "Scale Mail Armor",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 100
     },
@@ -657,13 +659,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/scale_mail_armor_cqwiu2.png"
   },
   {
-    "_id": "chain_mail_armor",
-    "id": 42,
+    "id": "chain_mail_armor",
+    "number_id": 42,
     "name": "Chain Mail Armor",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 200,
       "Gold": 100
@@ -673,13 +675,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/chain_mail_armor_giq0ri.png"
   },
   {
-    "_id": "plate_mail_armor",
-    "id": 43,
+    "id": "plate_mail_armor",
+    "number_id": 43,
     "name": "Plate Mail Armor",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 300,
       "Gold": 150
@@ -689,13 +691,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673521824/age-of-empires-2/technologies/plate_mail_armor_dfzrzf.png"
   },
   {
-    "_id": "thumb_ring",
-    "id": 44,
+    "id": "thumb_ring",
+    "number_id": 44,
     "name": "Thumb Ring",
     "type": "Military",
     "expansion": "The Conquerors",
     "age": "Castle Age",
-    "researched_at": ["archery_range"],
+    "researchedAt": ["archery_range"],
     "cost": {
       "Food": 300,
       "Wood": 250
@@ -705,13 +707,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523152/age-of-empires-2/technologies/thumb_ring_ck84dv.png"
   },
   {
-    "_id": "parthian_tactics",
-    "id": 45,
+    "id": "parthian_tactics",
+    "number_id": 45,
     "name": "Parthian Tactics",
     "type": "Military",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
-    "researched_at": ["archery_range"],
+    "researchedAt": ["archery_range"],
     "cost": {
       "Food": 200,
       "Gold": 250
@@ -721,13 +723,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/parthian_tactics_of5yus.png"
   },
   {
-    "_id": "fletching",
-    "id": 46,
+    "id": "fletching",
+    "number_id": 46,
     "name": "Fletching",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 100,
       "Gold": 50
@@ -737,13 +739,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/fletching_lqaeyn.png"
   },
   {
-    "_id": "bodkin_arrow",
-    "id": 47,
+    "id": "bodkin_arrow",
+    "number_id": 47,
     "name": "Bodkin Arrow",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 200,
       "Gold": 100
@@ -753,13 +755,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/bodkin_arrow_sf8jvo.png"
   },
   {
-    "_id": "bracer",
-    "id": 48,
+    "id": "bracer",
+    "number_id": 48,
     "name": "Bracer",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 300,
       "Gold": 200
@@ -769,13 +771,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/bracer_lmqqbv.png"
   },
   {
-    "_id": "padded_archer_armor",
-    "id": 49,
+    "id": "padded_archer_armor",
+    "number_id": 49,
     "name": "Padded Archer Armor",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 100
     },
@@ -784,13 +786,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/padded_archer_armor_q1lsji.png"
   },
   {
-    "_id": "leather_archer_armor",
-    "id": 50,
+    "id": "leather_archer_armor",
+    "number_id": 50,
     "name": "Leather Archer Armor",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 150,
       "Gold": 150
@@ -800,13 +802,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/leather_archer_armor_ksmg08.png"
   },
   {
-    "_id": "ring_archer_armor",
-    "id": 51,
+    "id": "ring_archer_armor",
+    "number_id": 51,
     "name": "Ring Archer Armor",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 250,
       "Gold": 250
@@ -816,13 +818,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523152/age-of-empires-2/technologies/ring_archer_armor_ao6cu4.png"
   },
   {
-    "_id": "ballistics",
-    "id": 52,
+    "id": "ballistics",
+    "number_id": 52,
     "name": "Ballistics",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["university"],
+    "researchedAt": ["university"],
     "cost": {
       "Wood": 300,
       "Gold": 175
@@ -832,13 +834,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/ballistics_lmtbqw.png"
   },
   {
-    "_id": "heated_shot",
-    "id": 53,
+    "id": "heated_shot",
+    "number_id": 53,
     "name": "Heated Shot",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["university"],
+    "researchedAt": ["university"],
     "cost": {
       "Food": 350,
       "Gold": 100
@@ -851,13 +853,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/heated_shot_rayw6w.png"
   },
   {
-    "_id": "murder_holes",
-    "id": 54,
+    "id": "murder_holes",
+    "number_id": 54,
     "name": "Murder Holes",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["university"],
+    "researchedAt": ["university"],
     "cost": {
       "Food": 200,
       "Stone": 100
@@ -867,13 +869,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/murder_holes_hxorvx.png"
   },
   {
-    "_id": "arrowslits",
-    "id": 55,
+    "id": "arrowslits",
+    "number_id": 55,
     "name": "Arrowslits",
     "type": "Military",
     "expansion": "The African Kingdoms",
     "age": "Imperial Age",
-    "researched_at": ["university"],
+    "researchedAt": ["university"],
     "cost": {
       "Food": 250,
       "Wood": 250
@@ -883,13 +885,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/arrow_slits_reivfu.png"
   },
   {
-    "_id": "chemistry",
-    "id": 56,
+    "id": "chemistry",
+    "number_id": 56,
     "name": "Chemistry",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["university"],
+    "researchedAt": ["university"],
     "cost": {
       "Food": 300,
       "Gold": 200
@@ -901,13 +903,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523151/age-of-empires-2/technologies/chemistry_n5r2tk.png"
   },
   {
-    "_id": "siege_engineers",
-    "id": 57,
+    "id": "siege_engineers",
+    "number_id": 57,
     "name": "Siege Engineers",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["university"],
+    "researchedAt": ["university"],
     "cost": {
       "Food": 500,
       "Wood": 600
@@ -919,13 +921,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523152/age-of-empires-2/technologies/siege_engineers_smbwmh.png"
   },
   {
-    "_id": "bloodlines",
-    "id": 58,
+    "id": "bloodlines",
+    "number_id": 58,
     "name": "Bloodlines",
     "type": "Military",
     "expansion": "The Conquerors",
     "age": "Feudal Age",
-    "researched_at": ["stable"],
+    "researchedAt": ["stable"],
     "cost": {
       "Food": 150,
       "Gold": 100
@@ -935,13 +937,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/bloodlines_kuvnqs.png"
   },
   {
-    "_id": "husbandry",
-    "id": 59,
+    "id": "husbandry",
+    "number_id": 59,
     "name": "Husbandry",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["stable"],
+    "researchedAt": ["stable"],
     "cost": {
       "Food": 150
     },
@@ -950,13 +952,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/husbandry_fc3rdp.png"
   },
   {
-    "_id": "scale_barding_armor",
-    "id": 60,
+    "id": "scale_barding_armor",
+    "number_id": 60,
     "name": "Scale Barding Armor",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 150
     },
@@ -965,13 +967,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523921/age-of-empires-2/technologies/scale_barding_armor_bzzuxo.png"
   },
   {
-    "_id": "chain_barding_armor",
-    "id": 61,
+    "id": "chain_barding_armor",
+    "number_id": 61,
     "name": "Chain Barding Armor",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 250,
       "Gold": 150
@@ -981,13 +983,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523921/age-of-empires-2/technologies/chain_barding_armor_athd1k.png"
   },
   {
-    "_id": "plate_barding_armor",
-    "id": 62,
+    "id": "plate_barding_armor",
+    "number_id": 62,
     "name": "Plate Barding Armor",
     "type": "Military",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["blacksmith"],
+    "researchedAt": ["blacksmith"],
     "cost": {
       "Food": 350,
       "Gold": 200
@@ -997,13 +999,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/plate_barding_armor_wxktse.png"
   },
   {
-    "_id": "careening",
-    "id": 63,
+    "id": "careening",
+    "number_id": 63,
     "name": "Careening",
     "type": "Dock",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["dock"],
+    "researchedAt": ["dock"],
     "cost": {
       "Food": 250,
       "Gold": 150
@@ -1013,13 +1015,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/careening_tdlpeg.png"
   },
   {
-    "_id": "dry_dock",
-    "id": 64,
+    "id": "dry_dock",
+    "number_id": 64,
     "name": "Dry Dock",
     "type": "Dock",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["dock"],
+    "researchedAt": ["dock"],
     "cost": {
       "Food": 600,
       "Gold": 400
@@ -1029,13 +1031,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523920/age-of-empires-2/technologies/dry_dock_sazs0v.png"
   },
   {
-    "_id": "shipwright",
-    "id": 65,
+    "id": "shipwright",
+    "number_id": 65,
     "name": "Shipwright",
     "type": "Dock",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["dock"],
+    "researchedAt": ["dock"],
     "cost": {
       "Food": 1000,
       "Gold": 300
@@ -1045,13 +1047,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673523921/age-of-empires-2/technologies/shipwright_igzwst.png"
   },
   {
-    "_id": "loom",
-    "id": 66,
+    "id": "loom",
+    "number_id": 66,
     "name": "Loom",
     "type": "Miscellaneous",
     "expansion": "The Age of Kings",
     "age": "Dark Age",
-    "researched_at": ["town_center"],
+    "researchedAt": ["town_center"],
     "cost": {
       "Gold": 50
     },
@@ -1060,13 +1062,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/loom_lb6tjc.png"
   },
   {
-    "_id": "feudal_age",
-    "id": 67,
+    "id": "feudal_age",
+    "number_id": 67,
     "name": "Feudal Age",
     "type": "Miscellaneous",
     "expansion": "The Age of Kings",
     "age": "Dark Age",
-    "researched_at": ["town_center"],
+    "researchedAt": ["town_center"],
     "cost": {
       "Food": 500
     },
@@ -1075,13 +1077,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/feudal_age_e7jeau.png"
   },
   {
-    "_id": "castle_age",
-    "id": 68,
+    "id": "castle_age",
+    "number_id": 68,
     "name": "Castle Age",
     "type": "Miscellaneous",
     "expansion": "The Age of Kings",
     "age": "Feudal Age",
-    "researched_at": ["town_center"],
+    "researchedAt": ["town_center"],
     "cost": {
       "Food": 800,
       "Gold": 200
@@ -1091,13 +1093,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/castle_age_aiqeq2.png"
   },
   {
-    "_id": "imperial_age",
-    "id": 69,
+    "id": "imperial_age",
+    "number_id": 69,
     "name": "Imperial Age",
     "type": "Miscellaneous",
     "expansion": "The Age of Kings",
     "age": "Castle Age",
-    "researched_at": ["town_center"],
+    "researchedAt": ["town_center"],
     "cost": {
       "Food": 1000,
       "Gold": 800
@@ -1107,13 +1109,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/imperial_age_sf4mzs.png"
   },
   {
-    "_id": "treason",
-    "id": 70,
+    "id": "treason",
+    "number_id": 70,
     "name": "Treason",
     "type": "Miscellaneous",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Gold": 400
     },
@@ -1122,13 +1124,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/spies_wsllr7.png"
   },
   {
-    "_id": "sappers",
-    "id": 71,
+    "id": "sappers",
+    "number_id": 71,
     "name": "Sappers",
     "type": "Miscellaneous",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Gold": 200
@@ -1141,13 +1143,13 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/sapper_mupa96.png"
   },
   {
-    "_id": "spies",
-    "id": 72,
+    "id": "spies",
+    "number_id": 72,
     "name": "Spies",
     "type": "Miscellaneous",
     "expansion": "The Age of Kings",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Gold": 200
     },
@@ -1156,14 +1158,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673524691/age-of-empires-2/technologies/spies_wsllr7.png"
   },
   {
-    "_id": "anarchy",
-    "id": 73,
+    "id": "anarchy",
+    "number_id": 73,
     "name": "Anarchy",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "goths",
+    "civilizatioN": "goths",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 450,
       "Gold": 250
@@ -1173,14 +1175,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "garland_wars",
-    "id": 74,
+    "id": "garland_wars",
+    "number_id": 74,
     "name": "Garland Wars",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "aztecs",
+    "civilizatioN": "aztecs",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 450,
       "Gold": 750
@@ -1190,14 +1192,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "yeomen",
-    "id": 75,
+    "id": "yeomen",
+    "number_id": 75,
     "name": "Yeomen",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "britons",
+    "civilizatioN": "britons",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 750,
       "Gold": 450
@@ -1207,14 +1209,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "logistica",
-    "id": 76,
+    "id": "logistica",
+    "number_id": 76,
     "name": "Logistica",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "byzantines",
+    "civilizatioN": "byzantines",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 800,
       "Gold": 600
@@ -1224,14 +1226,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "furor_celtica",
-    "id": 77,
+    "id": "furor_celtica",
+    "number_id": 77,
     "name": "Furor Celtica",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "celts",
+    "civilizatioN": "celts",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 750,
       "Gold": 450
@@ -1241,14 +1243,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "rocketry",
-    "id": 78,
+    "id": "rocketry",
+    "number_id": 78,
     "name": "Rocketry",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "chinese",
+    "civilizatioN": "chinese",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 600,
       "Gold": 600
@@ -1258,14 +1260,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "bearded_axe",
-    "id": 79,
+    "id": "bearded_axe",
+    "number_id": 79,
     "name": "Bearded Axe",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "franks",
+    "civilizatioN": "franks",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Gold": 300
@@ -1275,14 +1277,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "perfusion",
-    "id": 80,
+    "id": "perfusion",
+    "number_id": 80,
     "name": "Perfusion",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "goths",
+    "civilizatioN": "goths",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 400,
       "Gold": 600
@@ -1292,14 +1294,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "atheism",
-    "id": 81,
+    "id": "atheism",
+    "number_id": 81,
     "name": "Atheism",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "huns",
+    "civilizatioN": "huns",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 500,
       "Gold": 500
@@ -1312,14 +1314,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "kataparuto",
-    "id": 82,
+    "id": "kataparuto",
+    "number_id": 82,
     "name": "Kataparuto",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "japanese",
+    "civilizatioN": "japanese",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 750,
       "Gold": 400
@@ -1329,14 +1331,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "shinkichon",
-    "id": 83,
+    "id": "shinkichon",
+    "number_id": 83,
     "name": "Shinkichon",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "koreans",
+    "civilizatioN": "koreans",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 800,
       "Gold": 500
@@ -1346,14 +1348,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "el_dorado",
-    "id": 84,
+    "id": "el_dorado",
+    "number_id": 84,
     "name": "El Dorado",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "mayans",
+    "civilizatioN": "mayans",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 750,
       "Gold": 450
@@ -1363,14 +1365,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "drill",
-    "id": 85,
+    "id": "drill",
+    "number_id": 85,
     "name": "Drill",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "mongols",
+    "civilizatioN": "mongols",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 500,
       "Gold": 450
@@ -1380,14 +1382,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "mahouts",
-    "id": 86,
+    "id": "mahouts",
+    "number_id": 86,
     "name": "Mahouts",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "persians",
+    "civilizatioN": "persians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Gold": 300
@@ -1397,31 +1399,31 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "zealotry",
-    "id": 87,
+    "id": "zealotry",
+    "number_id": 87,
     "name": "Zealotry",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "saracens",
+    "civilizatioN": "saracens",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 500,
       "Gold": 450
     },
     "research_time": 50,
-    "effect": ["Camel Rider and Mameluke +20 HP"],
+    "effect": ["Camel Rnumber_ider and Mameluke +20 HP"],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "supremacy",
-    "id": 88,
+    "id": "supremacy",
+    "number_id": 88,
     "name": "Supremacy",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "spanish",
+    "civilizatioN": "spanish",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Gold": 250
@@ -1431,14 +1433,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "supremacy",
-    "id": 89,
+    "id": "supremacy",
+    "number_id": 89,
     "name": "Supremacy",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "spanish",
+    "civilizatioN": "spanish",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Gold": 250
@@ -1448,14 +1450,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "crenellations",
-    "id": 90,
+    "id": "crenellations",
+    "number_id": 90,
     "name": "Crenellations",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "teutons",
+    "civilizatioN": "teutons",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 600,
       "Stone": 400
@@ -1465,14 +1467,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "artillery",
-    "id": 91,
+    "id": "artillery",
+    "number_id": 91,
     "name": "Artillery",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "turks",
+    "civilizatioN": "turks",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 450,
       "Gold": 500
@@ -1482,14 +1484,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "berserkergang",
-    "id": 92,
+    "id": "berserkergang",
+    "number_id": 92,
     "name": "Berserkergang",
     "type": "Unique",
     "expansion": "The Conquerors",
-    "civilization": "vikings",
+    "civilizatioN": "vikings",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 850,
       "Gold": 400
@@ -1499,14 +1501,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "atlatl",
-    "id": 93,
+    "id": "atlatl",
+    "number_id": 93,
     "name": "Atlatl",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "aztecs",
+    "civilizatioN": "aztecs",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Gold": 350
@@ -1516,14 +1518,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "greek_fire",
-    "id": 94,
+    "id": "greek_fire",
+    "number_id": 94,
     "name": "Greek Fire",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "byzantines",
+    "civilizatioN": "byzantines",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 250,
       "Gold": 300
@@ -1533,14 +1535,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "stronghold",
-    "id": 95,
+    "id": "stronghold",
+    "number_id": 95,
     "name": "Stronghold",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "celts",
+    "civilizatioN": "celts",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 250,
       "Gold": 200
@@ -1550,14 +1552,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "great_wall",
-    "id": 96,
+    "id": "great_wall",
+    "number_id": 96,
     "name": "Great Wall",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "chinese",
+    "civilizatioN": "chinese",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 340,
       "Stone": 170
@@ -1567,14 +1569,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "chivalry",
-    "id": 97,
+    "id": "chivalry",
+    "number_id": 97,
     "name": "Chivalry",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "franks",
+    "civilizatioN": "franks",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 600,
       "Gold": 500
@@ -1584,14 +1586,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "marauders",
-    "id": 98,
+    "id": "marauders",
+    "number_id": 98,
     "name": "Marauders",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "huns",
+    "civilizatioN": "huns",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 300,
       "Gold": 200
@@ -1601,14 +1603,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "andean_sling",
-    "id": 99,
+    "id": "andean_sling",
+    "number_id": 99,
     "name": "Andean Sling",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "incas",
+    "civilizatioN": "incas",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 200,
       "Gold": 300
@@ -1618,14 +1620,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "grand_trunk_road",
-    "id": 100,
+    "id": "grand_trunk_road",
+    "number_id": 100,
     "name": "Grand Trunk Road",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "hindustanis",
+    "civilizatioN": "hindustanis",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Wood": 400
@@ -1635,14 +1637,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "pavise",
-    "id": 101,
+    "id": "pavise",
+    "number_id": 101,
     "name": "Pavise",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "italians",
+    "civilizatioN": "italians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Gold": 150
@@ -1652,14 +1654,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "yasama",
-    "id": 102,
+    "id": "yasama",
+    "number_id": 102,
     "name": "Yasama",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "japanese",
+    "civilizatioN": "japanese",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Wood": 300
@@ -1669,14 +1671,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "panokseon",
-    "id": 103,
+    "id": "panokseon",
+    "number_id": 103,
     "name": "Panokseon",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "koreans",
+    "civilizatioN": "koreans",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Wood": 300
@@ -1686,14 +1688,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "corvinian_army",
-    "id": 104,
+    "id": "corvinian_army",
+    "number_id": 104,
     "name": "Corvinian Army",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "magyars",
+    "civilizatioN": "magyars",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 200,
       "Gold": 300
@@ -1703,14 +1705,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "obsidian_arrows",
-    "id": 105,
-    "name": "Obsidian Arrows",
+    "id": "obsnumber_idian_arrows",
+    "number_id": 105,
+    "name": "Obsnumber_idian Arrows",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "mayans",
+    "civilizatioN": "mayans",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Gold": 300
@@ -1720,14 +1722,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "nomads",
-    "id": 106,
+    "id": "nomads",
+    "number_id": 106,
     "name": "Nomads",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "mongols",
+    "civilizatioN": "mongols",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 300,
       "Gold": 150
@@ -1737,14 +1739,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "boiling_oil",
-    "id": 107,
+    "id": "boiling_oil",
+    "number_id": 107,
     "name": "Boiling Oil",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "persians",
+    "civilizatioN": "persians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 200,
       "Stone": 100
@@ -1754,14 +1756,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "madrasah",
-    "id": 108,
+    "id": "madrasah",
+    "number_id": 108,
     "name": "Madrasah",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "saracens",
+    "civilizatioN": "saracens",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 200,
       "Gold": 100
@@ -1771,14 +1773,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "orthodoxy",
-    "id": 109,
+    "id": "orthodoxy",
+    "number_id": 109,
     "name": "Orthodoxy",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "slavs",
+    "civilizatioN": "slavs",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 200,
       "Gold": 300
@@ -1788,14 +1790,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "inquisition",
-    "id": 110,
+    "id": "inquisition",
+    "number_id": 110,
     "name": "Inquisition",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "spanish",
+    "civilizatioN": "spanish",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 100,
       "Gold": 300
@@ -1805,14 +1807,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "ironclad",
-    "id": 111,
+    "id": "ironclad",
+    "number_id": 111,
     "name": "Ironclad",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "teutons",
+    "civilizatioN": "teutons",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 400,
       "Gold": 350
@@ -1822,14 +1824,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "sipahi",
-    "id": 112,
+    "id": "sipahi",
+    "number_id": 112,
     "name": "Sipahi",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "turks",
+    "civilizatioN": "turks",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 350,
       "Gold": 150
@@ -1839,14 +1841,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "chieftains",
-    "id": 113,
+    "id": "chieftains",
+    "number_id": 113,
     "name": "Chieftains",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "vikings",
+    "civilizatioN": "vikings",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 700,
       "Gold": 500
@@ -1856,14 +1858,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "warwolf",
-    "id": 114,
+    "id": "warwolf",
+    "number_id": 114,
     "name": "Warwolf",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "britons",
+    "civilizatioN": "britons",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 800,
       "Gold": 400
@@ -1875,14 +1877,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "fabric_shields",
-    "id": 115,
+    "id": "fabric_shields",
+    "number_id": 115,
     "name": "Fabric Shields",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "incas",
+    "civilizatioN": "incas",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 600,
       "Gold": 600
@@ -1892,14 +1894,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "shatagni",
-    "id": 116,
+    "id": "shatagni",
+    "number_id": 116,
     "name": "Shatagni",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "hindustanis",
+    "civilizatioN": "hindustanis",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 500,
       "Gold": 300
@@ -1909,14 +1911,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "silk_road",
-    "id": 117,
+    "id": "silk_road",
+    "number_id": 117,
     "name": "Silk Road",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "italians",
+    "civilizatioN": "italians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 500,
       "Gold": 250
@@ -1926,14 +1928,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "recurve_bow",
-    "id": 118,
+    "id": "recurve_bow",
+    "number_id": 118,
     "name": "Recurve Bow",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "magyars",
+    "civilizatioN": "magyars",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 600,
       "Gold": 400
@@ -1943,14 +1945,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "druzhina",
-    "id": 119,
+    "id": "druzhina",
+    "number_id": 119,
     "name": "Druzhina",
     "type": "Unique",
     "expansion": "The Forgotten",
-    "civilization": "slavs",
+    "civilizatioN": "slavs",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 1200,
       "Gold": 500
@@ -1960,14 +1962,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "kasbah",
-    "id": 120,
+    "id": "kasbah",
+    "number_id": 120,
     "name": "Kasbah",
     "type": "Unique",
     "expansion": "The African Kingdoms",
-    "civilization": "berbers",
+    "civilizatioN": "berbers",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 250,
       "Gold": 250
@@ -1977,14 +1979,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "tigui",
-    "id": 121,
+    "id": "tigui",
+    "number_id": 121,
     "name": "Tigui",
     "type": "Unique",
     "expansion": "The African Kingdoms",
-    "civilization": "malians",
+    "civilizatioN": "malians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 200,
       "Wood": 300
@@ -1994,14 +1996,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "royal_heirs",
-    "id": 122,
+    "id": "royal_heirs",
+    "number_id": 122,
     "name": "Royal Heirs",
     "type": "Unique",
     "expansion": "The African Kingdoms",
-    "civilization": "ethiopians",
+    "civilizatioN": "ethiopians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Gold": 300
@@ -2011,14 +2013,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "carrack",
-    "id": 123,
+    "id": "carrack",
+    "number_id": 123,
     "name": "Carrack",
     "type": "Unique",
     "expansion": "The African Kingdoms",
-    "civilization": "portuguese",
+    "civilizatioN": "portuguese",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 200,
       "Gold": 300
@@ -2028,14 +2030,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "maghrebi_camels",
-    "id": 124,
+    "id": "maghrebi_camels",
+    "number_id": 124,
     "name": "Maghrebi Camels",
     "type": "Unique",
     "expansion": "The African Kingdoms",
-    "civilization": "berbers",
+    "civilizatioN": "berbers",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 700,
       "Gold": 300
@@ -2045,14 +2047,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "farimba",
-    "id": 125,
+    "id": "farimba",
+    "number_id": 125,
     "name": "Farimba",
     "type": "Unique",
     "expansion": "The African Kingdoms",
-    "civilization": "malians",
+    "civilizatioN": "malians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 650,
       "Gold": 400
@@ -2062,14 +2064,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "torsion_engines",
-    "id": 126,
+    "id": "torsion_engines",
+    "number_id": 126,
     "name": "Torsion Engines",
     "type": "Unique",
     "expansion": "The African Kingdoms",
-    "civilization": "ethiopians",
+    "civilizatioN": "ethiopians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 1000,
       "Gold": 600
@@ -2079,14 +2081,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "arquebus",
-    "id": 127,
+    "id": "arquebus",
+    "number_id": 127,
     "name": "Arquebus",
     "type": "Unique",
     "expansion": "The African Kingdoms",
-    "civilization": "portuguese",
+    "civilizatioN": "portuguese",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 700,
       "Gold": 400
@@ -2099,14 +2101,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "howdah",
-    "id": 128,
+    "id": "howdah",
+    "number_id": 128,
     "name": "Howdah",
     "type": "Unique",
     "expansion": "Rise of the Rajas",
-    "civilization": "burmese",
+    "civilizatioN": "burmese",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Wood": 300
@@ -2116,14 +2118,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "tusk_swords",
-    "id": 129,
+    "id": "tusk_swords",
+    "number_id": 129,
     "name": "Tusk Swords",
     "type": "Unique",
     "expansion": "Rise of the Rajas",
-    "civilization": "khmer",
+    "civilizatioN": "khmer",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 300,
       "Gold": 450
@@ -2133,14 +2135,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "thalassocracy",
-    "id": 130,
+    "id": "thalassocracy",
+    "number_id": 130,
     "name": "Thalassocracy",
     "type": "Unique",
     "expansion": "Rise of the Rajas",
-    "civilization": "malay",
+    "civilizatioN": "malay",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Gold": 300
@@ -2150,14 +2152,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "chatras",
-    "id": 131,
+    "id": "chatras",
+    "number_id": 131,
     "name": "Chatras",
     "type": "Unique",
     "expansion": "Rise of the Rajas",
-    "civilization": "vietnamese",
+    "civilizatioN": "vietnamese",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 250,
       "Gold": 250
@@ -2167,14 +2169,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "manipur_cavalry",
-    "id": 132,
+    "id": "manipur_cavalry",
+    "number_id": 132,
     "name": "Manipur Cavalry",
     "type": "Unique",
     "expansion": "Rise of the Rajas",
-    "civilization": "burmese",
+    "civilizatioN": "burmese",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Gold": 400
@@ -2184,14 +2186,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "double_crossbow",
-    "id": 133,
+    "id": "double_crossbow",
+    "number_id": 133,
     "name": "Double Crossbow",
     "type": "Unique",
     "expansion": "Rise of the Rajas",
-    "civilization": "khmer",
+    "civilizatioN": "khmer",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 700,
       "Gold": 400
@@ -2203,14 +2205,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "forced_levy",
-    "id": 134,
+    "id": "forced_levy",
+    "number_id": 134,
     "name": "Forced Levy",
     "type": "Unique",
     "expansion": "Rise of the Rajas",
-    "civilization": "malay",
+    "civilizatioN": "malay",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 850,
       "Gold": 500
@@ -2220,14 +2222,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "paper_money",
-    "id": 135,
+    "id": "paper_money",
+    "number_id": 135,
     "name": "Paper Money",
     "type": "Unique",
     "expansion": "Rise of the Rajas",
-    "civilization": "vietnamese",
+    "civilizatioN": "vietnamese",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 600,
       "Gold": 350
@@ -2239,14 +2241,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "stirrups",
-    "id": 136,
+    "id": "stirrups",
+    "number_id": 136,
     "name": "Stirrups",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "bulgarians",
+    "civilizatioN": "bulgarians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Gold": 200
@@ -2256,14 +2258,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "steppe_husbandry",
-    "id": 137,
+    "id": "steppe_husbandry",
+    "number_id": 137,
     "name": "Steppe Husbandry",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "cumans",
+    "civilizatioN": "cumans",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 200,
       "Wood": 300
@@ -2275,14 +2277,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "hill_forts",
-    "id": 138,
+    "id": "hill_forts",
+    "number_id": 138,
     "name": "Hill Forts",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "lithuanians",
+    "civilizatioN": "lithuanians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 250,
       "Gold": 250
@@ -2292,14 +2294,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "silk_armor",
-    "id": 139,
+    "id": "silk_armor",
+    "number_id": 139,
     "name": "Silk Armor",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "tatars",
+    "civilizatioN": "tatars",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 400,
       "Gold": 300
@@ -2311,14 +2313,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "kamandaran",
-    "id": 140,
+    "id": "kamandaran",
+    "number_id": 140,
     "name": "Kamandaran",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "persians",
+    "civilizatioN": "persians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Gold": 300
@@ -2328,14 +2330,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "eupseong",
-    "id": 141,
+    "id": "eupseong",
+    "number_id": 141,
     "name": "Eupseong",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "koreans",
+    "civilizatioN": "koreans",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Wood": 300
@@ -2345,14 +2347,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "bagains",
-    "id": 142,
+    "id": "bagains",
+    "number_id": 142,
     "name": "Bagains",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "bulgarians",
+    "civilizatioN": "bulgarians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 900,
       "Gold": 450
@@ -2362,14 +2364,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "cuman_mercenaries",
-    "id": 143,
+    "id": "cuman_mercenaries",
+    "number_id": 143,
     "name": "Cuman Mercenaries",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "cumans",
+    "civilizatioN": "cumans",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 650,
       "Gold": 400
@@ -2379,14 +2381,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "tower_shields",
-    "id": 144,
+    "id": "tower_shields",
+    "number_id": 144,
     "name": "Tower Shields",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "lithuanians",
+    "civilizatioN": "lithuanians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 500,
       "Gold": 200
@@ -2396,14 +2398,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "timurid_siegecraft",
-    "id": 145,
-    "name": "Timurid Siegecraft",
+    "id": "timurnumber_id_siegecraft",
+    "number_id": 145,
+    "name": "Timurnumber_id Siegecraft",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "tatars",
+    "civilizatioN": "tatars",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 500,
       "Gold": 400
@@ -2413,14 +2415,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "timurid_siegecraft",
-    "id": 146,
-    "name": "Timurid Siegecraft",
+    "id": "timurnumber_id_siegecraft",
+    "number_id": 146,
+    "name": "Timurnumber_id Siegecraft",
     "type": "Unique",
     "expansion": "The Last Khans",
-    "civilization": "tatars",
+    "civilizatioN": "tatars",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 500,
       "Gold": 400
@@ -2430,14 +2432,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "burgundian_vineyards",
-    "id": 147,
+    "id": "burgundian_vineyards",
+    "number_id": 147,
     "name": "Burgundian Vineyards",
     "type": "Unique",
     "expansion": "Lords of the West",
-    "civilization": "burgundians",
+    "civilizatioN": "burgundians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 400,
       "Gold": 300
@@ -2447,14 +2449,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "first_crusade",
-    "id": 148,
+    "id": "first_crusade",
+    "number_id": 148,
     "name": "First Crusade",
     "type": "Unique",
     "expansion": "Lords of the West",
-    "civilization": "sicilians",
+    "civilizatioN": "sicilians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Gold": 600
@@ -2466,14 +2468,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "hul_che_javelineers",
-    "id": 149,
+    "id": "hul_che_javelineers",
+    "number_id": 149,
     "name": "Hul'che Javelineers",
     "type": "Unique",
     "expansion": "Lords of the West",
-    "civilization": "mayans",
+    "civilizatioN": "mayans",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Gold": 300
@@ -2483,14 +2485,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "flemish_revolution",
-    "id": 150,
+    "id": "flemish_revolution",
+    "number_id": 150,
     "name": "Flemish Revolution",
     "type": "Unique",
     "expansion": "Lords of the West",
-    "civilization": "burgundians",
+    "civilizatioN": "burgundians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 1200,
       "Gold": 650
@@ -2500,14 +2502,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "scutage",
-    "id": 151,
+    "id": "scutage",
+    "number_id": 151,
     "name": "Scutage",
     "type": "Unique",
     "expansion": "Lords of the West",
-    "civilization": "sicilians",
+    "civilizatioN": "sicilians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 500,
       "Gold": 400
@@ -2519,14 +2521,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "wagenburg_tactics",
-    "id": 152,
+    "id": "wagenburg_tactics",
+    "number_id": 152,
     "name": "Wagenburg Tactics",
     "type": "Unique",
     "expansion": "Dawn of the Dukes",
-    "civilization": "bohemians",
+    "civilizatioN": "bohemians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 300,
       "Gold": 300
@@ -2536,14 +2538,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "szlachta_privileges",
-    "id": 153,
+    "id": "szlachta_privileges",
+    "number_id": 153,
     "name": "Szlachta Privileges",
     "type": "Unique",
     "expansion": "Dawn of the Dukes",
-    "civilization": "poles",
+    "civilizatioN": "poles",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 500,
       "Gold": 300
@@ -2553,14 +2555,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "hussite_reforms",
-    "id": 154,
+    "id": "hussite_reforms",
+    "number_id": 154,
     "name": "Hussite Reforms",
     "type": "Unique",
     "expansion": "Dawn of the Dukes",
-    "civilization": "bohemians",
+    "civilizatioN": "bohemians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 800,
       "Gold": 450
@@ -2572,14 +2574,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "lechitic_legacy",
-    "id": 155,
+    "id": "lechitic_legacy",
+    "number_id": 155,
     "name": "Lechitic Legacy",
     "type": "Unique",
     "expansion": "Dawn of the Dukes",
-    "civilization": "poles",
+    "civilizatioN": "poles",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 750,
       "Gold": 550
@@ -2591,14 +2593,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "hauberk",
-    "id": 156,
+    "id": "hauberk",
+    "number_id": 156,
     "name": "Hauberk",
     "type": "Unique",
     "expansion": "Dawn of the Dukes",
-    "civilization": "sicilians",
+    "civilizatioN": "sicilians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 700,
       "Gold": 600
@@ -2608,14 +2610,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "paiks",
-    "id": 157,
+    "id": "paiks",
+    "number_id": 157,
     "name": "Paiks",
     "type": "Unique",
     "expansion": "Dynasties of India",
-    "civilization": "bengalis",
+    "civilizatioN": "bengalis",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 375,
       "Gold": 275
@@ -2625,14 +2627,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "medical_corps",
-    "id": 158,
+    "id": "medical_corps",
+    "number_id": 158,
     "name": "Medical Corps",
     "type": "Unique",
     "expansion": "Dynasties of India",
-    "civilization": "dravidians",
+    "civilizatioN": "dravnumber_idians",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 350,
       "Gold": 250
@@ -2642,14 +2644,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "kshatriyas",
-    "id": 159,
+    "id": "kshatriyas",
+    "number_id": 159,
     "name": "Kshatriyas",
     "type": "Unique",
     "expansion": "Dynasties of India",
-    "civilization": "gurjaras",
+    "civilizatioN": "gurjaras",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 200,
       "Gold": 400
@@ -2659,14 +2661,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "detinets",
-    "id": 160,
+    "id": "detinets",
+    "number_id": 160,
     "name": "Detinets",
     "type": "Unique",
     "expansion": "Dynasties of India",
-    "civilization": "slavs",
+    "civilizatioN": "slavs",
     "age": "Castle Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 400,
       "Gold": 200
@@ -2676,14 +2678,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_castle_age_lsrukq.png"
   },
   {
-    "_id": "mahayana",
-    "id": 161,
+    "id": "mahayana",
+    "number_id": 161,
     "name": "Mahayana",
     "type": "Unique",
     "expansion": "Dynasties of India",
-    "civilization": "bengalis",
+    "civilizatioN": "bengalis",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Wood": 800,
       "Gold": 650
@@ -2693,14 +2695,14 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "wootz_steel",
-    "id": 162,
+    "id": "wootz_steel",
+    "number_id": 162,
     "name": "Wootz Steel",
     "type": "Unique",
     "expansion": "Dynasties of India",
-    "civilization": "dravidians",
+    "civilizatioN": "dravnumber_idians",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 750,
       "Gold": 600
@@ -2710,31 +2712,31 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "frontier_guards",
-    "id": 163,
+    "id": "frontier_guards",
+    "number_id": 163,
     "name": "Frontier Guards",
     "type": "Unique",
     "expansion": "Dynasties of India",
-    "civilization": "gurjaras",
+    "civilizatioN": "gurjaras",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 800,
       "Gold": 700
     },
     "research_time": 0,
-    "effect": ["Camel Riders and Elephant Archers get +4 armor"],
+    "effect": ["Camel Rnumber_iders and Elephant Archers get +4 armor"],
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673615241/age-of-empires-2/technologies/unique_tech_imperial_age_t0fl4h.png"
   },
   {
-    "_id": "counterweights",
-    "id": 164,
+    "id": "counterweights",
+    "number_id": 164,
     "name": "Counterweights",
     "type": "Unique",
     "expansion": "Dynasties of India",
-    "civilization": "saracens",
+    "civilizatioN": "saracens",
     "age": "Imperial Age",
-    "researched_at": ["castle"],
+    "researchedAt": ["castle"],
     "cost": {
       "Food": 650,
       "Gold": 500

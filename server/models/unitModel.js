@@ -3,6 +3,11 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 const unitSchema = new Schema({
     id: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    number_id: {
         type: Number,
         required: true,
         unique: true
@@ -32,7 +37,7 @@ const unitSchema = new Schema({
         required: true,
         unique: false
     },
-    trained_at: [{
+    trainedAt: [{
         type: String,
         required: false,
         unique: false,
@@ -113,6 +118,11 @@ const unitSchema = new Schema({
         required: false,
         unique: false
     },
+    garrison: {
+        type: Number,
+        required: false,
+        unique: false
+    },
     movement_rate: {
         type: Number,
         required: true,
@@ -133,6 +143,14 @@ const unitSchema = new Schema({
         required: true,
         unique: false
     }
+}, {
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
+});
+unitSchema.virtual('trained_at', {
+    ref: 'Building',
+    localField: 'trainedAt',
+    foreignField: 'id'
 });
 const Unit = mongoose.model('Unit', unitSchema);
 export default Unit
