@@ -13,7 +13,7 @@ const app = express();
 const router = express.Router();
 
 const corsOptions = {
-  origin: "https://age-of-empires-2-api.vercel.app",
+  origin: "*"
 };
 app.use(cors(corsOptions));
 
