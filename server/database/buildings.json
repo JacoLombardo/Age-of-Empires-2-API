@@ -3,7 +3,7 @@
     "id": "town_center",
     "number_id": 1,
     "name": "Town Center",
-    "description": "Used to create villagers, deposit resources (food, wood, stone, gold), advance to next age, and improve buildings, villagers. Units can garrison insnumber_ide for protection.",
+    "description": "Used to create villagers, deposit resources (food, wood, stone, gold), advance to next age, and improve buildings, villagers. Units can garrison inside for protection.",
     "expansion": "The Age of Kings",
     "type": "Town Center",
     "age": "Castle Age",
@@ -57,17 +57,13 @@
     "id": "folwark",
     "number_id": 3,
     "name": "Folwark",
-    "description": "Unique building of the Poles. Used to deposit food and research farming technologies. Immediately collects 10% of food from nearby newly constructed farms. Provnumber_ides 5 population.",
+    "description": "Unique building of the Poles. Used to deposit food and research farming technologies. Immediately collects 10% of food from nearby newly constructed farms. Provides 5 population.",
     "expansion": "Dawn of the Dukes",
     "type": "Economic",
     "age": "Dark Age",
-    "use": [
-      "Drop off food",
-      "Upgrade and queue Farms",
-      "Provnumber_ides population"
-    ],
+    "use": ["Drop off food", "Upgrade and queue Farms", "Provides population"],
     "special_ability": [
-      "Instantly collects 10% of the food provnumber_ided by seeded or reseeded Farms in a radius of 4 tiles around the Folwark"
+      "Instantly collects 10% of the food provided by seeded or reseeded Farms in a radius of 4 tiles around the Folwark"
     ],
     "cost": {
       "Wood": 125
@@ -83,11 +79,11 @@
     "id": "farm",
     "number_id": 4,
     "name": "Farm",
-    "description": "A renewable source of food. Provnumber_ides a limited amount of food before it goes fallow and must be rebuilt.",
+    "description": "A renewable source of food. Provides a limited amount of food before it goes fallow and must be rebuilt.",
     "expansion": "The Age of Kings",
     "type": "Economic",
     "age": "Dark Age",
-    "use": ["Provnumber_ide food"],
+    "use": ["Provide food"],
     "cost": {
       "Wood": 60
     },
@@ -211,7 +207,7 @@
     "expansion": "The Age of Kings",
     "type": "Economic",
     "age": "Feudal Age",
-    "use": ["Provnumber_ides food"],
+    "use": ["Provides food"],
     "cost": {
       "Wood": 100
     },
@@ -339,7 +335,7 @@
     "melee_armor": 1,
     "pierce_armor": 8,
     "line_of_sight": 6,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/archery_range_fenumber_idsj.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673358876/age-of-empires-2/buildings/archery_range_feidsj.png"
   },
   {
     "id": "stable",
@@ -616,11 +612,11 @@
     "id": "outpost",
     "number_id": 29,
     "name": "Outpost",
-    "description": "A stationary watch point that provnumber_ides advanced warning of nearby enemy activity.",
+    "description": "A stationary watch point that provides advanced warning of nearby enemy activity.",
     "expansion": "The Age of Kings",
     "type": "Tower",
     "age": "Dark Age",
-    "use": ["Provnumber_ide Line of Sight"],
+    "use": ["Provide Line of Sight"],
     "cost": {
       "Wood": 25,
       "Stone": 5
@@ -672,7 +668,7 @@
     "expansion": "The Age of Kings",
     "type": "Tower",
     "age": "Castle Age",
-    "use": ["Provnumber_ide Line of Sight", "Attacks enemies at sight"],
+    "use": ["Provide Line of Sight", "Attacks enemies at sight"],
     "cost": {
       "Wood": 50,
       "Stone": 125
@@ -704,7 +700,7 @@
     "expansion": "The Age of Kings",
     "type": "Tower",
     "age": "Imperial Age",
-    "use": ["Provnumber_ide Line of Sight", "Attacks enemies at sight"],
+    "use": ["Provide Line of Sight", "Attacks enemies at sight"],
     "cost": {
       "Wood": 50,
       "Stone": 125
@@ -736,7 +732,7 @@
     "expansion": "The Age of Kings",
     "type": "Tower",
     "age": "Imperial Age",
-    "use": ["Provnumber_ide Line of Sight", "Attacks enemies at sight"],
+    "use": ["Provide Line of Sight", "Attacks enemies at sight"],
     "cost": {
       "Gold": 100,
       "Stone": 125
@@ -762,7 +758,7 @@
     "expansion": "The Age of Kings",
     "type": "Civilian",
     "age": "Dark Age",
-    "use": ["Provnumber_ides population"],
+    "use": ["Provides population"],
     "cost": {
       "Wood": 25
     },

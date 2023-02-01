@@ -372,7 +372,7 @@
     "number_id": 15,
     "name": "Eagle Scout",
     "type": "Infantry",
-    "description": "Fast infantry for scouting and ranumber_iding. Resistant to conversion.",
+    "description": "Fast infantry for scouting and raiding. Resistant to conversion.",
     "expansion": "The Forgotten",
     "age": "Feudal Age",
     "trainedAt": ["barracks"],
@@ -398,7 +398,7 @@
     "number_id": 16,
     "name": "Eagle Warrior",
     "type": "Infantry",
-    "description": "Fast infantry for scouting and ranumber_iding. Resistant to conversion.",
+    "description": "Fast infantry for scouting and raiding. Resistant to conversion.",
     "expansion": "The Conquerors",
     "age": "Castle Age",
     "trainedAt": ["barracks"],
@@ -431,7 +431,7 @@
     "number_id": 17,
     "name": "Elite Eagle Warrior",
     "type": "Infantry",
-    "description": "Fast infantry for scouting and ranumber_iding. Resistant to conversion.",
+    "description": "Fast infantry for scouting and raiding. Resistant to conversion.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
     "trainedAt": ["barracks"],
@@ -644,7 +644,7 @@
     "number_id": 24,
     "name": "Cavalry Archer",
     "type": "Mounted Archer",
-    "description": "Fast, with ranged attack. number_ideal for hit-and-run attacks.",
+    "description": "Fast, with ranged attack. Ideal for hit-and-run attacks.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
     "trainedAt": ["archery_range"],
@@ -674,7 +674,7 @@
     "number_id": 25,
     "name": "Heavy Cavalry Archer",
     "type": "Mounted Archer",
-    "description": "Fast, with ranged attack. number_ideal for hit-and-run attacks.",
+    "description": "Fast, with ranged attack. Ideal for hit-and-run attacks.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
     "trainedAt": ["archery_range"],
@@ -762,7 +762,7 @@
     "number_id": 28,
     "name": "Scout Cavalry",
     "type": "Cavalry",
-    "description": "Fast cavalry for scouting and ranumber_iding. Resistant to conversion.",
+    "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
     "expansion": "Age of Kings",
     "age": "Feudal Age",
     "trainedAt": ["stable"],
@@ -787,7 +787,7 @@
     "number_id": 29,
     "name": "Light Cavalry",
     "type": "Cavalry",
-    "description": "Fast cavalry for scouting and ranumber_iding. Resistant to conversion.",
+    "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
     "trainedAt": ["stable"],
@@ -812,7 +812,7 @@
     "number_id": 30,
     "name": "Hussar",
     "type": "Cavalry",
-    "description": "Fast cavalry for scouting and ranumber_iding. Resistant to conversion.",
+    "description": "Fast cavalry for scouting and raiding. Resistant to conversion.",
     "expansion": "The Conquerors",
     "age": "Imperial Age",
     "trainedAt": ["stable"],
@@ -837,7 +837,7 @@
     "number_id": 31,
     "name": "Winged Hussar",
     "type": "Cavalry",
-    "description": "Unique to Poles and Lithuanians. Fast cavalry for scouting and ranumber_iding. Resistant to conversion.",
+    "description": "Unique to Poles and Lithuanians. Fast cavalry for scouting and raiding. Resistant to conversion.",
     "expansion": "Dawn of the Dukes",
     "age": "Imperial Age",
     "trainedAt": ["stable"],
@@ -930,9 +930,9 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916790/age-of-empires-2/units/paladin_jxm0ig.png"
   },
   {
-    "id": "camel_rnumber_ider",
+    "id": "camel_rider",
     "number_id": 35,
-    "name": "Camel Rnumber_ider",
+    "name": "Camel Rider",
     "type": "Cavalry",
     "description": "Fast anti-cavalry unit.",
     "expansion": "Age of Kings",
@@ -956,12 +956,12 @@
     "armor_class": "Camel",
     "movement_rate": 1.45,
     "line_of_sight": 5,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/camel_rnumber_ider_cgcqih.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916788/age-of-empires-2/units/camel_rider_cgcqih.png"
   },
   {
-    "id": "heavy_camel_rnumber_ider",
+    "id": "heavy_camel_rider",
     "number_id": 36,
-    "name": "Heavy Camel Rnumber_ider",
+    "name": "Heavy Camel Rider",
     "type": "Cavalry",
     "description": "Fast anti-cavalry unit.",
     "expansion": "Age of Kings",
@@ -986,7 +986,7 @@
     "armor_class": "Camel",
     "movement_rate": 1.45,
     "line_of_sight": 5,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/heavy_camel_rnumber_ider_p7clkn.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672916789/age-of-empires-2/units/heavy_camel_rider_p7clkn.png"
   },
   {
     "id": "battle_elephant",
@@ -2012,9 +2012,9 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931770/age-of-empires-2/units/cataphract_dgduem.png"
   },
   {
-    "id": "woad_ranumber_ider",
+    "id": "woad_raider",
     "number_id": 71,
-    "name": "Woad Ranumber_ider",
+    "name": "Woad Raider",
     "type": "Infantry",
     "description": "Celtic unique infantry unit. Fast-moving.",
     "expansion": "Age of Kings",
@@ -2034,12 +2034,12 @@
     "armor_class": "Infantry",
     "movement_rate": 1.38,
     "line_of_sight": 3,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_ranumber_ider_togsft.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_raider_togsft.png"
   },
   {
-    "id": "elite_woad_ranumber_ider",
+    "id": "elite_woad_raider",
     "number_id": 72,
-    "name": "Elite Woad Ranumber_ider",
+    "name": "Elite Woad Raider",
     "type": "Infantry",
     "description": "Celtic unique infantry unit. Fast-moving.",
     "expansion": "Age of Kings",
@@ -2059,14 +2059,14 @@
     "armor_class": "Infantry",
     "movement_rate": 1.38,
     "line_of_sight": 5,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_ranumber_ider_togsft.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672931772/age-of-empires-2/units/woad_raider_togsft.png"
   },
   {
     "id": "chu_ko_nu",
     "number_id": 73,
     "name": "Chu Ko Nu",
     "type": "Foot archer",
-    "description": "Chinese unique archer with rapnumber_id-fire attack.",
+    "description": "Chinese unique archer with rapid-fire attack.",
     "expansion": "Age of Kings",
     "age": "Castle Age",
     "trainedAt": ["castle"],
@@ -2100,7 +2100,7 @@
     "number_id": 74,
     "name": "Elite Chu Ko Nu",
     "type": "Foot archer",
-    "description": "Chinese unique archer with rapnumber_id-fire attack.",
+    "description": "Chinese unique archer with rapid-fire attack.",
     "expansion": "Age of Kings",
     "age": "Imperial Age",
     "trainedAt": ["castle"],
@@ -3378,9 +3378,9 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/boyar_xnmmxy.png"
   },
   {
-    "id": "imperial_camel_rnumber_ider",
+    "id": "imperial_camel_rider",
     "number_id": 116,
-    "name": "Imperial Camel Rnumber_ider",
+    "name": "Imperial Camel Rider",
     "type": "Cavalry",
     "description": "Hindustani unique anti-cavalry unit. Fast-moving.",
     "expansion": "The Forgotten",
@@ -3406,7 +3406,7 @@
     "armor_class": "Camel",
     "movement_rate": 1.45,
     "line_of_sight": 5,
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/imperial_camel_rnumber_ider_em73kn.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1672935474/age-of-empires-2/units/imperial_camel_rider_em73kn.png"
   },
   {
     "id": "camel_archer",
@@ -4139,7 +4139,7 @@
     "number_id": 142,
     "name": "Kipchak",
     "type": "Mounted archer",
-    "description": "Cuman unique cavalry archer with rapnumber_id-fire attack.",
+    "description": "Cuman unique cavalry archer with rapid-fire attack.",
     "expansion": "The Last Khans",
     "age": "Castle Age",
     "trainedAt": ["castle"],
@@ -4172,7 +4172,7 @@
     "number_id": 143,
     "name": "Elite Kipchak",
     "type": "Mounted archer",
-    "description": "Cuman unique cavalry archer with rapnumber_id-fire attack.",
+    "description": "Cuman unique cavalry archer with rapid-fire attack.",
     "expansion": "The Last Khans",
     "age": "Imperial Age",
     "trainedAt": ["castle"],
@@ -4695,7 +4695,7 @@
     "number_id": 161,
     "name": "Urumi Swordsman",
     "type": "Infantry",
-    "description": "Dravnumber_idian unique infantry unit that can charge its attack.",
+    "description": "Dravidian unique infantry unit that can charge its attack.",
     "expansion": "Dynasties of India",
     "age": "Castle Age",
     "trainedAt": ["castle"],
@@ -4723,7 +4723,7 @@
     "number_id": 162,
     "name": "Elite Urumi Swordsman",
     "type": "Infantry",
-    "description": "Dravnumber_idian unique infantry unit that can charge its attack.",
+    "description": "Dravidian unique infantry unit that can charge its attack.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
     "trainedAt": ["castle"],
@@ -4751,7 +4751,7 @@
     "number_id": 163,
     "name": "Thirisadai",
     "type": "Naval vessel",
-    "description": "Dravnumber_idian unique warship that fires multiple projectiles.",
+    "description": "Dravidian unique warship that fires multiple projectiles.",
     "expansion": "Dynasties of India",
     "age": "Imperial Age",
     "trainedAt": ["dock"],
@@ -4877,9 +4877,9 @@
     "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005078/age-of-empires-2/units/chakram_thrower_dok4mg.png"
   },
   {
-    "id": "shrivamsha_rnumber_ider",
+    "id": "shrivamsha_rider",
     "number_id": 167,
-    "name": "Shrivamsha Rnumber_ider",
+    "name": "Shrivamsha Rider",
     "type": "Cavalry",
     "description": "Gurjara unique light cavalry unit which can dodge projectiles.",
     "expansion": "Dynasties of India",
@@ -4901,12 +4901,12 @@
     "ability": [
       "Can 'dodge' five consecutive projectiles in a 20 second time frame"
     ],
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rnumber_ider_cuqxve.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rider_cuqxve.png"
   },
   {
-    "id": "elite_shrivamsha_rnumber_ider",
+    "id": "elite_shrivamsha_rider",
     "number_id": 168,
-    "name": "Elite Shrivamsha Rnumber_ider",
+    "name": "Elite Shrivamsha Rider",
     "type": "Cavalry",
     "description": "Gurjara unique light cavalry unit which can dodge projectiles.",
     "expansion": "Dynasties of India",
@@ -4928,7 +4928,7 @@
     "ability": [
       "Can 'dodge' seven consecutive projectiles in a 20 second time frame"
     ],
-    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rnumber_ider_cuqxve.png"
+    "image": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1673005077/age-of-empires-2/units/shrivamsha_rider_cuqxve.png"
   },
   {
     "id": "ghulam",

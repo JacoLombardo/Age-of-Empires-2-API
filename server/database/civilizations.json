@@ -1,7 +1,7 @@
 [
   {
     "id": "aztecs",
-    "numer_id": 1,
+    "number_id": 1,
     "name": "Aztecs",
     "expansion": "The Conquerors",
     "army_type": "Infantry and Monks",
@@ -18,7 +18,7 @@
   },
   {
     "id": "bengalis",
-    "numer_id": 2,
+    "number_id": 2,
     "name": "Bengalis",
     "expansion": "Dynasties of India",
     "army_type": "Elephants and Ships",
@@ -35,7 +35,7 @@
   },
   {
     "id": "berbers",
-    "numer_id": 3,
+    "number_id": 3,
     "name": "Berbers",
     "expansion": "The African Kingdoms",
     "army_type": "Cavalry and Navy",
@@ -51,7 +51,7 @@
   },
   {
     "id": "bohemians",
-    "numer_id": 4,
+    "number_id": 4,
     "name": "Bohemians",
     "expansion": "Dawn of the Dukes",
     "army_type": "Gunpowder units and Monks",
@@ -69,7 +69,7 @@
   },
   {
     "id": "britons",
-    "numer_id": 5,
+    "number_id": 5,
     "name": "Britons",
     "expansion": "Age of Kings",
     "army_type": "Foot Archers",
@@ -85,7 +85,7 @@
   },
   {
     "id": "bulgarians",
-    "numer_id": 6,
+    "number_id": 6,
     "name": "Bulgarians",
     "expansion": "The Last Khans",
     "army_type": "Infantry and Cavalry",
@@ -102,7 +102,7 @@
   },
   {
     "id": "burgundians",
-    "numer_id": 7,
+    "number_id": 7,
     "name": "Burgundians",
     "expansion": "Lords of the West",
     "army_type": "Cavalry",
@@ -119,7 +119,7 @@
   },
   {
     "id": "burmese",
-    "numer_id": 8,
+    "number_id": 8,
     "name": "Burmese",
     "expansion": "Rise of the Rajas",
     "army_type": "Elephants and Monks",
@@ -136,7 +136,7 @@
   },
   {
     "id": "byzantines",
-    "numer_id": 9,
+    "number_id": 9,
     "name": "Byzantines",
     "expansion": "Age of Kings",
     "army_type": "Defensive",
@@ -145,7 +145,7 @@
     "team_bonus": "Monks +50% heal speed",
     "civilization_bonus": [
       "Buildings, Walls/Gates, and Farms have +10%/+20%/+30%/+40% hit points in the Dark/Feudal/Castle/Imperial Age",
-      "Camel Rnumer_ider, Skirmisher, and Spearman lines are 25% cheaper",
+      "Camel Rider, Skirmisher, and Spearman lines are 25% cheaper",
       "Fire Ships fire 25% faster",
       "Advancing to the Imperial Age is 33% cheaper",
       "Town Watch and Town Patrol are free"
@@ -154,11 +154,11 @@
   },
   {
     "id": "celts",
-    "numer_id": 10,
+    "number_id": 10,
     "name": "Celts",
     "expansion": "Age of Kings",
     "army_type": "Infantry and Siege weapons",
-    "uniqueUnit": ["woad_ranumer_ider"],
+    "uniqueUnit": ["woad_raider"],
     "uniqueTech": ["stronghold", "furor_celtica"],
     "team_bonus": "Siege Workshops work 20% faster",
     "civilization_bonus": [
@@ -171,7 +171,7 @@
   },
   {
     "id": "chinese",
-    "numer_id": 11,
+    "number_id": 11,
     "name": "Chinese",
     "expansion": "Age of Kings",
     "army_type": "Foot archers",
@@ -188,7 +188,7 @@
   },
   {
     "id": "cumans",
-    "numer_id": 12,
+    "number_id": 12,
     "name": "Cumans",
     "expansion": "The Last Khans",
     "army_type": "Cavalry",
@@ -204,25 +204,25 @@
     "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/cumans_kz6lsh.png"
   },
   {
-    "id": "dravnumer_idians",
-    "numer_id": 13,
-    "name": "Dravnumer_idians",
+    "id": "dravidians",
+    "number_id": 13,
+    "name": "Dravidians",
     "expansion": "Dynasties of India",
     "army_type": "Infantry and Ships",
     "uniqueUnit": ["urumi_swordsman", "thirisadai"],
     "uniqueTech": ["medical_corps", "wootz_steel"],
-    "team_bonus": "Docks provnumer_ide +5 population space",
+    "team_bonus": "Docks provide +5 population space",
     "civilization_bonus": [
       "Receive 200 wood when advancing to the next Age",
       "Fishermen and Fishing Ships carry +15",
       "Barracks technologies cost -50%",
       "Skirmishers and Elephant Archers attack 25% faster"
     ],
-    "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/dravnumer_idians_mjfxue.png"
+    "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/dravidians_mjfxue.png"
   },
   {
     "id": "ethiopians",
-    "numer_id": 14,
+    "number_id": 14,
     "name": "Ethiopians",
     "expansion": "The African Kingdoms",
     "army_type": "Archers and Siege weapons",
@@ -238,7 +238,7 @@
   },
   {
     "id": "franks",
-    "numer_id": 15,
+    "number_id": 15,
     "name": "Franks",
     "expansion": "Age of Kings",
     "army_type": "Cavalry",
@@ -255,7 +255,7 @@
   },
   {
     "id": "goths",
-    "numer_id": 16,
+    "number_id": 16,
     "name": "Goths",
     "expansion": "Age of Kings",
     "army_type": "Infantry",
@@ -273,11 +273,11 @@
   },
   {
     "id": "gurjaras",
-    "numer_id": 17,
+    "number_id": 17,
     "name": "Gurjaras",
     "expansion": "Dynasties of India",
     "army_type": "Cavalry",
-    "uniqueUnit": ["chakram_thrower", "shrivamsha_rnumer_ider", "camel_scout"],
+    "uniqueUnit": ["chakram_thrower", "shrivamsha_rider", "camel_scout"],
     "uniqueTech": ["kshatriyas", "frontier_guards"],
     "team_bonus": "Camel and elephant units are created 25% faster",
     "civilization_bonus": [
@@ -290,24 +290,24 @@
   },
   {
     "id": "hindustanis",
-    "numer_id": 18,
+    "number_id": 18,
     "name": "Hindustanis",
     "expansion": "Dynasties of India",
-    "army_type": "Camel Rnumer_iders and Gunpowder units",
-    "uniqueUnit": ["ghulam", "imperial_camel_rnumer_ider"],
+    "army_type": "Camel Riders and Gunpowder units",
+    "uniqueUnit": ["ghulam", "imperial_camel_rider"],
     "uniqueTech": ["grand_trunk_road", "shatagni"],
     "uniqueBuilding": ["caravanserai"],
     "team_bonus": "Camel units and light cavalry units have +2 attack against standard buildings",
     "civilization_bonus": [
       "Villagers are 10%/15%/20%/25% cheaper in the Dark/Feudal/Castle/Imperial Age",
-      "Camel Rnumer_iders attack 20% faster",
+      "Camel Riders attack 20% faster",
       "Gunpowder units units have +1/+1 armor"
     ],
     "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971892/age-of-empires-2/banners/hindustanis_wvmyd2.png"
   },
   {
     "id": "huns",
-    "numer_id": 19,
+    "number_id": 19,
     "name": "Huns",
     "expansion": "The Conquerors",
     "army_type": "Cavalry",
@@ -323,7 +323,7 @@
   },
   {
     "id": "incas",
-    "numer_id": 20,
+    "number_id": 20,
     "name": "Incas",
     "expansion": "The Forgotten",
     "army_type": "Infantry",
@@ -341,7 +341,7 @@
   },
   {
     "id": "italians",
-    "numer_id": 21,
+    "number_id": 21,
     "name": "Italians",
     "expansion": "The Forgotten",
     "army_type": "Archers and Navy",
@@ -358,7 +358,7 @@
   },
   {
     "id": "japanese",
-    "numer_id": 22,
+    "number_id": 22,
     "name": "Japanese",
     "expansion": "Age of Kings",
     "army_type": "Infantry",
@@ -374,7 +374,7 @@
   },
   {
     "id": "khmer",
-    "numer_id": 23,
+    "number_id": 23,
     "name": "Khmer",
     "expansion": "Rise of the Rajas",
     "army_type": "Siege weapons and Elephants",
@@ -391,7 +391,7 @@
   },
   {
     "id": "koreans",
-    "numer_id": 24,
+    "number_id": 24,
     "name": "Koreans",
     "expansion": "The Conquerors",
     "army_type": "Towers and Navy",
@@ -409,7 +409,7 @@
   },
   {
     "id": "lithuanians",
-    "numer_id": 25,
+    "number_id": 25,
     "name": "Lithuanians",
     "expansion": "The Last Khans",
     "army_type": "Cavalry and Monks",
@@ -425,7 +425,7 @@
   },
   {
     "id": "magyars",
-    "numer_id": 26,
+    "number_id": 26,
     "name": "Magyars",
     "expansion": "The Forgotten",
     "army_type": "Cavalry",
@@ -441,7 +441,7 @@
   },
   {
     "id": "malay",
-    "numer_id": 27,
+    "number_id": 27,
     "name": "Malay",
     "expansion": "Rise of the Rajas",
     "army_type": "Infantry and Navy",
@@ -452,14 +452,14 @@
     "civilization_bonus": [
       "Advancing in Age is +66% faster",
       "Fish Traps are 33% cheaper",
-      "Fish Traps provnumer_ide 3 times more food",
+      "Fish Traps provide 3 times more food",
       "Battle Elephants are 30% cheaper in the Castle Age, 40% cheaper in the Imperial Age"
     ],
     "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971893/age-of-empires-2/banners/malay_rz2t62.png"
   },
   {
     "id": "malians",
-    "numer_id": 28,
+    "number_id": 28,
     "name": "Malians",
     "expansion": "The African Kingdoms",
     "army_type": "Infantry",
@@ -475,7 +475,7 @@
   },
   {
     "id": "mayans",
-    "numer_id": 29,
+    "number_id": 29,
     "name": "Mayans",
     "expansion": "The Conquerors",
     "army_type": "Archer",
@@ -492,7 +492,7 @@
   },
   {
     "id": "mongols",
-    "numer_id": 30,
+    "number_id": 30,
     "name": "Mongols",
     "expansion": "Age of Kings",
     "army_type": "Cavalry Archer",
@@ -508,7 +508,7 @@
   },
   {
     "id": "persians",
-    "numer_id": 31,
+    "number_id": 31,
     "name": "Persians",
     "expansion": "Age of Kings",
     "army_type": "Cavalry",
@@ -523,7 +523,7 @@
   },
   {
     "id": "poles",
-    "numer_id": 32,
+    "number_id": 32,
     "name": "Poles",
     "expansion": "Dawn of the Dukes",
     "army_type": "Cavalry",
@@ -539,7 +539,7 @@
   },
   {
     "id": "portuguese",
-    "numer_id": 33,
+    "number_id": 33,
     "name": "Portuguese",
     "expansion": "The African Kingdoms",
     "army_type": "Navy and Gunpowder units",
@@ -556,7 +556,7 @@
   },
   {
     "id": "saracens",
-    "numer_id": 34,
+    "number_id": 34,
     "name": "Saracens",
     "expansion": "Age of Kings",
     "army_type": "Camels and Navy",
@@ -574,7 +574,7 @@
   },
   {
     "id": "sicilians",
-    "numer_id": 35,
+    "number_id": 35,
     "name": "Sicilians",
     "expansion": "Lords of the West",
     "army_type": "Infantry and Cavalry",
@@ -586,19 +586,19 @@
       "Start with +100 additional stone",
       "Castles and Town Centers are constructed 100% faster",
       "Land military units (except siege units) receive -33% bonus damage",
-      "Farm upgrades provnumer_ide +100% additional food to Farms before they need to be reseeded"
+      "Farm upgrades provide +100% additional food to Farms before they need to be reseeded"
     ],
     "banner": "https://res.cloudinary.com/dtl48kr1u/image/upload/v1671971894/age-of-empires-2/banners/sicilians_tprryw.png"
   },
   {
     "id": "slavs",
-    "numer_id": 36,
+    "number_id": 36,
     "name": "Slavs",
     "expansion": "The Forgotten",
     "army_type": "Infantry and Siege weapons",
     "uniqueUnit": ["boyar"],
     "uniqueTech": ["detinets", "druzhina"],
-    "team_bonus": "Military buildings (excluding Castles and Docks) provnumer_ide +5 population",
+    "team_bonus": "Military buildings (excluding Castles and Docks) provide +5 population",
     "civilization_bonus": [
       "Farmers work 10% faster",
       "Supplies is free",
@@ -608,7 +608,7 @@
   },
   {
     "id": "spanish",
-    "numer_id": 37,
+    "number_id": 37,
     "name": "Spanish",
     "expansion": "The Conquerors",
     "army_type": "Gunpowder units and Monks",
@@ -625,12 +625,12 @@
   },
   {
     "id": "tatars",
-    "numer_id": 38,
+    "number_id": 38,
     "name": "Tatars",
     "expansion": "The Last Khans",
     "army_type": "Cavalry Archer",
     "uniqueUnit": ["keshik", "flaming_camel"],
-    "uniqueTech": ["silk_armor", "timurnumer_id_siegecraft"],
+    "uniqueTech": ["silk_armor", "timurid_siegecraft"],
     "team_bonus": "Cavalry Archers have +2 Line of Sight",
     "civilization_bonus": [
       "Herdables contain +50% food",
@@ -642,7 +642,7 @@
   },
   {
     "id": "teutons",
-    "numer_id": 39,
+    "number_id": 39,
     "name": "Teutons",
     "expansion": "Age of Kings",
     "army_type": "Infantry",
@@ -661,7 +661,7 @@
   },
   {
     "id": "turks",
-    "numer_id": 40,
+    "number_id": 40,
     "name": "Turks",
     "expansion": "Age of Kings",
     "army_type": "Gunpowder units",
@@ -679,7 +679,7 @@
   },
   {
     "id": "vietnamese",
-    "numer_id": 41,
+    "number_id": 41,
     "name": "Vietnamese",
     "expansion": "Rise of the Rajas",
     "army_type": "Archers",
@@ -696,7 +696,7 @@
   },
   {
     "id": "vkings",
-    "numer_id": 42,
+    "number_id": 42,
     "name": "Vikings",
     "expansion": "Age of Kings",
     "army_type": "Infantry and Navy",
