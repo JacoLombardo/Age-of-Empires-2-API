@@ -16,6 +16,7 @@ export default function Homepage() {
             <div className='homepageDiv'>
                 <h1>Welcome to the Age of Empires 2 API Documentation</h1>
                 <p>The endpoints are the same for every category but I'll present them all just in case :)</p>
+                <p className='notes'>If you want to report a problem please write <a href='mailto:jacopolombardoo@gmail.com'>here</a></p>
                 <br />
                 <div className='buttonsDiv'>
                     <button id='civilization' onClick={handleClick}>Civilizations</button>
