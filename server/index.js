@@ -1,21 +1,21 @@
-import express from 'express';
-import cors from 'cors';
-import mongoose from 'mongoose';
-import * as dotenv from 'dotenv';
-import civilizationRoute from './routes/civilizationRoute.js';
-import unitRoute from './routes/unitRoute.js';
-import buildingRoute from './routes/buildingRoute.js';
-import technologyRoute from './routes/technologyRoute.js';
+import express from "express";
+import cors from "cors";
+import mongoose from "mongoose";
+import * as dotenv from "dotenv";
+import civilizationRoute from "./routes/civilizationRoute.js";
+import unitRoute from "./routes/unitRoute.js";
+import buildingRoute from "./routes/buildingRoute.js";
+import technologyRoute from "./routes/technologyRoute.js";
 
 dotenv.config();
 
 const app = express();
 const router = express.Router();
 
-const corsOptions = {
-  origin: "http://localhost:3000",
-};
-app.use(cors(corsOptions));
+// const corsOptions = {
+//   origin: "http://localhost:3000",
+// };
+app.use(cors);
 
 const port = process.env.PORT || 5000;
 
@@ -36,11 +36,11 @@ const startServer = () => {
 };
 
 const loadRoutes = () => {
-    app.use("/api", router);
-    app.use("/api/civilizations", civilizationRoute);
-    app.use("/api/units", unitRoute);
-    app.use("/api/buildings", buildingRoute);
-    app.use("/api/technologies", technologyRoute);
+  app.use("/api", router);
+  app.use("/api/civilizations", civilizationRoute);
+  app.use("/api/units", unitRoute);
+  app.use("/api/buildings", buildingRoute);
+  app.use("/api/technologies", technologyRoute);
 };
 
 const mongoDBConnection = async () => {
