@@ -1,4 +1,4 @@
-<h1>Still in progress!</h1>
+<h3 style="font-style: oblique">Still in progress!</h3>
 
 <h1>Age of Empires 2 API</h1>
 <p>API with all the information of the RTS game Age of Empires 2</p>
