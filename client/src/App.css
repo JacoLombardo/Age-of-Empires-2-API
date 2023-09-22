@@ -1,13 +1,7 @@
 @media screen and (min-width: 550px) {
-  .buttonsDiv {
-  }
   button {
     width: 100px;
     height: 30px;
-    border: 1px solid black;
-    background-color: black;
-    color: white;
-    font-weight: bold;
   }
   #civilization {
     border-radius: 15px 0 0 15px;
@@ -26,10 +20,6 @@
   button {
     width: 80%;
     height: 40px;
-    border: 1px solid black;
-    background-color: black;
-    color: white;
-    font-weight: bold;
     border-radius: 15px;
     margin-bottom: 10px;
   }
